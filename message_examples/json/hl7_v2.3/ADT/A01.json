@@ -1,0 +1,764 @@
+{
+  "message_type": "ADT",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA CLINIC",
+        "universalIdType": "23456"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "ADT",
+        "triggerEvent": "A01"
+      },
+      "messageControlID": "5856132",
+      "processingID": {
+        "processingID": "T"
+      },
+      "versionID": "2.3"
+    },
+    "EVN": [
+      {
+        "eventType": "ADT",
+        "recordedDateTime": "20171031",
+        "plannedEventDateTime": "20171031",
+        "eventReasonCode": "02",
+        "operatorId": {
+          "id": "HATFIELD",
+          "lastName": "KIMBERLY",
+          "firstName": "C"
+        },
+        "eventOccurred": "20171031"
+      }
+    ],
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "16744866"
+        },
+        "internalId": [
+          {
+            "id": "64536120"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "82268156"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "HANEY",
+            "firstName": "LOGAN"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "CANTRELL"
+        },
+        "dateTimeBirth": "19310725",
+        "sex": "M",
+        "alias": [
+          {
+            "lastName": "BOOMER"
+          }
+        ],
+        "race": "W",
+        "address": [
+          {
+            "streetAddress": "3262 CEDAR AVE",
+            "otherDesignation": "MADISON",
+            "city": "CO",
+            "stateOrProvince": "98082"
+          }
+        ],
+        "countyCode": "98082",
+        "homePhone": [
+          {
+            "number": "8374320530"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8398359418"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "AR"
+        },
+        "maritalStatus": "U",
+        "religion": "AOG",
+        "patientAccountNumber": {
+          "id": "743914"
+        },
+        "ssn": "977747853",
+        "driversLicenseNumber": {
+          "licenseNumber": "S250438779547852"
+        },
+        "ethnicGroup": "U",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "Y",
+        "birthOrder": "5",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N",
+        "PD1": [
+          {
+            "livingDependency": [
+              "W"
+            ],
+            "livingArrangement": "A",
+            "patientPrimaryFacility": [
+              {
+                "organizationName": "DATICA CLINIC",
+                "idNumber": "23456",
+                "assigningAuthority": {
+                  "namespaceId": "DATICA HEALTHCARE"
+                }
+              }
+            ],
+            "primaryCareProvider": [
+              {
+                "id": "74751636",
+                "lastName": "FLOWERS",
+                "firstName": "JANICE",
+                "middleInitOrName": "L",
+                "prefix": "MD"
+              }
+            ],
+            "studentIndicator": "F",
+            "livingWillCode": "I",
+            "organDonorCode": "F",
+            "separateBill": "Y",
+            "universalServiceID": {
+              "id": "O"
+            },
+            "protectionIndicator": "Y"
+          }
+        ]
+      }
+    ],
+    "NK1": [
+      {
+        "id": "1",
+        "name": [
+          {
+            "lastName": "FLOWERS",
+            "firstName": "LOGAN"
+          }
+        ],
+        "relationship": {
+          "id": "CHD"
+        },
+        "address": [
+          {
+            "streetAddress": "2212 JUNIPER DR",
+            "otherDesignation": "MADISON",
+            "city": "CO",
+            "stateOrProvince": "93292"
+          }
+        ],
+        "phone": [
+          {
+            "number": "8786253069"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8506218599"
+          }
+        ],
+        "contactRole": {
+          "id": "N"
+        },
+        "startDate": "20130930",
+        "nextOfKinAssociatedPartiesJobTitle": "FARMER",
+        "maritalStatus": "W",
+        "sex": "M",
+        "dateTimeofBirth": "19590714",
+        "livingDependency": [
+          "U"
+        ],
+        "ambulatoryStatus": [
+          "A5"
+        ],
+        "citizenship": [
+          "US"
+        ],
+        "primaryLanguage": {
+          "id": "ILO"
+        },
+        "livingArrangement": "A",
+        "publicityIndicator": {
+          "id": "F"
+        },
+        "protectionIndicator": "N",
+        "studentIndicator": "F",
+        "religion": "ORT",
+        "mothersMaidenName": {
+          "lastName": "PATTERSON"
+        },
+        "nationality": {
+          "id": "US"
+        },
+        "ethnicGroup": "H",
+        "nextOfKinAssociatedPartysIdentifiers": [
+          {
+            "id": "50361775"
+          }
+        ],
+        "jobStatus": "P",
+        "race": "B",
+        "contactPersonSocialSecurityNumber": "928535958"
+      }
+    ],
+    "PV1": [
+      {
+        "setId": "1",
+        "patientClass": "E",
+        "assignedPatientLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "314",
+          "bed": "0",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL A"
+          }
+        },
+        "admissionType": "L",
+        "preadmitNumber": {
+          "id": "864865"
+        },
+        "priorPatientLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "989",
+          "bed": "0",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL B"
+          }
+        },
+        "attendingDoctor": [
+          {
+            "id": "65841330",
+            "lastName": "HOWARD",
+            "firstName": "PATRICK",
+            "middleInitOrName": "C",
+            "prefix": "PA"
+          }
+        ],
+        "referringDoctor": [
+          {
+            "id": "31299465",
+            "lastName": "ABBOTT",
+            "firstName": "ANNA",
+            "middleInitOrName": "W",
+            "prefix": "NP"
+          }
+        ],
+        "consultingDoctor": [
+          {
+            "id": "89564502",
+            "lastName": "MCLAUGHLIN",
+            "firstName": "BOBBY",
+            "middleInitOrName": "Z",
+            "prefix": "MD"
+          }
+        ],
+        "hospitalService": "SUR",
+        "temporaryLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "422",
+          "bed": "1",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL A"
+          }
+        },
+        "preadmitTestIndicator": "N",
+        "admitSource": "0",
+        "ambulatoryStatus": [
+          "A8"
+        ],
+        "admittingDoctor": [
+          {
+            "id": "77529878",
+            "lastName": "MUELLER",
+            "firstName": "VINCENT",
+            "middleInitOrName": "S",
+            "prefix": "PA"
+          }
+        ],
+        "patientType": "U",
+        "visitNumber": {
+          "id": "290107"
+        },
+        "financialClass": {
+          "financialClass": "A23"
+        },
+        "chargePriceIndicator": "R",
+        "courtesyCode": "N",
+        "creditRating": "G",
+        "contractCode": [
+          "44"
+        ],
+        "contractEffectiveDate": [
+          "20150307"
+        ],
+        "contractAmount": [
+          "949.57"
+        ],
+        "contractPeriod": [
+          "2"
+        ],
+        "interestCode": "C",
+        "transferToBadDebtCode": "B",
+        "PV2": [
+          {
+            "priorPendingLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "688",
+              "bed": "2",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL D"
+              }
+            },
+            "accommodationCode": {
+              "id": "ZD"
+            },
+            "admitReason": {
+              "id": "E11.42",
+              "text": "TYPE 2 DIABETES MELLITUS WITH DIABETIC POLYNEUROPATHY",
+              "codingSystem": "ICD-10"
+            },
+            "patientValuables": [
+              "RING"
+            ],
+            "patientValuablesLocation": "FRONTDESK A",
+            "visitUserCode": "TE"
+          }
+        ]
+      }
+    ],
+    "DB1": [
+      {
+        "setID": "1",
+        "disabledPersonCode": "PT",
+        "disabledPersonIdentifier": [
+          {
+            "id": "16744866",
+            "assigningAuthority": {}
+          }
+        ],
+        "disabledIndicator": "Y",
+        "disabilityStartDate": "20161024",
+        "disabilityEndDate": "20170726",
+        "disabilityReturnToWorkDate": "20181227"
+      }
+    ],
+    "OBX": [
+      {
+        "setId": "1",
+        "valueType": "NM",
+        "identifier": {
+          "id": "730898",
+          "text": "MCV",
+          "codingSystem": "L",
+          "altId": "787-2",
+          "altText": "ERYTHROCYTE MEAN CORPUSCULAR VOLUME",
+          "altCodingSystem": "LN"
+        },
+        "observationValue": [
+          "87"
+        ],
+        "units": {
+          "id": "FL"
+        },
+        "referenceRange": "79-97",
+        "natureOfAbnormal": [
+          "N"
+        ],
+        "observeResultStatus": "F",
+        "effectiveDateLastNormalValue": "20160518",
+        "observationDateTime": "20160520",
+        "producersId": {
+          "id": "CB",
+          "text": "PATHOLOGY LAB X"
+        }
+      }
+    ],
+    "AL1": [
+      {
+        "setId": "1",
+        "allergyType": "DA",
+        "allergyCodeMnemonicDescription": {
+          "id": "F912702953",
+          "text": "RIVAROXABAN",
+          "altId": "FROM XARELTO"
+        },
+        "allergySeverity": "MI",
+        "allergyReaction": "HIVES",
+        "identificationDate": "20151023"
+      }
+    ],
+    "DG1": [
+      {
+        "setId": "1",
+        "diagnosisCode": {
+          "id": "S82.9",
+          "text": "UNSPECIFIED FRACTURE OF LOWER LEG",
+          "codingSystem": "ICD-10"
+        },
+        "diagnosisDateTime": "20161003",
+        "diagnosisType": "F"
+      }
+    ],
+    "GT1": [
+      {
+        "setId": "1",
+        "guarantorNumber": [
+          {
+            "id": "50361775"
+          }
+        ],
+        "guarantorName": [
+          {
+            "lastName": "FLOWERS",
+            "firstName": "LOGAN",
+            "middleInitOrName": "M"
+          }
+        ],
+        "guarantorAddress": [
+          {
+            "streetAddress": "2212 JUNIPER DR",
+            "otherDesignation": "MADISON",
+            "city": "CO",
+            "stateOrProvince": "93292"
+          }
+        ],
+        "guarantorPhNumHome": [
+          {
+            "number": "8786253069"
+          }
+        ],
+        "guarantorPhNumBusiness": [
+          {
+            "number": "8506218599"
+          }
+        ],
+        "guarantorDatetimeOfBirth": "19590714",
+        "guarantorSex": "M",
+        "guarantorSSN": "928535958",
+        "guarantorDateBegin": "20150315",
+        "guarantorPriority": "1",
+        "guarantorEmployeeIDNumber": [
+          {
+            "id": "467073"
+          }
+        ],
+        "guarantorEmploymentStatus": "P",
+        "guarantorBillingHoldFlag": "N",
+        "guarantorDeathFlag": "N",
+        "guarantorEmployerIDNumber": [
+          {
+            "id": "7379722661"
+          }
+        ],
+        "guarantorMaritalStatusCode": "W",
+        "primaryLanguage": {
+          "id": "ILO"
+        },
+        "livingArrangement": "A",
+        "protectionIndicator": "N",
+        "studentIndicator": "F",
+        "religion": "ORT",
+        "mothersMaidenName": {
+          "lastName": "PATTERSON"
+        },
+        "nationality": {
+          "id": "USA"
+        },
+        "ethnicGroup": "H",
+        "jobTitle": "FARMER",
+        "jobStatus": "P",
+        "guarantorRace": "B"
+      }
+    ],
+    "IN1": [
+      {
+        "setId": "1",
+        "planId": {
+          "id": "K38312663"
+        },
+        "companyId": [
+          {
+            "id": "36779863"
+          }
+        ],
+        "companyName": [
+          {
+            "organizationName": "DATICA INSURANCE CO"
+          }
+        ],
+        "companyAddress": [
+          {
+            "streetAddress": "5259 JUNIPER TER",
+            "otherDesignation": "MADISON",
+            "city": "PA",
+            "stateOrProvince": "98846"
+          }
+        ],
+        "companyPhoneNumber": [
+          {
+            "number": "8835198967"
+          }
+        ],
+        "groupNumber": "925570",
+        "groupName": [
+          {
+            "organizationName": "INSURANCE GROUP Q"
+          }
+        ],
+        "groupEmpId": [
+          {
+            "id": "287982037"
+          }
+        ],
+        "groupEmpName": [
+          {
+            "organizationName": "ACME GROUP"
+          }
+        ],
+        "planEffectiveDate": "20161227",
+        "authorizationInformation": {
+          "authorizationNumber": "A15401823424"
+        },
+        "planType": "HDHP",
+        "companyContactPerson": [
+          {
+            "lastName": "HANEY",
+            "firstName": "LOGAN",
+            "middleInitOrName": "R"
+          }
+        ],
+        "insuredRelationshipToPatient": "SELF",
+        "insuredDob": "19310725",
+        "insuredAddress": [
+          {
+            "streetAddress": "3262 CEDAR AVE",
+            "otherDesignation": "MADISON",
+            "city": "CO",
+            "stateOrProvince": "98082"
+          }
+        ],
+        "assignmentOfBenefits": "Y",
+        "coordinationOfBenefits": "IN",
+        "coordinationOfBenefitsPriority": "1",
+        "noticeOfAdmissionFlag": "N",
+        "reportOfEligibilityFlag": "N",
+        "releaseInformationCode": "N",
+        "verificationDateTime": "20160518",
+        "typeOfAgreementCode": "S",
+        "policyNumber": "K735285220",
+        "policyDeductible": {
+          "price": {
+            "quantity": "500"
+          }
+        },
+        "insuredEmploymentStatus": {
+          "id": "T"
+        },
+        "insuredSex": "M",
+        "insuredEmployerAddress": [
+          {
+            "streetAddress": "3322 ASH DR",
+            "otherDesignation": "MADISON",
+            "city": "AL",
+            "stateOrProvince": "99278"
+          }
+        ],
+        "priorInsurancePlanId": "V56750706",
+        "coverageType": "H",
+        "insuredIdNumber": [
+          {
+            "id": "16744866"
+          }
+        ],
+        "IN2": [
+          {
+            "insuredEmployeeId": [
+              {
+                "id": "862025"
+              }
+            ],
+            "insuredSSN": "977747853",
+            "insuredEmployerName": [
+              {
+                "id": "ACME GROUP"
+              }
+            ],
+            "mailClaimParty": [
+              "I"
+            ],
+            "babyCoverage": "N",
+            "combineBabyBill": "N",
+            "payorId": [
+              {
+                "id": "36779863"
+              }
+            ],
+            "payorSubscriberId": [
+              {
+                "id": "K735285220"
+              }
+            ],
+            "eligibilitySource": "1",
+            "dailyDeductible": {
+              "delayDays": "1",
+              "amount": "500",
+              "numberOfDays": "11"
+            },
+            "livingDependency": "U",
+            "ambulatoryStatus": "A8",
+            "citizenship": "US",
+            "primaryLanguage": {
+              "id": "AR"
+            },
+            "livingArrangement": "A",
+            "publicityIndicator": {
+              "id": "O"
+            },
+            "protectionIndicator": "Y",
+            "studentIndicator": "F",
+            "religion": "AOG",
+            "motherMaidenName": {
+              "lastName": "CANTRELL"
+            },
+            "nationality": {
+              "id": "USA"
+            },
+            "ethnicGroup": "U",
+            "maritalStatus": [
+              "U"
+            ],
+            "insuredEmploymentStartDate": "20150515",
+            "jobTitle": "PAINTER",
+            "jobStatus": "T",
+            "patientMemberNumber": [
+              {
+                "id": "K735285220"
+              }
+            ],
+            "guarantorRelationshipToInsured": "SEL",
+            "insuredHomePhone": [
+              {
+                "number": "8374320530"
+              }
+            ],
+            "insuredEmployerPhone": [
+              {
+                "number": "8398359418"
+              }
+            ],
+            "suspendFlag": "N",
+            "copayLimitFlag": "N",
+            "stoplossLimitFlag": "Y",
+            "race": "W",
+            "hcfaPatientRelationshipToInsured": {
+              "id": "SEL"
+            }
+          }
+        ],
+        "IN3": [
+          {
+            "setID": "1",
+            "certificationNumber": {
+              "id": "913251489812"
+            },
+            "certifiedBy": [
+              {
+                "id": "UNDEFINED"
+              }
+            ],
+            "certificationRequired": "N",
+            "certificationDateTime": "20170110",
+            "operator": [
+              {
+                "id": "58454145",
+                "lastName": "MORTON",
+                "firstName": "HANNAH",
+                "middleInitOrName": "Q",
+                "prefix": "RN"
+              }
+            ],
+            "certificationBeginDate": "20170110",
+            "physicianReviewer": [
+              {
+                "id": "95070069",
+                "lastName": "MOORE",
+                "firstName": "HEATHER",
+                "middleInitOrName": "C",
+                "prefix": "NP"
+              }
+            ],
+            "certificationContact": "58454145",
+            "certificationContactPhoneNumber": [
+              {
+                "number": "8145588362"
+              }
+            ],
+            "certificationAgency": {
+              "id": "DATICA CERTIFICATION GROUP"
+            },
+            "certificationAgencyPhoneNumber": [
+              {
+                "number": "8294323070"
+              }
+            ],
+            "preCertificationReqWindow": [
+              {
+                "preCertificationPatientType": "IPE"
+              }
+            ],
+            "caseManager": "45882470",
+            "secondOpinionPhysician": [
+              {
+                "id": "96068283",
+                "lastName": "LYNN",
+                "firstName": "JERRY",
+                "middleInitOrName": "N",
+                "prefix": "RN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ACC": [
+      {
+        "accidentDateTime": "20160514",
+        "accidentCode": {
+          "id": "V89.2",
+          "text": "PERSON INJURED IN UNSPECIFIED MOTOR-VEHICLE ACCIDENT, TRAFFIC",
+          "codingSystem": "ICD-10"
+        },
+        "accidentLocation": "Y",
+        "autoAccidentState": {
+          "id": "LA"
+        },
+        "accidentDeathIndicator": "N"
+      }
+    ]
+  }
+}

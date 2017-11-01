@@ -1,0 +1,663 @@
+{
+  "message_type": "ORM",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA CLINIC",
+        "universalIdType": "23456"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "ORM",
+        "triggerEvent": "O01"
+      },
+      "messageControlID": "1174394",
+      "processingID": {
+        "processingID": "P"
+      },
+      "versionID": "2.3"
+    },
+    "NTE": [
+      {
+        "setId": "1",
+        "sourceOfComment": "TX",
+        "comment": [
+          "THE PATIENT CAN'T SEE WHAT I TYPED IN THE CHART"
+        ]
+      }
+    ],
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "65749969"
+        },
+        "internalId": [
+          {
+            "id": "58606154"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "64187963"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "WILCOX",
+            "firstName": "SARAH"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "ORTEGA"
+        },
+        "dateTimeBirth": "19350704",
+        "sex": "F",
+        "alias": [
+          {
+            "lastName": "BOOMER"
+          }
+        ],
+        "race": "A",
+        "address": [
+          {
+            "streetAddress": "271 CEDAR AVE",
+            "otherDesignation": "MADISON",
+            "city": "NE",
+            "stateOrProvince": "93063"
+          }
+        ],
+        "countyCode": "93063",
+        "homePhone": [
+          {
+            "number": "8526476487"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8586198688"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "TO"
+        },
+        "maritalStatus": "L",
+        "religion": "SOU",
+        "patientAccountNumber": {
+          "id": "956425"
+        },
+        "ssn": "923552629",
+        "driversLicenseNumber": {
+          "licenseNumber": "S270167090711723"
+        },
+        "ethnicGroup": "U",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "Y",
+        "birthOrder": "3",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N",
+        "PD1": [
+          {
+            "livingDependency": [
+              "W"
+            ],
+            "livingArrangement": "I",
+            "patientPrimaryFacility": [
+              {
+                "organizationName": "DATICA HOSPITAL",
+                "idNumber": "12345",
+                "assigningAuthority": {
+                  "namespaceId": "DATICA HEALTHCARE"
+                }
+              }
+            ],
+            "primaryCareProvider": [
+              {
+                "id": "5312636",
+                "lastName": "MUELLER",
+                "firstName": "HANNAH",
+                "middleInitOrName": "B",
+                "prefix": "CRNA"
+              }
+            ],
+            "studentIndicator": "F",
+            "livingWillCode": "U",
+            "organDonorCode": "Y",
+            "separateBill": "Y",
+            "universalServiceID": {
+              "id": "N"
+            },
+            "protectionIndicator": "N"
+          }
+        ],
+        "NTE": [
+          {
+            "setId": "2",
+            "sourceOfComment": "TX",
+            "comment": [
+              "THE PATIENT CAN'T SEE WHAT I TYPED IN THE CHART"
+            ]
+          }
+        ],
+        "PV1": [
+          {
+            "setId": "1",
+            "patientClass": "O",
+            "assignedPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "60",
+              "bed": "3",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "admissionType": "A",
+            "preadmitNumber": {
+              "id": "34886"
+            },
+            "priorPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "405",
+              "bed": "2",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL B"
+              }
+            },
+            "attendingDoctor": [
+              {
+                "id": "82150456",
+                "lastName": "LYNN",
+                "firstName": "AARON",
+                "middleInitOrName": "P",
+                "prefix": "CRNA"
+              }
+            ],
+            "referringDoctor": [
+              {
+                "id": "25608004",
+                "lastName": "CARNEY",
+                "firstName": "RICHARD",
+                "middleInitOrName": "X",
+                "prefix": "RN"
+              }
+            ],
+            "consultingDoctor": [
+              {
+                "id": "69218534",
+                "lastName": "CANTRELL",
+                "firstName": "JEFFREY",
+                "middleInitOrName": "Y",
+                "prefix": "CRNA"
+              }
+            ],
+            "hospitalService": "URO",
+            "temporaryLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "589",
+              "bed": "0",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "preadmitTestIndicator": "N",
+            "admitSource": "3",
+            "ambulatoryStatus": [
+              "A6"
+            ],
+            "admittingDoctor": [
+              {
+                "id": "33438971",
+                "lastName": "MELENDEZ",
+                "firstName": "HEATHER",
+                "middleInitOrName": "B",
+                "prefix": "PA"
+              }
+            ],
+            "patientType": "U",
+            "visitNumber": {
+              "id": "298995"
+            },
+            "financialClass": {
+              "financialClass": "A23"
+            },
+            "chargePriceIndicator": "R",
+            "courtesyCode": "N",
+            "creditRating": "G",
+            "contractCode": [
+              "44"
+            ],
+            "contractEffectiveDate": [
+              "20150314"
+            ],
+            "contractAmount": [
+              "896.17"
+            ],
+            "contractPeriod": [
+              "9"
+            ],
+            "interestCode": "C",
+            "transferToBadDebtCode": "B",
+            "PV2": [
+              {
+                "priorPendingLocation": {
+                  "pointOfCare": "XXPOC",
+                  "room": "942",
+                  "bed": "2",
+                  "facility": {
+                    "nameSpaceId": "DATICA HOSPITAL D"
+                  }
+                },
+                "accommodationCode": {
+                  "id": "ZD"
+                },
+                "admitReason": {
+                  "id": "G43.11",
+                  "text": "MIGRANE WITH AURA,INTRACTABLE",
+                  "codingSystem": "ICD-10"
+                },
+                "patientValuables": [
+                  "WALLET"
+                ],
+                "patientValuablesLocation": "FRONTDESK A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "IN1": [
+      {
+        "setId": "1",
+        "planId": {
+          "id": "K7623554"
+        },
+        "companyId": [
+          {
+            "id": "1772203"
+          }
+        ],
+        "companyName": [
+          {
+            "organizationName": "DATICA INSURANCE CO"
+          }
+        ],
+        "companyAddress": [
+          {
+            "streetAddress": "9821 WALNUT LN",
+            "otherDesignation": "MADISON",
+            "city": "MA",
+            "stateOrProvince": "93470"
+          }
+        ],
+        "companyPhoneNumber": [
+          {
+            "number": "8285721111"
+          }
+        ],
+        "groupNumber": "364534",
+        "groupName": [
+          {
+            "organizationName": "INSURANCE GROUP F"
+          }
+        ],
+        "groupEmpId": [
+          {
+            "id": "327694567"
+          }
+        ],
+        "groupEmpName": [
+          {
+            "organizationName": "VANDELAY INDUSTRIES"
+          }
+        ],
+        "planEffectiveDate": "20161206",
+        "authorizationInformation": {
+          "authorizationNumber": "A96427349095"
+        },
+        "planType": "MCD",
+        "companyContactPerson": [
+          {
+            "lastName": "WILCOX",
+            "firstName": "SARAH",
+            "middleInitOrName": "X"
+          }
+        ],
+        "insuredRelationshipToPatient": "SELF",
+        "insuredDob": "19350704",
+        "insuredAddress": [
+          {
+            "streetAddress": "271 CEDAR AVE",
+            "otherDesignation": "MADISON",
+            "city": "NE",
+            "stateOrProvince": "93063"
+          }
+        ],
+        "assignmentOfBenefits": "N",
+        "coordinationOfBenefits": "IN",
+        "coordinationOfBenefitsPriority": "1",
+        "noticeOfAdmissionFlag": "N",
+        "reportOfEligibilityFlag": "N",
+        "releaseInformationCode": "Y",
+        "verificationDateTime": "20160702",
+        "typeOfAgreementCode": "U",
+        "policyNumber": "V380982500",
+        "policyDeductible": {
+          "price": {
+            "quantity": "500"
+          }
+        },
+        "insuredEmploymentStatus": {
+          "id": "U"
+        },
+        "insuredSex": "F",
+        "insuredEmployerAddress": [
+          {
+            "streetAddress": "8929 WALNUT CT",
+            "otherDesignation": "MADISON",
+            "city": "CT",
+            "stateOrProvince": "99083"
+          }
+        ],
+        "priorInsurancePlanId": "X32277845",
+        "coverageType": "B",
+        "insuredIdNumber": [
+          {
+            "id": "65749969"
+          }
+        ],
+        "IN2": [
+          {
+            "insuredEmployeeId": [
+              {
+                "id": "2039671"
+              }
+            ],
+            "insuredSSN": "923552629",
+            "insuredEmployerName": [
+              {
+                "id": "VANDELAY INDUSTRIES"
+              }
+            ],
+            "mailClaimParty": [
+              "O"
+            ],
+            "babyCoverage": "N",
+            "combineBabyBill": "N",
+            "payorId": [
+              {
+                "id": "1772203"
+              }
+            ],
+            "payorSubscriberId": [
+              {
+                "id": "V380982500"
+              }
+            ],
+            "eligibilitySource": "1",
+            "dailyDeductible": {
+              "delayDays": "2",
+              "amount": "500",
+              "numberOfDays": "98"
+            },
+            "livingDependency": "U",
+            "ambulatoryStatus": "A6",
+            "citizenship": "US",
+            "primaryLanguage": {
+              "id": "TO"
+            },
+            "livingArrangement": "I",
+            "publicityIndicator": {
+              "id": "N"
+            },
+            "protectionIndicator": "N",
+            "studentIndicator": "F",
+            "religion": "SOU",
+            "motherMaidenName": {
+              "lastName": "ORTEGA"
+            },
+            "nationality": {
+              "id": "USA"
+            },
+            "ethnicGroup": "U",
+            "maritalStatus": [
+              "L"
+            ],
+            "insuredEmploymentStartDate": "20150717",
+            "jobTitle": "SOFTWARE DEVELOPER",
+            "jobStatus": "U",
+            "patientMemberNumber": [
+              {
+                "id": "V380982500"
+              }
+            ],
+            "guarantorRelationshipToInsured": "SEL",
+            "insuredHomePhone": [
+              {
+                "number": "8526476487"
+              }
+            ],
+            "insuredEmployerPhone": [
+              {
+                "number": "8586198688"
+              }
+            ],
+            "suspendFlag": "Y",
+            "copayLimitFlag": "Y",
+            "stoplossLimitFlag": "Y",
+            "race": "A",
+            "hcfaPatientRelationshipToInsured": {
+              "id": "SEL"
+            }
+          }
+        ]
+      }
+    ],
+    "GT1": [
+      {
+        "setId": "1",
+        "guarantorNumber": [
+          {
+            "id": "10291064"
+          }
+        ],
+        "guarantorName": [
+          {
+            "lastName": "WOLFE",
+            "firstName": "NANCY",
+            "middleInitOrName": "O"
+          }
+        ],
+        "guarantorAddress": [
+          {
+            "streetAddress": "1887 ELM WAY",
+            "otherDesignation": "MADISON",
+            "city": "FL",
+            "stateOrProvince": "93092"
+          }
+        ],
+        "guarantorPhNumHome": [
+          {
+            "number": "8128606123"
+          }
+        ],
+        "guarantorPhNumBusiness": [
+          {
+            "number": "8769220785"
+          }
+        ],
+        "guarantorDatetimeOfBirth": "19680307",
+        "guarantorSex": "F",
+        "guarantorSSN": "927175542",
+        "guarantorDateBegin": "20110803",
+        "guarantorPriority": "1",
+        "guarantorEmployeeIDNumber": [
+          {
+            "id": "983814"
+          }
+        ],
+        "guarantorEmploymentStatus": "O",
+        "guarantorBillingHoldFlag": "N",
+        "guarantorDeathFlag": "N",
+        "guarantorEmployerIDNumber": [
+          {
+            "id": "1556794466"
+          }
+        ],
+        "guarantorMaritalStatusCode": "I",
+        "primaryLanguage": {
+          "id": "PT"
+        },
+        "livingArrangement": "A",
+        "protectionIndicator": "N",
+        "studentIndicator": "F",
+        "religion": "FWB",
+        "mothersMaidenName": {
+          "lastName": "MOORE"
+        },
+        "nationality": {
+          "id": "USA"
+        },
+        "ethnicGroup": "N",
+        "jobTitle": "FARMER",
+        "jobStatus": "O",
+        "guarantorRace": "O"
+      }
+    ],
+    "AL1": [
+      {
+        "setId": "1",
+        "allergyType": "DA",
+        "allergyCodeMnemonicDescription": {
+          "id": "F414222397",
+          "text": "CODEINE",
+          "altId": "CODEINE"
+        },
+        "allergySeverity": "MO",
+        "allergyReaction": "HIVES",
+        "identificationDate": "20130320"
+      }
+    ],
+    "ORC": [
+      {
+        "orderControl": "RE",
+        "placerOrderNumber": {
+          "id": "162722112"
+        },
+        "fillerOrderNumber": {
+          "id": "162722112"
+        },
+        "placerGroupNumber": {
+          "id": "162722112"
+        },
+        "orderStatus": "CM",
+        "NTE": [
+          {
+            "setId": "3",
+            "sourceOfComment": "TX",
+            "comment": [
+              "THIS ONE SEEMS KIND OF SICK. MAYBE WE SHOULD CHECK THEM OUT? "
+            ]
+          }
+        ],
+        "OBR": [
+          {
+            "setId": "1",
+            "placerOrderNumber": {
+              "id": "242889589",
+              "namespaceId": "DATICAORD"
+            },
+            "fillerOrderNumber": {
+              "id": "718442798",
+              "namespaceId": "DATICAORD"
+            },
+            "universalServiceID": {
+              "id": "53138",
+              "text": "GEN SCREENING"
+            },
+            "observationDateTime": "20160718",
+            "observationEndDateTime": "20160718",
+            "collectorIdentifier": [
+              {
+                "id": "12944575",
+                "lastName": "ORTEGA",
+                "firstName": "KYLE",
+                "middleInitOrName": "Y",
+                "prefix": "PA"
+              }
+            ],
+            "specimenActionCode": "L",
+            "orderingProvider": [
+              {
+                "id": "12944575",
+                "lastName": "ORTEGA",
+                "firstName": "KYLE",
+                "middleInitOrName": "Y",
+                "prefix": "PA"
+              }
+            ],
+            "orderCallbackPhoneNumber": [
+              {
+                "number": "8977500946"
+              }
+            ],
+            "OBX": [
+              {
+                "setId": "1",
+                "valueType": "NM",
+                "identifier": {
+                  "id": "628423",
+                  "text": "LYMPHS (ABSOLUTE)",
+                  "codingSystem": "L",
+                  "altId": "731-0",
+                  "altText": "LYMPHOCYTES",
+                  "altCodingSystem": "LN"
+                },
+                "observationValue": [
+                  "1.1"
+                ],
+                "units": {
+                  "id": "X10E3/UL"
+                },
+                "referenceRange": "0.7-3.1",
+                "natureOfAbnormal": [
+                  "N"
+                ],
+                "observeResultStatus": "F",
+                "effectiveDateLastNormalValue": "20160712",
+                "observationDateTime": "20160718",
+                "producersId": {
+                  "id": "CB",
+                  "text": "PATHOLOGY LAB X"
+                },
+                "NTE": [
+                  {
+                    "setId": "3",
+                    "sourceOfComment": "TX",
+                    "comment": [
+                      "SOME NOTES ABOUT THE PATIENT GO HERE."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

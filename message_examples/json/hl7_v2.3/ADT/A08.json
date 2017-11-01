@@ -1,0 +1,763 @@
+{
+  "message_type": "ADT",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA HOSPITAL",
+        "universalIdType": "12345"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "ADT",
+        "triggerEvent": "A08"
+      },
+      "messageControlID": "9972084",
+      "processingID": {
+        "processingID": "D"
+      },
+      "versionID": "2.3"
+    },
+    "EVN": [
+      {
+        "eventType": "ADT",
+        "recordedDateTime": "20171031",
+        "plannedEventDateTime": "20171031",
+        "eventReasonCode": "02",
+        "operatorId": {
+          "id": "LARSON",
+          "lastName": "RUSSELL",
+          "firstName": "D"
+        },
+        "eventOccurred": "20171031"
+      }
+    ],
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "59635977"
+        },
+        "internalId": [
+          {
+            "id": "15980642"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "21240181"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "WEST",
+            "firstName": "KYLE"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "GLOVER"
+        },
+        "dateTimeBirth": "19210520",
+        "sex": "M",
+        "alias": [
+          {
+            "lastName": "FROGGY"
+          }
+        ],
+        "race": "I",
+        "address": [
+          {
+            "streetAddress": "8745 ASH AVE",
+            "otherDesignation": "MADISON",
+            "city": "AK",
+            "stateOrProvince": "94698"
+          }
+        ],
+        "countyCode": "94698",
+        "homePhone": [
+          {
+            "number": "8070328954"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8660215887"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "ID"
+        },
+        "maritalStatus": "D",
+        "religion": "SIK",
+        "patientAccountNumber": {
+          "id": "439739"
+        },
+        "ssn": "911854194",
+        "driversLicenseNumber": {
+          "licenseNumber": "S813731267169156"
+        },
+        "ethnicGroup": "U",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "Y",
+        "birthOrder": "3",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N",
+        "PD1": [
+          {
+            "livingDependency": [
+              "M"
+            ],
+            "livingArrangement": "R",
+            "patientPrimaryFacility": [
+              {
+                "organizationName": "DATICA CLINIC",
+                "idNumber": "23456",
+                "assigningAuthority": {
+                  "namespaceId": "DATICA HEALTHCARE"
+                }
+              }
+            ],
+            "primaryCareProvider": [
+              {
+                "id": "44187186",
+                "lastName": "REESE",
+                "firstName": "JOE",
+                "middleInitOrName": "D",
+                "prefix": "PA"
+              }
+            ],
+            "studentIndicator": "F",
+            "livingWillCode": "Y",
+            "organDonorCode": "I",
+            "separateBill": "N",
+            "universalServiceID": {
+              "id": "U"
+            },
+            "protectionIndicator": "N"
+          }
+        ]
+      }
+    ],
+    "NK1": [
+      {
+        "id": "1",
+        "name": [
+          {
+            "lastName": "GLOVER",
+            "firstName": "DOUGLAS"
+          }
+        ],
+        "relationship": {
+          "id": "BRO"
+        },
+        "address": [
+          {
+            "streetAddress": "5339 BIRCH DR",
+            "otherDesignation": "MADISON",
+            "city": "NY",
+            "stateOrProvince": "90583"
+          }
+        ],
+        "phone": [
+          {
+            "number": "8657835336"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8951857677"
+          }
+        ],
+        "contactRole": {
+          "id": "N"
+        },
+        "startDate": "20150310",
+        "nextOfKinAssociatedPartiesJobTitle": "SOFTWARE DEVELOPER",
+        "maritalStatus": "I",
+        "sex": "M",
+        "dateTimeofBirth": "19520516",
+        "livingDependency": [
+          "U"
+        ],
+        "ambulatoryStatus": [
+          "B2"
+        ],
+        "citizenship": [
+          "US"
+        ],
+        "primaryLanguage": {
+          "id": "OTH"
+        },
+        "livingArrangement": "R",
+        "publicityIndicator": {
+          "id": "O"
+        },
+        "protectionIndicator": "N",
+        "studentIndicator": "F",
+        "religion": "ORT",
+        "mothersMaidenName": {
+          "lastName": "HATFIELD"
+        },
+        "nationality": {
+          "id": "US"
+        },
+        "ethnicGroup": "H",
+        "nextOfKinAssociatedPartysIdentifiers": [
+          {
+            "id": "33104091"
+          }
+        ],
+        "jobStatus": "T",
+        "race": "W",
+        "contactPersonSocialSecurityNumber": "958333052"
+      }
+    ],
+    "PV1": [
+      {
+        "setId": "1",
+        "patientClass": "B",
+        "assignedPatientLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "570",
+          "bed": "0",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL A"
+          }
+        },
+        "admissionType": "E",
+        "preadmitNumber": {
+          "id": "953751"
+        },
+        "priorPatientLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "539",
+          "bed": "0",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL B"
+          }
+        },
+        "attendingDoctor": [
+          {
+            "id": "81229878",
+            "lastName": "CANTRELL",
+            "firstName": "MADISON",
+            "middleInitOrName": "R",
+            "prefix": "NP"
+          }
+        ],
+        "referringDoctor": [
+          {
+            "id": "41856973",
+            "lastName": "FLOWERS",
+            "firstName": "CAROL",
+            "middleInitOrName": "T",
+            "prefix": "NP"
+          }
+        ],
+        "consultingDoctor": [
+          {
+            "id": "10717704",
+            "lastName": "MONTES",
+            "firstName": "ROY",
+            "middleInitOrName": "D",
+            "prefix": "MD"
+          }
+        ],
+        "hospitalService": "SUR",
+        "temporaryLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "572",
+          "bed": "0",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL A"
+          }
+        },
+        "preadmitTestIndicator": "N",
+        "admitSource": "7",
+        "ambulatoryStatus": [
+          "A5"
+        ],
+        "admittingDoctor": [
+          {
+            "id": "82375850",
+            "lastName": "MCINTYRE",
+            "firstName": "KAYLA",
+            "middleInitOrName": "H",
+            "prefix": "MD"
+          }
+        ],
+        "patientType": "U",
+        "visitNumber": {
+          "id": "36858"
+        },
+        "financialClass": {
+          "financialClass": "A23"
+        },
+        "chargePriceIndicator": "R",
+        "courtesyCode": "N",
+        "creditRating": "G",
+        "contractCode": [
+          "44"
+        ],
+        "contractEffectiveDate": [
+          "20150718"
+        ],
+        "contractAmount": [
+          "298.24"
+        ],
+        "contractPeriod": [
+          "7"
+        ],
+        "interestCode": "C",
+        "transferToBadDebtCode": "B",
+        "PV2": [
+          {
+            "priorPendingLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "750",
+              "bed": "1",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL D"
+              }
+            },
+            "accommodationCode": {
+              "id": "ZD"
+            },
+            "admitReason": {
+              "id": "S06.0",
+              "text": "CONCUSSION",
+              "codingSystem": "ICD-10"
+            },
+            "patientValuables": [
+              "WALLET"
+            ],
+            "patientValuablesLocation": "FRONTDESK A",
+            "visitUserCode": "TE"
+          }
+        ]
+      }
+    ],
+    "DB1": [
+      {
+        "setID": "1",
+        "disabledPersonCode": "GT",
+        "disabledPersonIdentifier": [
+          {
+            "id": "132728",
+            "assigningAuthority": {}
+          }
+        ],
+        "disabledIndicator": "N",
+        "disabilityStartDate": "20161215",
+        "disabilityEndDate": "20170721",
+        "disabilityReturnToWorkDate": "20180525"
+      }
+    ],
+    "OBX": [
+      {
+        "setId": "1",
+        "valueType": "NM",
+        "identifier": {
+          "id": "552604",
+          "text": "EOS",
+          "codingSystem": "L",
+          "altId": "713-8",
+          "altText": "EOSINOPHILS/100 LEUKOCYTES",
+          "altCodingSystem": "LN"
+        },
+        "observationValue": [
+          "2"
+        ],
+        "units": {
+          "id": "%"
+        },
+        "natureOfAbnormal": [
+          "N"
+        ],
+        "observeResultStatus": "F",
+        "effectiveDateLastNormalValue": "20160721",
+        "observationDateTime": "20160727",
+        "producersId": {
+          "id": "CB",
+          "text": "PATHOLOGY LAB X"
+        }
+      }
+    ],
+    "AL1": [
+      {
+        "setId": "1",
+        "allergyType": "DA",
+        "allergyCodeMnemonicDescription": {
+          "id": "F617472117",
+          "text": "CODEINE",
+          "altId": "CODEINE"
+        },
+        "allergySeverity": "MO",
+        "allergyReaction": "HIVES",
+        "identificationDate": "20120523"
+      }
+    ],
+    "DG1": [
+      {
+        "setId": "1",
+        "diagnosisCode": {
+          "id": "G43.11",
+          "text": "MIGRANE WITH AURA,INTRACTABLE",
+          "codingSystem": "ICD-10"
+        },
+        "diagnosisDateTime": "20160303",
+        "diagnosisType": "F"
+      }
+    ],
+    "GT1": [
+      {
+        "setId": "1",
+        "guarantorNumber": [
+          {
+            "id": "33104091"
+          }
+        ],
+        "guarantorName": [
+          {
+            "lastName": "GLOVER",
+            "firstName": "DOUGLAS",
+            "middleInitOrName": "N"
+          }
+        ],
+        "guarantorAddress": [
+          {
+            "streetAddress": "5339 BIRCH DR",
+            "otherDesignation": "MADISON",
+            "city": "NY",
+            "stateOrProvince": "90583"
+          }
+        ],
+        "guarantorPhNumHome": [
+          {
+            "number": "8657835336"
+          }
+        ],
+        "guarantorPhNumBusiness": [
+          {
+            "number": "8951857677"
+          }
+        ],
+        "guarantorDatetimeOfBirth": "19520516",
+        "guarantorSex": "M",
+        "guarantorSSN": "958333052",
+        "guarantorDateBegin": "20141014",
+        "guarantorPriority": "1",
+        "guarantorEmployeeIDNumber": [
+          {
+            "id": "318386"
+          }
+        ],
+        "guarantorEmploymentStatus": "T",
+        "guarantorBillingHoldFlag": "N",
+        "guarantorDeathFlag": "N",
+        "guarantorEmployerIDNumber": [
+          {
+            "id": "636944329"
+          }
+        ],
+        "guarantorMaritalStatusCode": "I",
+        "primaryLanguage": {
+          "id": "OTH"
+        },
+        "livingArrangement": "R",
+        "protectionIndicator": "N",
+        "studentIndicator": "F",
+        "religion": "ORT",
+        "mothersMaidenName": {
+          "lastName": "HATFIELD"
+        },
+        "nationality": {
+          "id": "USA"
+        },
+        "ethnicGroup": "H",
+        "jobTitle": "SOFTWARE DEVELOPER",
+        "jobStatus": "T",
+        "guarantorRace": "W"
+      }
+    ],
+    "IN1": [
+      {
+        "setId": "1",
+        "planId": {
+          "id": "D99130041"
+        },
+        "companyId": [
+          {
+            "id": "92185780"
+          }
+        ],
+        "companyName": [
+          {
+            "organizationName": "DATICA INSURANCE CO"
+          }
+        ],
+        "companyAddress": [
+          {
+            "streetAddress": "3896 MAPLE WAY",
+            "otherDesignation": "MADISON",
+            "city": "TX",
+            "stateOrProvince": "95689"
+          }
+        ],
+        "companyPhoneNumber": [
+          {
+            "number": "8745828916"
+          }
+        ],
+        "groupNumber": "142330",
+        "groupName": [
+          {
+            "organizationName": "INSURANCE GROUP B"
+          }
+        ],
+        "groupEmpId": [
+          {
+            "id": "843774166"
+          }
+        ],
+        "groupEmpName": [
+          {
+            "organizationName": "VANDELAY INDUSTRIES"
+          }
+        ],
+        "planEffectiveDate": "20161020",
+        "authorizationInformation": {
+          "authorizationNumber": "A32072155113"
+        },
+        "planType": "PPO",
+        "companyContactPerson": [
+          {
+            "lastName": "WEST",
+            "firstName": "KYLE",
+            "middleInitOrName": "C"
+          }
+        ],
+        "insuredRelationshipToPatient": "SELF",
+        "insuredDob": "19210520",
+        "insuredAddress": [
+          {
+            "streetAddress": "8745 ASH AVE",
+            "otherDesignation": "MADISON",
+            "city": "AK",
+            "stateOrProvince": "94698"
+          }
+        ],
+        "assignmentOfBenefits": "N",
+        "coordinationOfBenefits": "CO",
+        "coordinationOfBenefitsPriority": "1",
+        "noticeOfAdmissionFlag": "N",
+        "reportOfEligibilityFlag": "N",
+        "releaseInformationCode": "N",
+        "verificationDateTime": "20160930",
+        "typeOfAgreementCode": "S",
+        "policyNumber": "E737774935",
+        "policyDeductible": {
+          "price": {
+            "quantity": "500"
+          }
+        },
+        "insuredEmploymentStatus": {
+          "id": "T"
+        },
+        "insuredSex": "M",
+        "insuredEmployerAddress": [
+          {
+            "streetAddress": "1874 CEDAR TER",
+            "otherDesignation": "MADISON",
+            "city": "AR",
+            "stateOrProvince": "94238"
+          }
+        ],
+        "priorInsurancePlanId": "D16293266",
+        "coverageType": "P",
+        "insuredIdNumber": [
+          {
+            "id": "59635977"
+          }
+        ],
+        "IN2": [
+          {
+            "insuredEmployeeId": [
+              {
+                "id": "7881154"
+              }
+            ],
+            "insuredSSN": "911854194",
+            "insuredEmployerName": [
+              {
+                "id": "VANDELAY INDUSTRIES"
+              }
+            ],
+            "mailClaimParty": [
+              "P"
+            ],
+            "babyCoverage": "N",
+            "combineBabyBill": "N",
+            "payorId": [
+              {
+                "id": "92185780"
+              }
+            ],
+            "payorSubscriberId": [
+              {
+                "id": "E737774935"
+              }
+            ],
+            "eligibilitySource": "1",
+            "dailyDeductible": {
+              "delayDays": "2",
+              "amount": "500",
+              "numberOfDays": "56"
+            },
+            "livingDependency": "U",
+            "ambulatoryStatus": "A5",
+            "citizenship": "US",
+            "primaryLanguage": {
+              "id": "ID"
+            },
+            "livingArrangement": "R",
+            "publicityIndicator": {
+              "id": "U"
+            },
+            "protectionIndicator": "N",
+            "studentIndicator": "F",
+            "religion": "SIK",
+            "motherMaidenName": {
+              "lastName": "GLOVER"
+            },
+            "nationality": {
+              "id": "USA"
+            },
+            "ethnicGroup": "U",
+            "maritalStatus": [
+              "D"
+            ],
+            "insuredEmploymentStartDate": "20150713",
+            "jobTitle": "CHEF",
+            "jobStatus": "T",
+            "patientMemberNumber": [
+              {
+                "id": "E737774935"
+              }
+            ],
+            "guarantorRelationshipToInsured": "SEL",
+            "insuredHomePhone": [
+              {
+                "number": "8070328954"
+              }
+            ],
+            "insuredEmployerPhone": [
+              {
+                "number": "8660215887"
+              }
+            ],
+            "suspendFlag": "N",
+            "copayLimitFlag": "N",
+            "stoplossLimitFlag": "Y",
+            "race": "I",
+            "hcfaPatientRelationshipToInsured": {
+              "id": "SEL"
+            }
+          }
+        ],
+        "IN3": [
+          {
+            "setID": "1",
+            "certificationNumber": {
+              "id": "281968255171"
+            },
+            "certifiedBy": [
+              {
+                "id": "UNDEFINED"
+              }
+            ],
+            "certificationRequired": "N",
+            "certificationDateTime": "20161104",
+            "operator": [
+              {
+                "id": "57990088",
+                "lastName": "BAIRD",
+                "firstName": "ROY",
+                "middleInitOrName": "T",
+                "prefix": "NP"
+              }
+            ],
+            "certificationBeginDate": "20161104",
+            "physicianReviewer": [
+              {
+                "id": "13837437",
+                "lastName": "WRIGHT",
+                "firstName": "HELEN",
+                "middleInitOrName": "V",
+                "prefix": "MD"
+              }
+            ],
+            "certificationContact": "57990088",
+            "certificationContactPhoneNumber": [
+              {
+                "number": "8636344233"
+              }
+            ],
+            "certificationAgency": {
+              "id": "DATICA CERTIFICATION GROUP"
+            },
+            "certificationAgencyPhoneNumber": [
+              {
+                "number": "8266154568"
+              }
+            ],
+            "preCertificationReqWindow": [
+              {
+                "preCertificationPatientType": "IPE"
+              }
+            ],
+            "caseManager": "77801701",
+            "secondOpinionPhysician": [
+              {
+                "id": "25212128",
+                "lastName": "MCINTYRE",
+                "firstName": "ALEXIS",
+                "middleInitOrName": "U",
+                "prefix": "RN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ACC": [
+      {
+        "accidentDateTime": "20160712",
+        "accidentCode": {
+          "id": "V89.2",
+          "text": "PERSON INJURED IN UNSPECIFIED MOTOR-VEHICLE ACCIDENT, TRAFFIC",
+          "codingSystem": "ICD-10"
+        },
+        "accidentLocation": "Y",
+        "autoAccidentState": {
+          "id": "CT"
+        },
+        "accidentDeathIndicator": "N"
+      }
+    ]
+  }
+}

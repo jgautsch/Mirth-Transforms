@@ -1,0 +1,374 @@
+{
+  "message_type": "ORU",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA HOSPITAL",
+        "universalIdType": "12345"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "ORU",
+        "triggerEvent": "R01"
+      },
+      "messageControlID": "9385827",
+      "processingID": {
+        "processingID": "P"
+      },
+      "versionID": "2.3"
+    },
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "70194555"
+        },
+        "internalId": [
+          {
+            "id": "85387923"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "33450742"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "STEVENSON",
+            "firstName": "BRYAN"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "MCGUIRE"
+        },
+        "dateTimeBirth": "19100701",
+        "sex": "M",
+        "alias": [
+          {
+            "lastName": "SKIPPY"
+          }
+        ],
+        "race": "N",
+        "address": [
+          {
+            "streetAddress": "405 ASH LN",
+            "otherDesignation": "MADISON",
+            "city": "CO",
+            "stateOrProvince": "97194"
+          }
+        ],
+        "countyCode": "97194",
+        "homePhone": [
+          {
+            "number": "8035995449"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8029009589"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "ZH"
+        },
+        "maritalStatus": "T",
+        "religion": "DOC",
+        "patientAccountNumber": {
+          "id": "21663"
+        },
+        "ssn": "989504070",
+        "driversLicenseNumber": {
+          "licenseNumber": "S179417022247059"
+        },
+        "ethnicGroup": "U",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "Y",
+        "birthOrder": "4",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N",
+        "PD1": [
+          {
+            "livingDependency": [
+              "O"
+            ],
+            "livingArrangement": "F",
+            "patientPrimaryFacility": [
+              {
+                "organizationName": "DATICA HOSPITAL",
+                "idNumber": "12345",
+                "assigningAuthority": {
+                  "namespaceId": "DATICA HEALTHCARE"
+                }
+              }
+            ],
+            "primaryCareProvider": [
+              {
+                "id": "85733570",
+                "lastName": "BRYANT",
+                "firstName": "DYLAN",
+                "middleInitOrName": "S",
+                "prefix": "RN"
+              }
+            ],
+            "studentIndicator": "F",
+            "livingWillCode": "N",
+            "organDonorCode": "Y",
+            "separateBill": "Y",
+            "universalServiceID": {
+              "id": "N"
+            },
+            "protectionIndicator": "N"
+          }
+        ],
+        "PV1": [
+          {
+            "setId": "1",
+            "patientClass": "E",
+            "assignedPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "876",
+              "bed": "1",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "admissionType": "L",
+            "preadmitNumber": {
+              "id": "435202"
+            },
+            "priorPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "350",
+              "bed": "0",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL B"
+              }
+            },
+            "attendingDoctor": [
+              {
+                "id": "82359006",
+                "lastName": "BOYLE",
+                "firstName": "ANGELA",
+                "middleInitOrName": "L",
+                "prefix": "MD"
+              }
+            ],
+            "referringDoctor": [
+              {
+                "id": "93114649",
+                "lastName": "RANDOLPH",
+                "firstName": "DENISE",
+                "middleInitOrName": "L",
+                "prefix": "MD"
+              }
+            ],
+            "consultingDoctor": [
+              {
+                "id": "31897240",
+                "lastName": "HATFIELD",
+                "firstName": "SHARON",
+                "middleInitOrName": "O",
+                "prefix": "CRNA"
+              }
+            ],
+            "hospitalService": "CAR",
+            "temporaryLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "355",
+              "bed": "3",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "preadmitTestIndicator": "N",
+            "admitSource": "0",
+            "ambulatoryStatus": [
+              "A8"
+            ],
+            "admittingDoctor": [
+              {
+                "id": "64435381",
+                "lastName": "WOLFE",
+                "firstName": "ALBERT",
+                "middleInitOrName": "I",
+                "prefix": "RN"
+              }
+            ],
+            "patientType": "U",
+            "visitNumber": {
+              "id": "222712"
+            },
+            "financialClass": {
+              "financialClass": "A23"
+            },
+            "chargePriceIndicator": "R",
+            "courtesyCode": "N",
+            "creditRating": "G",
+            "contractCode": [
+              "44"
+            ],
+            "contractEffectiveDate": [
+              "20151015"
+            ],
+            "contractAmount": [
+              "916.01"
+            ],
+            "contractPeriod": [
+              "3"
+            ],
+            "interestCode": "C",
+            "transferToBadDebtCode": "B",
+            "PV2": [
+              {
+                "priorPendingLocation": {
+                  "pointOfCare": "XXPOC",
+                  "room": "43",
+                  "bed": "1",
+                  "facility": {
+                    "nameSpaceId": "DATICA HOSPITAL D"
+                  }
+                },
+                "accommodationCode": {
+                  "id": "ZD"
+                },
+                "admitReason": {
+                  "id": "G43.11",
+                  "text": "MIGRANE WITH AURA,INTRACTABLE",
+                  "codingSystem": "ICD-10"
+                },
+                "patientValuables": [
+                  "WATCH"
+                ],
+                "patientValuablesLocation": "FRONTDESK A",
+                "visitUserCode": "TE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ORC": [
+      {
+        "orderControl": "RE",
+        "placerOrderNumber": {
+          "id": "665028324"
+        },
+        "fillerOrderNumber": {
+          "id": "665028324"
+        },
+        "placerGroupNumber": {
+          "id": "665028324"
+        },
+        "orderStatus": "CM",
+        "OBR": [
+          {
+            "setId": "1",
+            "placerOrderNumber": {
+              "id": "5255974",
+              "namespaceId": "DATICAORD"
+            },
+            "fillerOrderNumber": {
+              "id": "611629621",
+              "namespaceId": "DATICAORD"
+            },
+            "universalServiceID": {
+              "id": "679094",
+              "text": "GEN SCREENING"
+            },
+            "observationDateTime": "20161024",
+            "observationEndDateTime": "20161024",
+            "collectorIdentifier": [
+              {
+                "id": "30309199",
+                "lastName": "WRIGHT",
+                "firstName": "AARON",
+                "middleInitOrName": "S",
+                "prefix": "RN"
+              }
+            ],
+            "specimenActionCode": "L",
+            "orderingProvider": [
+              {
+                "id": "30309199",
+                "lastName": "WRIGHT",
+                "firstName": "AARON",
+                "middleInitOrName": "S",
+                "prefix": "RN"
+              }
+            ],
+            "orderCallbackPhoneNumber": [
+              {
+                "number": "8566022249"
+              }
+            ],
+            "NTE": [
+              {
+                "setId": "2",
+                "sourceOfComment": "TX",
+                "comment": [
+                  "SOME NOTES ABOUT THE PATIENT GO HERE."
+                ]
+              }
+            ],
+            "OBX": [
+              {
+                "setId": "1",
+                "valueType": "NM",
+                "identifier": {
+                  "id": "197588",
+                  "text": "MONOCYTES(ABSOLUTE)",
+                  "codingSystem": "L",
+                  "altId": "742-7",
+                  "altText": "MONOCYTES",
+                  "altCodingSystem": "LN"
+                },
+                "observationValue": [
+                  "0.4"
+                ],
+                "units": {
+                  "id": "X10E3/UL"
+                },
+                "referenceRange": "0.1-0.9",
+                "natureOfAbnormal": [
+                  "N"
+                ],
+                "observeResultStatus": "F",
+                "effectiveDateLastNormalValue": "20161019",
+                "observationDateTime": "20161024",
+                "producersId": {
+                  "id": "CB",
+                  "text": "PATHOLOGY LAB X"
+                },
+                "NTE": [
+                  {
+                    "setId": "3",
+                    "sourceOfComment": "TX",
+                    "comment": [
+                      "SOME NOTES ABOUT THE PATIENT GO HERE."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

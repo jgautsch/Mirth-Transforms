@@ -1,0 +1,3126 @@
+{
+   "content": {
+      "ACC": [
+         {
+            "accidentCode": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "accidentDateTime": "",
+            "accidentDeathIndicator": "",
+            "accidentJobRelatedIndicator": "",
+            "accidentLocation": "",
+            "autoAccidentState": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            }
+         }
+      ],
+      "AL1": [
+         {
+            "allergyCodeMnemonicDescription": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "allergyReaction": "",
+            "allergySeverity": "",
+            "allergyType": "",
+            "identificationDate": "",
+            "setId": ""
+         }
+      ],
+      "DB1": [
+         {
+            "disabilityEndDate": "",
+            "disabilityReturnToWorkDate": "",
+            "disabilityStartDate": "",
+            "disabilityUnableToWorkDate": "",
+            "disabledIndicator": "",
+            "disabledPersonCode": "",
+            "disabledPersonIdentifier": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               }
+            ],
+            "setID": ""
+         }
+      ],
+      "DG1": [
+         {
+            "attestationDateTime": "",
+            "confidentialIndicator": "",
+            "diagnosingClinician": [
+               {
+                  "assigningAuthority": {
+                     "id": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "id": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "degree": "",
+                  "firstName": "",
+                  "id": "",
+                  "identifierCheckDigit": "",
+                  "identifierTypeCode": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "sourceTable": "",
+                  "suffix": ""
+               }
+            ],
+            "diagnosisClassification": "",
+            "diagnosisCode": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "diagnosisCodingMethod": "",
+            "diagnosisDateTime": "",
+            "diagnosisDescription": "",
+            "diagnosisPriority": "",
+            "diagnosisType": "",
+            "diagnosticRelatedGroup": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "drgApprovalIndicator": "",
+            "drgGrouperReviewCode": "",
+            "grouperVersionAndType": "",
+            "majorDiagnosticCategory": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "outlierCost": {
+               "fromValue": "",
+               "price": {
+                  "denomination": "",
+                  "quantity": ""
+               },
+               "priceType": "",
+               "rangeType": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "rangeUnits": "",
+               "toValue": ""
+            },
+            "outlierDays": "",
+            "outlierType": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "setId": ""
+         }
+      ],
+      "DRG": [
+         {
+            "PR1": [
+               {
+                  "ROL": [
+                     {
+                        "actionCode": "",
+                        "role": {
+                           "altCodingSystem": "",
+                           "altId": "",
+                           "altText": "",
+                           "codingSystem": "",
+                           "id": "",
+                           "text": ""
+                        },
+                        "roleActionReason": {
+                           "altCodingSystem": "",
+                           "altId": "",
+                           "altText": "",
+                           "codingSystem": "",
+                           "id": "",
+                           "text": ""
+                        },
+                        "roleBeginDateTime": "",
+                        "roleDuration": {
+                           "altCodingSystem": "",
+                           "altId": "",
+                           "altText": "",
+                           "codingSystem": "",
+                           "id": "",
+                           "text": ""
+                        },
+                        "roleEndDateTime": "",
+                        "roleInstanceID": {
+                           "id": "",
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "rolePerson": {
+                           "assigningAuthority": {
+                              "id": "",
+                              "universalId": "",
+                              "universalIdType": ""
+                           },
+                           "assigningFacility": {
+                              "id": "",
+                              "universalId": "",
+                              "universalIdType": ""
+                           },
+                           "codeIdentifyingCheckDigitScheme": "",
+                           "degree": "",
+                           "firstName": "",
+                           "id": "",
+                           "identifierCheckDigit": "",
+                           "identifierTypeCode": "",
+                           "lastName": "",
+                           "middleInitOrName": "",
+                           "nameTypeCode": "",
+                           "prefix": "",
+                           "sourceTable": "",
+                           "suffix": ""
+                        }
+                     }
+                  ],
+                  "anesthesiaCode": "",
+                  "anesthesiaMinutes": "",
+                  "anesthesiologist": [
+                     {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "identifierCheckDigit": "",
+                        "identifierTypeCode": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "associatedDiagnosisCode": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "consentCode": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "procedureCode": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "procedureCodingMethod": "",
+                  "procedureDateTime": "",
+                  "procedureDescription": "",
+                  "procedureFunctionalType": "",
+                  "procedureMinutes": "",
+                  "procedurePractitioner": [
+                     {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "identifierCheckDigit": "",
+                        "identifierTypeCode": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "procedurePriority": "",
+                  "setId": "",
+                  "surgeon": [
+                     {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "identifierCheckDigit": "",
+                        "identifierTypeCode": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     }
+                  ]
+               }
+            ],
+            "confidentialIndicator": "",
+            "diagnosticRelatedGroup": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "drgApprovalIndicator": "",
+            "drgAssignedDateTime": "",
+            "drgGrouperReviewCode": "",
+            "drgPayor": "",
+            "outlierCost": {
+               "fromValue": "",
+               "price": {
+                  "denomination": "",
+                  "quantity": ""
+               },
+               "priceType": "",
+               "rangeType": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "rangeUnits": "",
+               "toValue": ""
+            },
+            "outlierDays": "",
+            "outlierReimbursement": {
+               "fromValue": "",
+               "price": {
+                  "denomination": "",
+                  "quantity": ""
+               },
+               "priceType": "",
+               "rangeType": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "rangeUnits": "",
+               "toValue": ""
+            },
+            "outlierType": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            }
+         }
+      ],
+      "EVN": {
+         "eventOccured": "",
+         "eventReasonCode": "",
+         "eventType": "",
+         "operatorId": {
+            "assigningAuthority": {
+               "id": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "assigningFacility": {
+               "id": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "codeIdentifyingCheckDigitScheme": "",
+            "degree": "",
+            "firstName": "",
+            "id": "",
+            "identifierCheckDigit": "",
+            "identifierTypeCode": "",
+            "lastName": "",
+            "middleInitOrName": "",
+            "nameTypeCode": "",
+            "prefix": "",
+            "sourceTable": "",
+            "suffix": ""
+         },
+         "plannedEventDateTime": "",
+         "recordedDateTime": ""
+      },
+      "GT1": [
+         {
+            "ambulatoryStatus": "",
+            "citizenship": "",
+            "contactPersonsName": [
+               {
+                  "degree": "",
+                  "firstName": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "suffix": ""
+               }
+            ],
+            "contactPersonsTelephoneNumber": [
+               {
+                  "areaCityCode": "",
+                  "countryCode": "",
+                  "emailAddress": "",
+                  "extension": "",
+                  "number": "",
+                  "phoneNumber": "",
+                  "telecommunicationEquipmentType": "",
+                  "telecommunicationUseCode": "",
+                  "text": ""
+               }
+            ],
+            "contactReason": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "contactRelationship": "",
+            "employmentStopDate": "",
+            "ethnicGroup": "",
+            "guarantorAddress": [
+               {
+                  "addressType": "",
+                  "censusTract": "",
+                  "city": "",
+                  "country": "",
+                  "countyOrParishCode": "",
+                  "otherDesignation": "",
+                  "otherGeographicDesignation": "",
+                  "stateOrProvince": "",
+                  "streetAddress": "",
+                  "zip": ""
+               }
+            ],
+            "guarantorBillingHoldFlag": "",
+            "guarantorChargeAdjustmentCode": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "guarantorCreditRatingCode": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "guarantorDateBegin": "",
+            "guarantorDateEnd": "",
+            "guarantorDatetimeOfBirth": "",
+            "guarantorDeathDateAndTime": "",
+            "guarantorDeathFlag": "",
+            "guarantorEmployeeIDNumber": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               }
+            ],
+            "guarantorEmployerAddress": [
+               {
+                  "addressType": "",
+                  "censusTract": "",
+                  "city": "",
+                  "country": "",
+                  "countyOrParishCode": "",
+                  "otherDesignation": "",
+                  "otherGeographicDesignation": "",
+                  "stateOrProvince": "",
+                  "streetAddress": "",
+                  "zip": ""
+               }
+            ],
+            "guarantorEmployerIDNumber": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               }
+            ],
+            "guarantorEmployerName": [
+               {
+                  "degree": "",
+                  "firstName": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "suffix": ""
+               }
+            ],
+            "guarantorEmployerPhoneNumber": [
+               {
+                  "areaCityCode": "",
+                  "countryCode": "",
+                  "emailAddress": "",
+                  "extension": "",
+                  "number": "",
+                  "phoneNumber": "",
+                  "telecommunicationEquipmentType": "",
+                  "telecommunicationUseCode": "",
+                  "text": ""
+               }
+            ],
+            "guarantorEmployersOrganization": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "idNumber": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": "",
+                  "organizationName": "",
+                  "organizationNameTypeCode": ""
+               }
+            ],
+            "guarantorEmploymentStatus": "",
+            "guarantorFinancialClass": {
+               "effectiveDate": "",
+               "financialClass": ""
+            },
+            "guarantorHireEffectiveDate": "",
+            "guarantorHouseholdAnnualIncome": {
+               "fromValue": "",
+               "price": {
+                  "denomination": "",
+                  "quantity": ""
+               },
+               "priceType": "",
+               "rangeType": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "rangeUnits": "",
+               "toValue": ""
+            },
+            "guarantorHouseholdSize": "",
+            "guarantorMaritalStatusCode": "",
+            "guarantorName": [
+               {
+                  "degree": "",
+                  "firstName": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "suffix": ""
+               }
+            ],
+            "guarantorNumber": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               }
+            ],
+            "guarantorOrganizationName": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "idNumber": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": "",
+                  "organizationName": "",
+                  "organizationNameTypeCode": ""
+               }
+            ],
+            "guarantorPhNumBusiness": [
+               {
+                  "areaCityCode": "",
+                  "countryCode": "",
+                  "emailAddress": "",
+                  "extension": "",
+                  "number": "",
+                  "phoneNumber": "",
+                  "telecommunicationEquipmentType": "",
+                  "telecommunicationUseCode": "",
+                  "text": ""
+               }
+            ],
+            "guarantorPhNumHome": [
+               {
+                  "areaCityCode": "",
+                  "countryCode": "",
+                  "emailAddress": "",
+                  "extension": "",
+                  "number": "",
+                  "phoneNumber": "",
+                  "telecommunicationEquipmentType": "",
+                  "telecommunicationUseCode": "",
+                  "text": ""
+               }
+            ],
+            "guarantorPriority": "",
+            "guarantorRace": "",
+            "guarantorRelationship": "",
+            "guarantorSSN": "",
+            "guarantorSex": "",
+            "guarantorSpouseName": [
+               {
+                  "degree": "",
+                  "firstName": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "suffix": ""
+               }
+            ],
+            "guarantorType": "",
+            "handicap": "",
+            "jobCodeClass": {
+               "jobClass": "",
+               "jobCode": ""
+            },
+            "jobStatus": "",
+            "jobTitle": "",
+            "livingArrangement": "",
+            "livingDependency": "",
+            "mothersMaidenName": {
+               "degree": "",
+               "firstName": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "suffix": ""
+            },
+            "nationality": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "primaryLanguage": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "protectionIndicator": "",
+            "publicityIndicator": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "religion": "",
+            "setId": "",
+            "studentIndicator": ""
+         }
+      ],
+      "IN1": [
+         {
+            "IN2": [
+               {
+                  "ambulatoryStatus": "",
+                  "babyCoverage": "",
+                  "bloodDeductible": "",
+                  "champusIdNumber": "",
+                  "champusNonAvailCertOnFile": "",
+                  "champusOrganization": "",
+                  "champusRankGrade": "",
+                  "champusRetireDate": "",
+                  "champusService": "",
+                  "champusSponsorName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "champusStation": "",
+                  "champusStatus": "",
+                  "citizenship": "",
+                  "combineBabyBill": "",
+                  "copayLimitFlag": "",
+                  "dailyDeductible": {
+                     "amount": "",
+                     "delayDays": "",
+                     "numberOfDays": ""
+                  },
+                  "dependentOfChampusRecipient": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "eligibilitySource": "",
+                  "employerContactPersonName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "employerContactPersonPhone": [
+                     {
+                        "areaCityCode": "",
+                        "countryCode": "",
+                        "emailAddress": "",
+                        "extension": "",
+                        "number": "",
+                        "phoneNumber": "",
+                        "telecommunicationEquipmentType": "",
+                        "telecommunicationUseCode": "",
+                        "text": ""
+                     }
+                  ],
+                  "employerContactReason": "",
+                  "employerInfoData": "",
+                  "ethnicGroup": "",
+                  "guarantorRelationshipToInsured": "",
+                  "hcfaPatientRelationshipToInsured": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "insuranceCoContactPhone": {
+                     "areaCityCode": "",
+                     "countryCode": "",
+                     "emailAddress": "",
+                     "extension": "",
+                     "number": "",
+                     "phoneNumber": "",
+                     "telecommunicationEquipmentType": "",
+                     "telecommunicationUseCode": "",
+                     "text": ""
+                  },
+                  "insuranceCoContactReason": "",
+                  "insuredEmployeeId": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "id": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": ""
+                     }
+                  ],
+                  "insuredEmployerName": [
+                     {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "identifierCheckDigit": "",
+                        "identifierTypeCode": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "insuredEmployerOrganizationNameAndID": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "idNumber": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": "",
+                        "organizationName": "",
+                        "organizationNameTypeCode": ""
+                     }
+                  ],
+                  "insuredEmployerPhone": [
+                     {
+                        "areaCityCode": "",
+                        "countryCode": "",
+                        "emailAddress": "",
+                        "extension": "",
+                        "number": "",
+                        "phoneNumber": "",
+                        "telecommunicationEquipmentType": "",
+                        "telecommunicationUseCode": "",
+                        "text": ""
+                     }
+                  ],
+                  "insuredEmploymentStartDate": "",
+                  "insuredEmploymentStopDate": "",
+                  "insuredHomePhone": [
+                     {
+                        "areaCityCode": "",
+                        "countryCode": "",
+                        "emailAddress": "",
+                        "extension": "",
+                        "number": "",
+                        "phoneNumber": "",
+                        "telecommunicationEquipmentType": "",
+                        "telecommunicationUseCode": "",
+                        "text": ""
+                     }
+                  ],
+                  "insuredOrganizationNameAndID": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "idNumber": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": "",
+                        "organizationName": "",
+                        "organizationNameTypeCode": ""
+                     }
+                  ],
+                  "insuredSSN": "",
+                  "insuredsContactPersonName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "insuredsContactPersonPhone": [
+                     {
+                        "areaCityCode": "",
+                        "countryCode": "",
+                        "emailAddress": "",
+                        "extension": "",
+                        "number": "",
+                        "phoneNumber": "",
+                        "telecommunicationEquipmentType": "",
+                        "telecommunicationUseCode": "",
+                        "text": ""
+                     }
+                  ],
+                  "insuredsContactReason": [
+                     ""
+                  ],
+                  "jobCodeClass": {
+                     "jobClass": "",
+                     "jobCode": ""
+                  },
+                  "jobStatus": "",
+                  "jobTitle": "",
+                  "livingArrangement": "",
+                  "livingDependency": "",
+                  "mailClaimParty": [
+                     ""
+                  ],
+                  "maritalStatus": [
+                     { }
+                  ],
+                  "medicaidCaseName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "medicaidCaseNumber": "",
+                  "medicareHealthInsCardNumber": "",
+                  "militaryHandicappedProgram": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "motherMaidenName": {
+                     "degree": "",
+                     "firstName": "",
+                     "lastName": "",
+                     "middleInitOrName": "",
+                     "nameTypeCode": "",
+                     "prefix": "",
+                     "suffix": ""
+                  },
+                  "nationality": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "nonCoveredInsuranceCode": [
+                     ""
+                  ],
+                  "patientMemberNumber": {
+                     "assigningAuthority": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "id": "",
+                     "idTypeCode": "",
+                     "identifierCheckDigit": ""
+                  },
+                  "payorId": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "id": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": ""
+                     }
+                  ],
+                  "payorSubscriberId": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "id": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": ""
+                     }
+                  ],
+                  "policyScope": "",
+                  "policySource": "",
+                  "policyTypeAmount": [
+                     {
+                        "amount": "",
+                        "amountClass": "",
+                        "policyType": ""
+                     }
+                  ],
+                  "primaryLanguage": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "protectionIndicator": "",
+                  "publicityIndicator": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "race": "",
+                  "relationshipToPersonStartDate": "",
+                  "relationshipToPersonStopDate": [
+                     ""
+                  ],
+                  "religion": "",
+                  "roomCoverageTypeAmount": [
+                     {
+                        "amountType": "",
+                        "coverageAmount": "",
+                        "roomType": ""
+                     }
+                  ],
+                  "specialCoverageApprovalName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "specialCoverageApprovalTitle": "",
+                  "stoplossLimitFlag": "",
+                  "studentIndicator": "",
+                  "suspendFlag": ""
+               }
+            ],
+            "IN3": [
+               {
+                  "ambulatoryStatus": "",
+                  "babyCoverage": "",
+                  "bloodDeductible": "",
+                  "champusIdNumber": "",
+                  "champusNonAvailCertOnFile": "",
+                  "champusOrganization": "",
+                  "champusRankGrade": "",
+                  "champusRetireDate": "",
+                  "champusService": "",
+                  "champusSponsorName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "champusStation": "",
+                  "champusStatus": "",
+                  "citizenship": "",
+                  "combineBabyBill": "",
+                  "copayLimitFlag": "",
+                  "dailyDeductible": {
+                     "amount": "",
+                     "delayDays": "",
+                     "numberOfDays": ""
+                  },
+                  "dependentOfChampusRecipient": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "eligibilitySource": "",
+                  "employerContactPersonName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "employerContactPersonPhone": [
+                     {
+                        "areaCityCode": "",
+                        "countryCode": "",
+                        "emailAddress": "",
+                        "extension": "",
+                        "number": "",
+                        "phoneNumber": "",
+                        "telecommunicationEquipmentType": "",
+                        "telecommunicationUseCode": "",
+                        "text": ""
+                     }
+                  ],
+                  "employerContactReason": "",
+                  "employerInfoData": "",
+                  "ethnicGroup": "",
+                  "guarantorRelationshipToInsured": "",
+                  "hcfaPatientRelationshipToInsured": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "insuranceCoContactPhone": {
+                     "areaCityCode": "",
+                     "countryCode": "",
+                     "emailAddress": "",
+                     "extension": "",
+                     "number": "",
+                     "phoneNumber": "",
+                     "telecommunicationEquipmentType": "",
+                     "telecommunicationUseCode": "",
+                     "text": ""
+                  },
+                  "insuranceCoContactReason": "",
+                  "insuredEmployeeId": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "id": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": ""
+                     }
+                  ],
+                  "insuredEmployerName": [
+                     {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "identifierCheckDigit": "",
+                        "identifierTypeCode": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "insuredEmployerOrganizationNameAndID": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "idNumber": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": "",
+                        "organizationName": "",
+                        "organizationNameTypeCode": ""
+                     }
+                  ],
+                  "insuredEmployerPhone": [
+                     {
+                        "areaCityCode": "",
+                        "countryCode": "",
+                        "emailAddress": "",
+                        "extension": "",
+                        "number": "",
+                        "phoneNumber": "",
+                        "telecommunicationEquipmentType": "",
+                        "telecommunicationUseCode": "",
+                        "text": ""
+                     }
+                  ],
+                  "insuredEmploymentStartDate": "",
+                  "insuredEmploymentStopDate": "",
+                  "insuredHomePhone": [
+                     {
+                        "areaCityCode": "",
+                        "countryCode": "",
+                        "emailAddress": "",
+                        "extension": "",
+                        "number": "",
+                        "phoneNumber": "",
+                        "telecommunicationEquipmentType": "",
+                        "telecommunicationUseCode": "",
+                        "text": ""
+                     }
+                  ],
+                  "insuredOrganizationNameAndID": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "idNumber": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": "",
+                        "organizationName": "",
+                        "organizationNameTypeCode": ""
+                     }
+                  ],
+                  "insuredSSN": "",
+                  "insuredsContactPersonName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "insuredsContactPersonPhone": [
+                     {
+                        "areaCityCode": "",
+                        "countryCode": "",
+                        "emailAddress": "",
+                        "extension": "",
+                        "number": "",
+                        "phoneNumber": "",
+                        "telecommunicationEquipmentType": "",
+                        "telecommunicationUseCode": "",
+                        "text": ""
+                     }
+                  ],
+                  "insuredsContactReason": [
+                     ""
+                  ],
+                  "jobCodeClass": {
+                     "jobClass": "",
+                     "jobCode": ""
+                  },
+                  "jobStatus": "",
+                  "jobTitle": "",
+                  "livingArrangement": "",
+                  "livingDependency": "",
+                  "mailClaimParty": [
+                     ""
+                  ],
+                  "maritalStatus": [
+                     { }
+                  ],
+                  "medicaidCaseName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "medicaidCaseNumber": "",
+                  "medicareHealthInsCardNumber": "",
+                  "militaryHandicappedProgram": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "motherMaidenName": {
+                     "degree": "",
+                     "firstName": "",
+                     "lastName": "",
+                     "middleInitOrName": "",
+                     "nameTypeCode": "",
+                     "prefix": "",
+                     "suffix": ""
+                  },
+                  "nationality": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "nonCoveredInsuranceCode": [
+                     ""
+                  ],
+                  "patientMemberNumber": {
+                     "assigningAuthority": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "id": "",
+                     "idTypeCode": "",
+                     "identifierCheckDigit": ""
+                  },
+                  "payorId": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "id": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": ""
+                     }
+                  ],
+                  "payorSubscriberId": [
+                     {
+                        "assigningAuthority": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "id": "",
+                        "idTypeCode": "",
+                        "identifierCheckDigit": ""
+                     }
+                  ],
+                  "policyScope": "",
+                  "policySource": "",
+                  "policyTypeAmount": [
+                     {
+                        "amount": "",
+                        "amountClass": "",
+                        "policyType": ""
+                     }
+                  ],
+                  "primaryLanguage": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "protectionIndicator": "",
+                  "publicityIndicator": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "race": "",
+                  "relationshipToPersonStartDate": "",
+                  "relationshipToPersonStopDate": [
+                     ""
+                  ],
+                  "religion": "",
+                  "roomCoverageTypeAmount": [
+                     {
+                        "amountType": "",
+                        "coverageAmount": "",
+                        "roomType": ""
+                     }
+                  ],
+                  "specialCoverageApprovalName": [
+                     {
+                        "degree": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "specialCoverageApprovalTitle": "",
+                  "stoplossLimitFlag": "",
+                  "studentIndicator": "",
+                  "suspendFlag": ""
+               }
+            ],
+            "assignmentOfBenefits": "",
+            "authorizationInformation": {
+               "authorizationNumber": "",
+               "date": "",
+               "source": ""
+            },
+            "billingStatus": "",
+            "companyAddress": [
+               {
+                  "addressType": "",
+                  "censusTract": "",
+                  "city": "",
+                  "country": "",
+                  "countyOrParishCode": "",
+                  "otherDesignation": "",
+                  "otherGeographicDesignation": "",
+                  "stateOrProvince": "",
+                  "streetAddress": "",
+                  "zip": ""
+               }
+            ],
+            "companyContactPerson": [
+               {
+                  "degree": "",
+                  "firstName": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "suffix": ""
+               }
+            ],
+            "companyId": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               }
+            ],
+            "companyName": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "idNumber": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": "",
+                  "organizationName": "",
+                  "organizationNameTypeCode": ""
+               }
+            ],
+            "companyPhoneNumber": [
+               {
+                  "areaCityCode": "",
+                  "countryCode": "",
+                  "emailAddress": "",
+                  "extension": "",
+                  "number": "",
+                  "phoneNumber": "",
+                  "telecommunicationEquipmentType": "",
+                  "telecommunicationUseCode": "",
+                  "text": ""
+               }
+            ],
+            "companyPlanCode": "",
+            "coordinationOfBenefits": "",
+            "coverageType": "",
+            "delayBeforeLrDay": "",
+            "groupEmpId": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               }
+            ],
+            "groupEmpName": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "idNumber": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": "",
+                  "organizationName": "",
+                  "organizationNameTypeCode": ""
+               }
+            ],
+            "groupName": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "idNumber": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": "",
+                  "organizationName": "",
+                  "organizationNameTypeCode": ""
+               }
+            ],
+            "groupNumber": "",
+            "handicap": "",
+            "insuredAddress": [
+               {
+                  "addressType": "",
+                  "censusTract": "",
+                  "city": "",
+                  "country": "",
+                  "countyOrParishCode": "",
+                  "otherDesignation": "",
+                  "otherGeographicDesignation": "",
+                  "stateOrProvince": "",
+                  "streetAddress": "",
+                  "zip": ""
+               }
+            ],
+            "insuredDob": "",
+            "insuredEmployerAddress": [
+               {
+                  "addressType": "",
+                  "censusTract": "",
+                  "city": "",
+                  "country": "",
+                  "countyOrParishCode": "",
+                  "otherDesignation": "",
+                  "otherGeographicDesignation": "",
+                  "stateOrProvince": "",
+                  "streetAddress": "",
+                  "zip": ""
+               }
+            ],
+            "insuredEmploymentStatus": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "insuredIdNumber": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               }
+            ],
+            "insuredName": [
+               {
+                  "degree": "",
+                  "firstName": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "suffix": ""
+               }
+            ],
+            "insuredRelationshipToPatient": "",
+            "insuredSex": "",
+            "lifetimeReserveDays": "",
+            "noticeOfAdmissionDate": "",
+            "noticeOfAdmissionFlag": "",
+            "planEffectiveDate": "",
+            "planExpirationDate": "",
+            "planId": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "planType": "",
+            "policyDeductible": {
+               "fromValue": "",
+               "price": {
+                  "denomination": "",
+                  "quantity": ""
+               },
+               "priceType": "",
+               "rangeType": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "rangeUnits": "",
+               "toValue": ""
+            },
+            "policyLimitAmount": {
+               "fromValue": "",
+               "price": {
+                  "denomination": "",
+                  "quantity": ""
+               },
+               "priceType": "",
+               "rangeType": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "rangeUnits": "",
+               "toValue": ""
+            },
+            "policyLimitDays": "",
+            "policyNumber": "",
+            "preAdmitCert": "",
+            "priorInsurancePlanId": "",
+            "releaseInformationCode": "",
+            "reportOfEligibilityDate": "",
+            "reportOfEligibilityFlag": "",
+            "roomRatePrivate": {
+               "fromValue": "",
+               "price": {
+                  "denomination": "",
+                  "quantity": ""
+               },
+               "priceType": "",
+               "rangeType": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "rangeUnits": "",
+               "toValue": ""
+            },
+            "roomRateSemiPrivate": {
+               "fromValue": "",
+               "price": {
+                  "denomination": "",
+                  "quantity": ""
+               },
+               "priceType": "",
+               "rangeType": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "rangeUnits": "",
+               "toValue": ""
+            },
+            "setId": "",
+            "typeOfAgreementCode": "",
+            "verificationBy": {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            },
+            "verificationDateTime": "",
+            "verificationStatus": ""
+         }
+      ],
+      "MSH": {
+         "acceptAcknowledgmentType": "",
+         "applicationAcknowledgmentType": "",
+         "characterSet": [
+            ""
+         ],
+         "continuationPointer": "",
+         "countryCode": "",
+         "dateTimeOfMessage": "",
+         "encodingCharacters": "",
+         "fieldSeparator": "",
+         "messageControlID": "",
+         "messageType": {
+            "messageType": "",
+            "triggerEvent": ""
+         },
+         "principalLanguageOfMessage": {
+            "altCodingSystem": "",
+            "altId": "",
+            "altText": "",
+            "codingSystem": "",
+            "id": "",
+            "text": ""
+         },
+         "processingID": {
+            "processingID": "",
+            "processingMode": ""
+         },
+         "receivingApplication": {
+            "namespaceId": "",
+            "universalId": "",
+            "universalIdType": ""
+         },
+         "receivingFacility": {
+            "namespaceId": "",
+            "universalId": "",
+            "universalIdType": ""
+         },
+         "security": "",
+         "sendingApplication": {
+            "namespaceId": "",
+            "universalId": "",
+            "universalIdType": ""
+         },
+         "sendingFacility": {
+            "namespaceId": "",
+            "universalId": "",
+            "universalIdType": ""
+         },
+         "sequenceNumber": "",
+         "versionID": ""
+      },
+      "NK1": [
+         {
+            "address": [
+               {
+                  "addressType": "",
+                  "censusTract": "",
+                  "city": "",
+                  "country": "",
+                  "countyOrParishCode": "",
+                  "otherDesignation": "",
+                  "otherGeographicDesignation": "",
+                  "stateOrProvince": "",
+                  "streetAddress": "",
+                  "zip": ""
+               }
+            ],
+            "ambulatoryStatus": [
+               ""
+            ],
+            "businessPhone": [
+               {
+                  "areaCityCode": "",
+                  "countryCode": "",
+                  "emailAddress": "",
+                  "extension": "",
+                  "number": "",
+                  "phoneNumber": "",
+                  "telecommunicationEquipmentType": "",
+                  "telecommunicationUseCode": "",
+                  "text": ""
+               }
+            ],
+            "citizenship": [
+               ""
+            ],
+            "contactPersonSocialSecurityNumber": "",
+            "contactPersonsAddress": [
+               {
+                  "addressType": "",
+                  "censusTract": "",
+                  "city": "",
+                  "country": "",
+                  "countyOrParishCode": "",
+                  "otherDesignation": "",
+                  "otherGeographicDesignation": "",
+                  "stateOrProvince": "",
+                  "streetAddress": "",
+                  "zip": ""
+               }
+            ],
+            "contactPersonsName": [
+               {
+                  "degree": "",
+                  "firstName": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "suffix": ""
+               }
+            ],
+            "contactPersonsTelephoneNumber": [
+               {
+                  "areaCityCode": "",
+                  "countryCode": "",
+                  "emailAddress": "",
+                  "extension": "",
+                  "number": "",
+                  "phoneNumber": "",
+                  "telecommunicationEquipmentType": "",
+                  "telecommunicationUseCode": "",
+                  "text": ""
+               }
+            ],
+            "contactReason": [
+               {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               }
+            ],
+            "contactRole": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "dateTimeofBirth": "",
+            "endDate": "",
+            "ethnicGroup": "",
+            "handicap": "",
+            "id": "",
+            "jobStatus": "",
+            "livingArrangement": "",
+            "livingDependency": [
+               ""
+            ],
+            "maritalStatus": "",
+            "mothersMaidenName": {
+               "degree": "",
+               "firstName": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "suffix": ""
+            },
+            "name": [
+               {
+                  "degree": "",
+                  "firstName": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "suffix": ""
+               }
+            ],
+            "nationality": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "nextOfKinAssociatedPartiesEmployeeNumber": {
+               "assigningAuthority": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "id": "",
+               "idTypeCode": "",
+               "identifierCheckDigit": ""
+            },
+            "nextOfKinAssociatedPartiesJobCodeClass": {
+               "jobClass": "",
+               "jobCode": ""
+            },
+            "nextOfKinAssociatedPartiesJobTitle": "",
+            "nextOfKinAssociatedPartysIdentifiers": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               }
+            ],
+            "organizationName": [
+               {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "idNumber": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": "",
+                  "organizationName": "",
+                  "organizationNameTypeCode": ""
+               }
+            ],
+            "phone": [
+               {
+                  "areaCityCode": "",
+                  "countryCode": "",
+                  "emailAddress": "",
+                  "extension": "",
+                  "number": "",
+                  "phoneNumber": "",
+                  "telecommunicationEquipmentType": "",
+                  "telecommunicationUseCode": "",
+                  "text": ""
+               }
+            ],
+            "primaryLanguage": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "protectionIndicator": "",
+            "publicityIndicator": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "race": "",
+            "relationship": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "religion": "",
+            "sex": "",
+            "startDate": "",
+            "studentIndicator": ""
+         }
+      ],
+      "OBX": [
+         {
+            "NTE": [
+               {
+                  "comment": [
+                     ""
+                  ],
+                  "setId": "",
+                  "sourceOfComment": ""
+               }
+            ],
+            "abnormalFlag": [
+               ""
+            ],
+            "definedAccessChecks": "",
+            "effectiveDateLastNormalValue": "",
+            "identifier": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "natureOfAbnormal": [
+               ""
+            ],
+            "observationDateTime": "",
+            "observationMethod": [
+               {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               }
+            ],
+            "observationValue": [
+               ""
+            ],
+            "observeResultStatus": "",
+            "probability": "",
+            "producersId": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "referenceRange": "",
+            "responsibleObserver": {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            },
+            "setId": "",
+            "subId": "",
+            "units": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "valueType": ""
+         }
+      ],
+      "PID for ADT": {
+         "NTE": [
+            {
+               "comment": [
+                  ""
+               ],
+               "setId": "",
+               "sourceOfComment": ""
+            }
+         ],
+         "PD1": [
+            {
+               "duplicatePatient": [
+                  {
+                     "assigningAuthority": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "id": "",
+                     "idTypeCode": "",
+                     "identifierCheckDigit": ""
+                  }
+               ],
+               "handicap": "",
+               "livingArrangement": "",
+               "livingDependency": [
+                  ""
+               ],
+               "livingWillCode": "",
+               "organDonorCode": "",
+               "patientPrimaryFacility": [
+                  {
+                     "assigningAuthority": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "idNumber": "",
+                     "idTypeCode": "",
+                     "identifierCheckDigit": "",
+                     "organizationName": "",
+                     "organizationNameTypeCode": ""
+                  }
+               ],
+               "primaryCareProvider": [
+                  {
+                     "assigningAuthority": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "degree": "",
+                     "firstName": "",
+                     "id": "",
+                     "identifierCheckDigit": "",
+                     "identifierTypeCode": "",
+                     "lastName": "",
+                     "middleInitOrName": "",
+                     "nameTypeCode": "",
+                     "prefix": "",
+                     "sourceTable": "",
+                     "suffix": ""
+                  }
+               ],
+               "protectionIndicator": "",
+               "publicityIndicator": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "separateBill": "",
+               "studentIndicator": ""
+            }
+         ],
+         "address": [
+            {
+               "addressType": "",
+               "censusTract": "",
+               "city": "",
+               "country": "",
+               "countyOrParishCode": "",
+               "otherDesignation": "",
+               "otherGeographicDesignation": "",
+               "stateOrProvince": "",
+               "streetAddress": "",
+               "zip": ""
+            }
+         ],
+         "alias": [
+            {
+               "degree": "",
+               "firstName": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "suffix": ""
+            }
+         ],
+         "alternateId": [
+            {
+               "assigningAuthority": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "id": "",
+               "idTypeCode": "",
+               "identifierCheckDigit": ""
+            }
+         ],
+         "birthOrder": "",
+         "birthPlace": "",
+         "businessPhone": [
+            {
+               "areaCityCode": "",
+               "countryCode": "",
+               "emailAddress": "",
+               "extension": "",
+               "number": "",
+               "phoneNumber": "",
+               "telecommunicationEquipmentType": "",
+               "telecommunicationUseCode": "",
+               "text": ""
+            }
+         ],
+         "citizenship": [
+            ""
+         ],
+         "countyCode": "",
+         "dateTimeBirth": "",
+         "deathDateTime": "",
+         "deathIndicator": "",
+         "driversLicenseNumber": {
+            "expirationDate": "",
+            "issuingStateProvinceCountry": "",
+            "licenseNumber": ""
+         },
+         "ethnicGroup": "",
+         "externalId": {
+            "assigningAuthority": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "assigningFacility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "codeIdentifyingCheckDigitScheme": "",
+            "id": "",
+            "idTypeCode": "",
+            "identifierCheckDigit": ""
+         },
+         "homePhone": [
+            {
+               "areaCityCode": "",
+               "countryCode": "",
+               "emailAddress": "",
+               "extension": "",
+               "number": "",
+               "phoneNumber": "",
+               "telecommunicationEquipmentType": "",
+               "telecommunicationUseCode": "",
+               "text": ""
+            }
+         ],
+         "internalId": [
+            {
+               "assigningAuthority": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "id": "",
+               "idTypeCode": "",
+               "identifierCheckDigit": ""
+            }
+         ],
+         "maritalStatus": "",
+         "mothersId": [
+            {
+               "assigningAuthority": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "id": "",
+               "idTypeCode": "",
+               "identifierCheckDigit": ""
+            }
+         ],
+         "mothersMaidenName": {
+            "degree": "",
+            "firstName": "",
+            "lastName": "",
+            "middleInitOrName": "",
+            "nameTypeCode": "",
+            "prefix": "",
+            "suffix": ""
+         },
+         "multipleBirthIndicator": "",
+         "nationality": {
+            "altCodingSystem": "",
+            "altId": "",
+            "altText": "",
+            "codingSystem": "",
+            "id": "",
+            "text": ""
+         },
+         "patientAccountNumber": {
+            "assigningAuthority": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "assigningFacility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "codeIdentifyingCheckDigitScheme": "",
+            "id": "",
+            "idTypeCode": "",
+            "identifierCheckDigit": ""
+         },
+         "patientName": [
+            {
+               "degree": "",
+               "firstName": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "suffix": ""
+            }
+         ],
+         "primaryLanguage": {
+            "altCodingSystem": "",
+            "altId": "",
+            "altText": "",
+            "codingSystem": "",
+            "id": "",
+            "text": ""
+         },
+         "race": "",
+         "religion": "",
+         "setId": "",
+         "sex": "",
+         "ssn": "",
+         "veteranStatus": {
+            "altCodingSystem": "",
+            "altId": "",
+            "altText": "",
+            "codingSystem": "",
+            "id": "",
+            "text": ""
+         }
+      },
+      "PV1": {
+         "PV2": [
+            {
+               "accommodationCode": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "actualLengthInpatientStay": "",
+               "admitReason": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "babyDetainedIndicator": "",
+               "billingMediaCode": "",
+               "clinicOrganizationName": [
+                  {
+                     "assigningAuthority": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "idNumber": "",
+                     "idTypeCode": "",
+                     "identifierCheckDigit": "",
+                     "organizationName": "",
+                     "organizationNameTypeCode": ""
+                  }
+               ],
+               "employmentIllnessRelatedIndicator": "",
+               "estimatedLengthInpatientStay": "",
+               "expectedAdmitDateTime": "",
+               "expectedDischargeDateTime": "",
+               "expectedDischargeDisposition": "",
+               "expectedNumInsurancePlans": "",
+               "expectedSurgeryDateTime": "",
+               "firstSimilarIllnessDate": "",
+               "militaryNonAvailabilityCode": "",
+               "militaryPartnershipCode": "",
+               "newbornBabyIndicator": "",
+               "patientChargeAdjustmentCode": "",
+               "patientStatusCode": "",
+               "patientValuables": [
+                  ""
+               ],
+               "patientValuablesLocation": "",
+               "previousServiceDate": "",
+               "previousTreatmentDate": "",
+               "priorPendingLocation": {
+                  "bed": "",
+                  "building": "",
+                  "facility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "floor": "",
+                  "locationDescription": "",
+                  "locationStatus": "",
+                  "personLocationType": "",
+                  "pointOfCare": "",
+                  "room": ""
+               },
+               "purgeStatusCode": "",
+               "purgeStatusDate": "",
+               "recurringServiceCode": "",
+               "referralSourceCode": {
+                  "assigningAuthority": {
+                     "id": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "id": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "degree": "",
+                  "firstName": "",
+                  "id": "",
+                  "identifierCheckDigit": "",
+                  "identifierTypeCode": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "sourceTable": "",
+                  "suffix": ""
+               },
+               "retentionIndicator": "",
+               "signatureOnFileDate": "",
+               "specialProgramCode": "",
+               "transferReason": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "visitDescription": "",
+               "visitPriorityCode": "",
+               "visitProtectionIndicator": "",
+               "visitPublicityCode": "",
+               "visitUserCode": ""
+            }
+         ],
+         "accountStatus": "",
+         "admissionType": "",
+         "admitDateTime": "",
+         "admitSource": "",
+         "admittingDoctor": [
+            {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            }
+         ],
+         "alternateVisitID": {
+            "assigningAuthority": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "assigningFacility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "codeIdentifyingCheckDigitScheme": "",
+            "id": "",
+            "idTypeCode": "",
+            "identifierCheckDigit": ""
+         },
+         "ambulatoryStatus": [
+            ""
+         ],
+         "assignedPatientLocation": {
+            "bed": "",
+            "building": "",
+            "facility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "floor": "",
+            "locationDescription": "",
+            "locationStatus": "",
+            "personLocationType": "",
+            "pointOfCare": "",
+            "room": ""
+         },
+         "attendingDoctor": [
+            {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            }
+         ],
+         "badDebtAgencyCode": "",
+         "badDebtRecoveryAmount": "",
+         "badDebtTransferAmount": "",
+         "bedStatus": "",
+         "chargePriceIndicator": "",
+         "consultingDoctor": [
+            {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            }
+         ],
+         "contractAmount": [
+            ""
+         ],
+         "contractCode": [
+            ""
+         ],
+         "contractEffectiveDate": [
+            ""
+         ],
+         "contractPeriod": [
+            ""
+         ],
+         "courtesyCode": "",
+         "creditRating": "",
+         "currentPatientBalance": "",
+         "deleteAccountDate": "",
+         "deleteAccountIndicator": "",
+         "dietType": "",
+         "dischargeDateTime": "",
+         "dischargeDisposition": "",
+         "dischargedtoLocation": {
+            "dischargeLocation": "",
+            "effectiveDate": ""
+         },
+         "financialClass": [
+            {
+               "effectiveDate": "",
+               "financialClass": ""
+            }
+         ],
+         "hospitalService": "",
+         "interestCode": "",
+         "otherHealthcareProvider": {
+            "assigningAuthority": {
+               "id": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "assigningFacility": {
+               "id": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "codeIdentifyingCheckDigitScheme": "",
+            "degree": "",
+            "firstName": "",
+            "id": "",
+            "identifierCheckDigit": "",
+            "identifierTypeCode": "",
+            "lastName": "",
+            "middleInitOrName": "",
+            "nameTypeCode": "",
+            "prefix": "",
+            "sourceTable": "",
+            "suffix": ""
+         },
+         "patientClass": "",
+         "patientType": "",
+         "pendingLocation": {
+            "bed": "",
+            "building": "",
+            "facility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "floor": "",
+            "locationDescription": "",
+            "locationStatus": "",
+            "personLocationType": "",
+            "pointOfCare": "",
+            "room": ""
+         },
+         "preadmitNumber": {
+            "assigningAuthority": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "assigningFacility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "codeIdentifyingCheckDigitScheme": "",
+            "id": "",
+            "idTypeCode": "",
+            "identifierCheckDigit": ""
+         },
+         "preadmitTestIndicator": "",
+         "priorPatientLocation": {
+            "bed": "",
+            "building": "",
+            "facility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "floor": "",
+            "locationDescription": "",
+            "locationStatus": "",
+            "personLocationType": "",
+            "pointOfCare": "",
+            "room": ""
+         },
+         "priorTemporaryLocation": {
+            "bed": "",
+            "building": "",
+            "facility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "floor": "",
+            "locationDescription": "",
+            "locationStatus": "",
+            "personLocationType": "",
+            "pointOfCare": "",
+            "room": ""
+         },
+         "readmissionIndicator": "",
+         "referringDoctor": [
+            {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            }
+         ],
+         "servicingFacility": "",
+         "setId": "",
+         "temporaryLocation": {
+            "bed": "",
+            "building": "",
+            "facility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "floor": "",
+            "locationDescription": "",
+            "locationStatus": "",
+            "personLocationType": "",
+            "pointOfCare": "",
+            "room": ""
+         },
+         "totalAdjustments": "",
+         "totalCharges": "",
+         "totalPayments": "",
+         "transferToBadDebtCode": "",
+         "transferToBadDebtDate": "",
+         "vipIndicator": "",
+         "visitIndicator": "",
+         "visitNumber": {
+            "assigningAuthority": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "assigningFacility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "codeIdentifyingCheckDigitScheme": "",
+            "id": "",
+            "idTypeCode": "",
+            "identifierCheckDigit": ""
+         }
+      },
+      "UB1": [
+         {
+            "PSRO-UR-approvalIndicator": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "PSRO-UR-approvedStayFrom": "",
+            "PSRO-UR-approvedStayTo": "",
+            "UB-82-Locator-2": "",
+            "UB-82-Locator-27": "",
+            "UB-82-Locator-45": "",
+            "UB-82-Locator-9": "",
+            "bloodDeductible": "",
+            "bloodFurnishedPints": "",
+            "bloodNotReplacedPints": "",
+            "bloodReplacedPints": "",
+            "coinsuranceDates": "",
+            "conditionCode": [
+               ""
+            ],
+            "coveredDays": "",
+            "nonCoveredDays": "",
+            "numberOfGraceDays": "",
+            "occurrence": [
+               {
+                  "occurrenceCode": "",
+                  "occurrenceDate": ""
+               }
+            ],
+            "occurrenceSpan": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "occurrenceSpanEndDate": "",
+            "occurrenceSpanStartDate": "",
+            "setId": "",
+            "specProgramIndicator": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "valueAmountAndCode": [
+               {
+                  "valueAmount": "",
+                  "valueCode": ""
+               }
+            ]
+         }
+      ],
+      "UB2": [
+         {
+            "UB-92-Locator-11": [
+               ""
+            ],
+            "UB-92-Locator-2": [
+               ""
+            ],
+            "UB-92-Locator-31": "",
+            "UB-92-Locator-49": [
+               ""
+            ],
+            "UB-92-Locator-56": [
+               ""
+            ],
+            "UB-92-Locator-57": "",
+            "UB-92-Locator-78": [
+               ""
+            ],
+            "coinsuranceDays": "",
+            "conditionCode": [
+               ""
+            ],
+            "coveredDays": "",
+            "documentControlNumber": [
+               ""
+            ],
+            "nonCoveredDays": "",
+            "occurrence": [
+               {
+                  "occurrenceCode": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "occurrenceDate": ""
+               }
+            ],
+            "occurrenceSpanCodeAndDate": [
+               {
+                  "occurrenceSpanCode": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "occurrenceSpanEndDate": "",
+                  "occurrenceSpanStartDate": ""
+               }
+            ],
+            "setId": "",
+            "specialVisitCount": "",
+            "valueAmountAndCode": [
+               {
+                  "valueAmount": "",
+                  "valueCode": ""
+               }
+            ]
+         }
+      ]
+   }
+}

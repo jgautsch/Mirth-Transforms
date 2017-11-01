@@ -1,0 +1,42 @@
+This channel is a tool for generating sample HL7 messages. These messages contain the segments and data elements that are commonly sent 
+in the supported message types. Messages from production systems will typically omit many data elements that are not required; the optional 
+elements included in these sample messages will help you test and validate your interface configuration.
+
+To generate a sample HL7 message, send a message to this channel with the following format:
+
+[messageType]^[eventType]
+
+The channel will return a sample HL7 message in response. You can view this response within Mirth by selecting the source connector for a 
+message and clicking the Response radio button.
+
+The currently supported message and event types are:
+
+ADT^A01 - Admit / visit notification
+ADT^A02 - Transfer a patient
+ADT^A03 - Discharge/end visit
+ADT^A04 - Register a patient
+ADT^A05 - Pre-admit a patient
+ADT^A06 - Change an outpatient to an inpatient
+ADT^A07 - Change an inpatient to an outpatient
+ADT^A08 - Update patient information
+ADT^A13 - Cancel discharge / end visit
+ADT^A14 - Pending admit
+ADT^A28 - Add person information
+
+SIU^S12 - Notification of new appointment booking
+SIU^S13 - Notification of appointment rescheduling
+SIU^S14 - Notification of appointment modification
+SIU^S15 - Notification of appointment cancellation
+SIU^S26 - Notification that patient did not show up for scheduled appointment
+
+SRM^S01 - Request new appointment booking
+SRM^S02 - Request appointment rescheduling
+SRM^S03 - Request appointment modification
+SRM^S04 - Request appointment deletion
+
+MDM^T01 - Original document notification
+MDM^T02 - Original document notification and content
+
+ORU^R01 - Observation Message
+
+ORM^O01 - Order Message

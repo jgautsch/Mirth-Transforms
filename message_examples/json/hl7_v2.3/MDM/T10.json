@@ -1,0 +1,280 @@
+{
+  "message_type": "MDM",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA CLINIC",
+        "universalIdType": "23456"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "MDM",
+        "triggerEvent": "T10"
+      },
+      "messageControlID": "4863794",
+      "processingID": {
+        "processingID": "P"
+      },
+      "versionID": "2.3"
+    },
+    "EVN": [
+      {
+        "eventType": "MDM",
+        "recordedDateTime": "20171031",
+        "plannedEventDateTime": "20171031",
+        "eventReasonCode": "02",
+        "operatorId": {
+          "id": "FLOWERS",
+          "lastName": "DIANE",
+          "firstName": "V"
+        },
+        "eventOccurred": "20171031"
+      }
+    ],
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "65475382"
+        },
+        "internalId": [
+          {
+            "id": "95785819"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "86751193"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "PATTERSON",
+            "firstName": "ALEXANDER"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "LARSON"
+        },
+        "dateTimeBirth": "19361018",
+        "sex": "M",
+        "alias": [
+          {
+            "lastName": "SKIPPY"
+          }
+        ],
+        "race": "W",
+        "address": [
+          {
+            "streetAddress": "6796 HAWTHORN WAY",
+            "otherDesignation": "MADISON",
+            "city": "CT",
+            "stateOrProvince": "95080"
+          }
+        ],
+        "countyCode": "95080",
+        "homePhone": [
+          {
+            "number": "8656067166"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8039188838"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "HY"
+        },
+        "maritalStatus": "A",
+        "religion": "NAZ",
+        "patientAccountNumber": {
+          "id": "416546"
+        },
+        "ssn": "927232217",
+        "driversLicenseNumber": {
+          "licenseNumber": "S394584568690820"
+        },
+        "ethnicGroup": "U",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "N",
+        "birthOrder": "4",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N"
+      }
+    ],
+    "PV1": [
+      {
+        "setId": "1",
+        "patientClass": "I",
+        "assignedPatientLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "503",
+          "bed": "3",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL A"
+          }
+        },
+        "admissionType": "L",
+        "preadmitNumber": {
+          "id": "914111"
+        },
+        "priorPatientLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "537",
+          "bed": "0",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL B"
+          }
+        },
+        "attendingDoctor": [
+          {
+            "id": "93760762",
+            "lastName": "MCLAUGHLIN",
+            "firstName": "ANDREA",
+            "middleInitOrName": "P",
+            "prefix": "CRNA"
+          }
+        ],
+        "referringDoctor": [
+          {
+            "id": "31029505",
+            "lastName": "BRYANT",
+            "firstName": "KIMBERLY",
+            "middleInitOrName": "A",
+            "prefix": "PA"
+          }
+        ],
+        "consultingDoctor": [
+          {
+            "id": "26803002",
+            "lastName": "MONTES",
+            "firstName": "ROY",
+            "middleInitOrName": "S",
+            "prefix": "MD"
+          }
+        ],
+        "hospitalService": "MED",
+        "temporaryLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "622",
+          "bed": "0",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL A"
+          }
+        },
+        "preadmitTestIndicator": "N",
+        "admitSource": "7",
+        "ambulatoryStatus": [
+          "A0"
+        ],
+        "admittingDoctor": [
+          {
+            "id": "90729128",
+            "lastName": "MONTES",
+            "firstName": "JUAN",
+            "middleInitOrName": "Y",
+            "prefix": "MD"
+          }
+        ],
+        "patientType": "U",
+        "visitNumber": {
+          "id": "264696"
+        },
+        "financialClass": {
+          "financialClass": "A23"
+        },
+        "chargePriceIndicator": "R",
+        "courtesyCode": "N",
+        "creditRating": "G",
+        "contractCode": [
+          "44"
+        ],
+        "contractEffectiveDate": [
+          "20150313"
+        ],
+        "contractAmount": [
+          "307.13"
+        ],
+        "contractPeriod": [
+          "7"
+        ],
+        "interestCode": "C",
+        "transferToBadDebtCode": "B"
+      }
+    ],
+    "TXA": [
+      {
+        "setID": "1",
+        "documentType": "PN",
+        "documentContentPresentation": "FT",
+        "activityDateTime": "20161008",
+        "primaryActivityProviderCodeName": {
+          "id": "76203401",
+          "lastName": "HAYS",
+          "firstName": "ROSE",
+          "middleInitOrName": "M",
+          "prefix": "NP"
+        },
+        "originationDateTime": "20161008",
+        "transcriptionDateTime": "20161008",
+        "originatorCodeName": {
+          "id": "76203401",
+          "lastName": "HAYS",
+          "firstName": "ROSE",
+          "middleInitOrName": "M",
+          "prefix": "NP"
+        },
+        "assignedDocumentAuthenticator": [
+          {
+            "id": "76203401",
+            "lastName": "HAYS",
+            "firstName": "ROSE",
+            "middleInitOrName": "M",
+            "prefix": "NP"
+          }
+        ],
+        "uniqueDocumentNumber": {
+          "id": "L1735367622"
+        },
+        "parentDocumentNumber": {
+          "id": "K1196054548"
+        },
+        "uniqueDocumentFileName": "PROGRESS NOTE 20161008",
+        "documentCompletionStatus": "IP",
+        "documentConfidentialityStatus": "U",
+        "documentAvailabilityStatus": "AV",
+        "documentStorageStatus": "AC",
+        "OBX": [
+          {
+            "setId": "1",
+            "valueType": "ED",
+            "identifier": {
+              "id": "8119251761",
+              "text": "CLINICAL SUMMARY"
+            },
+            "subId": "1",
+            "observationValue": [
+              "Q2XPBMLJYWWGC3VTBWFYETOGQMFZZWQGB24GDGHLIGLUZM9YBWF0AW9UIHBYB3ZPZGVKLCB0AGUGCGF0AWVUDCBSAWTLBHKGAGFZIHZPCMFSIHNPBNVZAXRPCYBJB21TB25SESBJYWXSZWQGYSBOZWFKIGNVBGQUDQPEAWFNBM9ZAXM6IFZPCMFSIFNPBNVZAXRPCYANCKRPYWDUB3NPCYBJQ0Q6IEOWMS45MA0KUHJLC2NYAXB0AW9UOIBIZW56B25HDGF0ZSAOVGVZC2FSB24GUGVYBGVZKSAXMDBTZYBVCMFSIHRHYMXLDCAZMCB0YWJSZXRZLCA1IGRHEXMGC3VWCGX5LIBUYWTLIG9UZSB0BYB0D28GDGFIBGV0CYBIESBTB3V0ACB0AHJLZSB0AW1LCYBHIGRHESBHCYBUZWVKZWQUIGRPC3AUIDMWLIBSZWZPBGXZOIAWLCBSZWZPBGWGYXMGBMVLZGVKOIBUBYWGQWXSB3CGC3VIC3RPDHV0AW9UCZOGEWVZ"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

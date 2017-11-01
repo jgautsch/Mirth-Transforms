@@ -1,0 +1,1568 @@
+{
+   "content": {
+      "CTI": [
+         {
+            "sponsorStudyIdentifier": {
+               "id": "",
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "studyPhaseIdentifier": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "studyScheduledTimePoint": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            }
+         }
+      ],
+      "DSC": [
+         {
+            "continuationPointer": ""
+         }
+      ],
+      "MSH": {
+         "acceptAcknowledgmentType": "",
+         "applicationAcknowledgmentType": "",
+         "characterSet": [
+            ""
+         ],
+         "continuationPointer": "",
+         "countryCode": "",
+         "dateTimeOfMessage": "",
+         "encodingCharacters": "",
+         "fieldSeparator": "",
+         "messageControlID": "",
+         "messageType": {
+            "messageType": "",
+            "triggerEvent": ""
+         },
+         "principalLanguageOfMessage": {
+            "altCodingSystem": "",
+            "altId": "",
+            "altText": "",
+            "codingSystem": "",
+            "id": "",
+            "text": ""
+         },
+         "processingID": {
+            "processingID": "",
+            "processingMode": ""
+         },
+         "receivingApplication": {
+            "namespaceId": "",
+            "universalId": "",
+            "universalIdType": ""
+         },
+         "receivingFacility": {
+            "namespaceId": "",
+            "universalId": "",
+            "universalIdType": ""
+         },
+         "security": "",
+         "sendingApplication": {
+            "namespaceId": "",
+            "universalId": "",
+            "universalIdType": ""
+         },
+         "sendingFacility": {
+            "namespaceId": "",
+            "universalId": "",
+            "universalIdType": ""
+         },
+         "sequenceNumber": "",
+         "versionID": ""
+      },
+      "ORC": [
+         {
+            "CTI": [
+               {
+                  "sponsorStudyIdentifier": {
+                     "id": "",
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "studyPhaseIdentifier": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "studyScheduledTimePoint": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  }
+               }
+            ],
+            "NTE": [
+               {
+                  "comment": [
+                     ""
+                  ],
+                  "setId": "",
+                  "sourceOfComment": ""
+               }
+            ],
+            "OBR": [
+               {
+                  "NTE": [
+                     {
+                        "comment": [
+                           ""
+                        ],
+                        "setId": "",
+                        "sourceOfComment": ""
+                     }
+                  ],
+                  "OBX": [
+                     {
+                        "NTE": [
+                           {
+                              "comment": [
+                                 ""
+                              ],
+                              "setId": "",
+                              "sourceOfComment": ""
+                           }
+                        ],
+                        "abnormalFlag": [
+                           ""
+                        ],
+                        "definedAccessChecks": "",
+                        "effectiveDateLastNormalValue": "",
+                        "identifier": {
+                           "altCodingSystem": "",
+                           "altId": "",
+                           "altText": "",
+                           "codingSystem": "",
+                           "id": "",
+                           "text": ""
+                        },
+                        "natureOfAbnormal": [
+                           ""
+                        ],
+                        "observationDateTime": "",
+                        "observationMethod": [
+                           {
+                              "altCodingSystem": "",
+                              "altId": "",
+                              "altText": "",
+                              "codingSystem": "",
+                              "id": "",
+                              "text": ""
+                           }
+                        ],
+                        "observationValue": [
+                           ""
+                        ],
+                        "observeResultStatus": "",
+                        "probability": "",
+                        "producersId": {
+                           "altCodingSystem": "",
+                           "altId": "",
+                           "altText": "",
+                           "codingSystem": "",
+                           "id": "",
+                           "text": ""
+                        },
+                        "referenceRange": "",
+                        "responsibleObserver": {
+                           "assigningAuthority": {
+                              "id": "",
+                              "universalId": "",
+                              "universalIdType": ""
+                           },
+                           "assigningFacility": {
+                              "id": "",
+                              "universalId": "",
+                              "universalIdType": ""
+                           },
+                           "codeIdentifyingCheckDigitScheme": "",
+                           "degree": "",
+                           "firstName": "",
+                           "id": "",
+                           "identifierCheckDigit": "",
+                           "identifierTypeCode": "",
+                           "lastName": "",
+                           "middleInitOrName": "",
+                           "nameTypeCode": "",
+                           "prefix": "",
+                           "sourceTable": "",
+                           "suffix": ""
+                        },
+                        "setId": "",
+                        "subId": "",
+                        "units": {
+                           "altCodingSystem": "",
+                           "altId": "",
+                           "altText": "",
+                           "codingSystem": "",
+                           "id": "",
+                           "text": ""
+                        },
+                        "valueType": ""
+                     }
+                  ],
+                  "assistantResultInterpreter": [
+                     {
+                        "bed": "",
+                        "building": "",
+                        "endDateTime": "",
+                        "facility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "floor": "",
+                        "locationStatus": "",
+                        "name": {
+                           "assigningAuthority": {
+                              "id": "",
+                              "universalId": "",
+                              "universalIdType": ""
+                           },
+                           "degree": "",
+                           "firstName": "",
+                           "id": "",
+                           "lastName": "",
+                           "middleInitOrName": "",
+                           "prefix": "",
+                           "sourceTable": "",
+                           "suffix": ""
+                        },
+                        "patientLocationType": "",
+                        "pointOfCare": "",
+                        "room": "",
+                        "startDateTime": ""
+                     }
+                  ],
+                  "chargeToPractice": {
+                     "chargeCode": {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     },
+                     "dollarAmount": {
+                        "denomination": "",
+                        "quantity": ""
+                     }
+                  },
+                  "collectionVolume": {
+                     "quantity": "",
+                     "units": ""
+                  },
+                  "collectorIdentifier": [
+                     {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "identifierCheckDigit": "",
+                        "identifierTypeCode": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "collectorsComment": [
+                     {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     }
+                  ],
+                  "dangerCode": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "diagnosticServSectID": "",
+                  "escortRequired": "",
+                  "fillerField1": "",
+                  "fillerField2": "",
+                  "fillerOrderNumber": {
+                     "id": "",
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "numberOfSampleContainers": "",
+                  "observationDateTime": "",
+                  "observationEndDateTime": "",
+                  "orderCallbackPhoneNumber": [
+                     {
+                        "areaCityCode": "",
+                        "countryCode": "",
+                        "emailAddress": "",
+                        "extension": "",
+                        "number": "",
+                        "phoneNumber": "",
+                        "telecommunicationEquipmentType": "",
+                        "telecommunicationUseCode": "",
+                        "text": ""
+                     }
+                  ],
+                  "orderingProvider": [
+                     {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "identifierCheckDigit": "",
+                        "identifierTypeCode": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "parent": {
+                     "parentsFillerOrderNumber": {
+                        "id": "",
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "parentsPlacerOrderNumber": {
+                        "id": "",
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     }
+                  },
+                  "parentResult": {
+                     "obx3observationIdentifierOfParentResult": {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     },
+                     "obx4subIdOfParentResult": "",
+                     "obx5partOfObservationResultFromParent": ""
+                  },
+                  "placerOrderNumber": {
+                     "id": "",
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "placerfield1": "",
+                  "placerfield2": "",
+                  "plannedPatientTransportComment": [
+                     {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     }
+                  ],
+                  "principalResultInterpreter": {
+                     "bed": "",
+                     "building": "",
+                     "endDateTime": "",
+                     "facility": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "floor": "",
+                     "locationStatus": "",
+                     "name": {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     },
+                     "patientLocationType": "",
+                     "pointOfCare": "",
+                     "room": "",
+                     "startDateTime": ""
+                  },
+                  "priority": "",
+                  "quantityTiming": [
+                     {
+                        "condition": "",
+                        "conjunction": "",
+                        "duration": "",
+                        "endDateTime": "",
+                        "interval": "",
+                        "orderSequencing": "",
+                        "priority": "",
+                        "quantity": "",
+                        "startDateTime": "",
+                        "text": ""
+                     }
+                  ],
+                  "reasonForStudy": [
+                     {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     }
+                  ],
+                  "relevantClinicalInfo": "",
+                  "requestedDatetime": "",
+                  "resultCopiesTo": [
+                     {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "identifierCheckDigit": "",
+                        "identifierTypeCode": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     }
+                  ],
+                  "resultStatus": "",
+                  "resultsRptStatusChngDateTime": "",
+                  "scheduledDateTime": "",
+                  "setId": "",
+                  "specimenActionCode": "",
+                  "specimenReceivedDateTime": "",
+                  "specimenSource": {
+                     "additives": "",
+                     "bodySite": {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     },
+                     "collectionMethod": {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     },
+                     "freetext": "",
+                     "siteModifier": {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     },
+                     "specimenSourceNameOrCode": {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     }
+                  },
+                  "technician": [
+                     {
+                        "bed": "",
+                        "building": "",
+                        "endDateTime": "",
+                        "facility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "floor": "",
+                        "locationStatus": "",
+                        "name": {
+                           "assigningAuthority": {
+                              "id": "",
+                              "universalId": "",
+                              "universalIdType": ""
+                           },
+                           "degree": "",
+                           "firstName": "",
+                           "id": "",
+                           "lastName": "",
+                           "middleInitOrName": "",
+                           "prefix": "",
+                           "sourceTable": "",
+                           "suffix": ""
+                        },
+                        "patientLocationType": "",
+                        "pointOfCare": "",
+                        "room": "",
+                        "startDateTime": ""
+                     }
+                  ],
+                  "transcriptionist": [
+                     {
+                        "bed": "",
+                        "building": "",
+                        "endDateTime": "",
+                        "facility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "floor": "",
+                        "locationStatus": "",
+                        "name": {
+                           "assigningAuthority": {
+                              "id": "",
+                              "universalId": "",
+                              "universalIdType": ""
+                           },
+                           "degree": "",
+                           "firstName": "",
+                           "id": "",
+                           "lastName": "",
+                           "middleInitOrName": "",
+                           "prefix": "",
+                           "sourceTable": "",
+                           "suffix": ""
+                        },
+                        "patientLocationType": "",
+                        "pointOfCare": "",
+                        "room": "",
+                        "startDateTime": ""
+                     }
+                  ],
+                  "transportArranged": "",
+                  "transportArrangementResponsibility": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  },
+                  "transportLogisticsOfCollectedSample": [
+                     {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     }
+                  ],
+                  "transportationMode": "",
+                  "universalServiceID": {
+                     "altCodingSystem": "",
+                     "altId": "",
+                     "altText": "",
+                     "codingSystem": "",
+                     "id": "",
+                     "text": ""
+                  }
+               }
+            ],
+            "actionBy": {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            },
+            "callBackPhoneNumber": [
+               {
+                  "areaCityCode": "",
+                  "countryCode": "",
+                  "emailAddress": "",
+                  "extension": "",
+                  "number": "",
+                  "phoneNumber": "",
+                  "telecommunicationEquipmentType": "",
+                  "telecommunicationUseCode": "",
+                  "text": ""
+               }
+            ],
+            "enteredBy": {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            },
+            "enterersLocation": {
+               "bed": "",
+               "building": "",
+               "facility": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "floor": "",
+               "locationDescription": "",
+               "locationStatus": "",
+               "personLocationType": "",
+               "pointOfCare": "",
+               "room": ""
+            },
+            "enteringDevice": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "enteringOrganization": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "fillerOrderNumber": {
+               "id": "",
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "orderControl": "",
+            "orderControlCodeReason": {
+               "altCodingSystem": "",
+               "altId": "",
+               "altText": "",
+               "codingSystem": "",
+               "id": "",
+               "text": ""
+            },
+            "orderEffectiveDateTime": "",
+            "orderStatus": "",
+            "orderingProvider": {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            },
+            "parentOrder": {
+               "fillerOrderNumber": {
+                  "id": "",
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "placerOrderNumber": {
+                  "id": "",
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               }
+            },
+            "placerGroupNumber": {
+               "id": "",
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "placerOrderNumber": {
+               "id": "",
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "responseFlag": "",
+            "timingQuantity": {
+               "condition": "",
+               "conjunction": "",
+               "duration": "",
+               "endDateTime": "",
+               "interval": "",
+               "orderSequencing": "",
+               "priority": "",
+               "quantity": "",
+               "startDateTime": "",
+               "text": ""
+            },
+            "transactionDateTime": "",
+            "verifiedBy": {
+               "assigningAuthority": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "id": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "degree": "",
+               "firstName": "",
+               "id": "",
+               "identifierCheckDigit": "",
+               "identifierTypeCode": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "sourceTable": "",
+               "suffix": ""
+            }
+         }
+      ],
+      "PID for ORM and ORU": {
+         "NTE": [
+            {
+               "comment": [
+                  ""
+               ],
+               "setId": "",
+               "sourceOfComment": ""
+            }
+         ],
+         "PD1": [
+            {
+               "duplicatePatient": [
+                  {
+                     "assigningAuthority": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "id": "",
+                     "idTypeCode": "",
+                     "identifierCheckDigit": ""
+                  }
+               ],
+               "handicap": "",
+               "livingArrangement": "",
+               "livingDependency": [
+                  ""
+               ],
+               "livingWillCode": "",
+               "organDonorCode": "",
+               "patientPrimaryFacility": [
+                  {
+                     "assigningAuthority": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "namespaceId": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "idNumber": "",
+                     "idTypeCode": "",
+                     "identifierCheckDigit": "",
+                     "organizationName": "",
+                     "organizationNameTypeCode": ""
+                  }
+               ],
+               "primaryCareProvider": [
+                  {
+                     "assigningAuthority": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "degree": "",
+                     "firstName": "",
+                     "id": "",
+                     "identifierCheckDigit": "",
+                     "identifierTypeCode": "",
+                     "lastName": "",
+                     "middleInitOrName": "",
+                     "nameTypeCode": "",
+                     "prefix": "",
+                     "sourceTable": "",
+                     "suffix": ""
+                  }
+               ],
+               "protectionIndicator": "",
+               "publicityIndicator": {
+                  "altCodingSystem": "",
+                  "altId": "",
+                  "altText": "",
+                  "codingSystem": "",
+                  "id": "",
+                  "text": ""
+               },
+               "separateBill": "",
+               "studentIndicator": ""
+            }
+         ],
+         "PV1": [
+            {
+               "PV2": [
+                  {
+                     "accommodationCode": {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     },
+                     "actualLengthInpatientStay": "",
+                     "admitReason": {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     },
+                     "babyDetainedIndicator": "",
+                     "billingMediaCode": "",
+                     "clinicOrganizationName": [
+                        {
+                           "assigningAuthority": {
+                              "namespaceId": "",
+                              "universalId": "",
+                              "universalIdType": ""
+                           },
+                           "assigningFacility": {
+                              "namespaceId": "",
+                              "universalId": "",
+                              "universalIdType": ""
+                           },
+                           "codeIdentifyingCheckDigitScheme": "",
+                           "idNumber": "",
+                           "idTypeCode": "",
+                           "identifierCheckDigit": "",
+                           "organizationName": "",
+                           "organizationNameTypeCode": ""
+                        }
+                     ],
+                     "employmentIllnessRelatedIndicator": "",
+                     "estimatedLengthInpatientStay": "",
+                     "expectedAdmitDateTime": "",
+                     "expectedDischargeDateTime": "",
+                     "expectedDischargeDisposition": "",
+                     "expectedNumInsurancePlans": "",
+                     "expectedSurgeryDateTime": "",
+                     "firstSimilarIllnessDate": "",
+                     "militaryNonAvailabilityCode": "",
+                     "militaryPartnershipCode": "",
+                     "newbornBabyIndicator": "",
+                     "patientChargeAdjustmentCode": "",
+                     "patientStatusCode": "",
+                     "patientValuables": [
+                        ""
+                     ],
+                     "patientValuablesLocation": "",
+                     "previousServiceDate": "",
+                     "previousTreatmentDate": "",
+                     "priorPendingLocation": {
+                        "bed": "",
+                        "building": "",
+                        "facility": {
+                           "namespaceId": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "floor": "",
+                        "locationDescription": "",
+                        "locationStatus": "",
+                        "personLocationType": "",
+                        "pointOfCare": "",
+                        "room": ""
+                     },
+                     "purgeStatusCode": "",
+                     "purgeStatusDate": "",
+                     "recurringServiceCode": "",
+                     "referralSourceCode": {
+                        "assigningAuthority": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "assigningFacility": {
+                           "id": "",
+                           "universalId": "",
+                           "universalIdType": ""
+                        },
+                        "codeIdentifyingCheckDigitScheme": "",
+                        "degree": "",
+                        "firstName": "",
+                        "id": "",
+                        "identifierCheckDigit": "",
+                        "identifierTypeCode": "",
+                        "lastName": "",
+                        "middleInitOrName": "",
+                        "nameTypeCode": "",
+                        "prefix": "",
+                        "sourceTable": "",
+                        "suffix": ""
+                     },
+                     "retentionIndicator": "",
+                     "signatureOnFileDate": "",
+                     "specialProgramCode": "",
+                     "transferReason": {
+                        "altCodingSystem": "",
+                        "altId": "",
+                        "altText": "",
+                        "codingSystem": "",
+                        "id": "",
+                        "text": ""
+                     },
+                     "visitDescription": "",
+                     "visitPriorityCode": "",
+                     "visitProtectionIndicator": "",
+                     "visitPublicityCode": "",
+                     "visitUserCode": ""
+                  }
+               ],
+               "accountStatus": "",
+               "admissionType": "",
+               "admitDateTime": "",
+               "admitSource": "",
+               "admittingDoctor": [
+                  {
+                     "assigningAuthority": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "degree": "",
+                     "firstName": "",
+                     "id": "",
+                     "identifierCheckDigit": "",
+                     "identifierTypeCode": "",
+                     "lastName": "",
+                     "middleInitOrName": "",
+                     "nameTypeCode": "",
+                     "prefix": "",
+                     "sourceTable": "",
+                     "suffix": ""
+                  }
+               ],
+               "alternateVisitID": {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               },
+               "ambulatoryStatus": [
+                  ""
+               ],
+               "assignedPatientLocation": {
+                  "bed": "",
+                  "building": "",
+                  "facility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "floor": "",
+                  "locationDescription": "",
+                  "locationStatus": "",
+                  "personLocationType": "",
+                  "pointOfCare": "",
+                  "room": ""
+               },
+               "attendingDoctor": [
+                  {
+                     "assigningAuthority": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "degree": "",
+                     "firstName": "",
+                     "id": "",
+                     "identifierCheckDigit": "",
+                     "identifierTypeCode": "",
+                     "lastName": "",
+                     "middleInitOrName": "",
+                     "nameTypeCode": "",
+                     "prefix": "",
+                     "sourceTable": "",
+                     "suffix": ""
+                  }
+               ],
+               "badDebtAgencyCode": "",
+               "badDebtRecoveryAmount": "",
+               "badDebtTransferAmount": "",
+               "bedStatus": "",
+               "chargePriceIndicator": "",
+               "consultingDoctor": [
+                  {
+                     "assigningAuthority": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "degree": "",
+                     "firstName": "",
+                     "id": "",
+                     "identifierCheckDigit": "",
+                     "identifierTypeCode": "",
+                     "lastName": "",
+                     "middleInitOrName": "",
+                     "nameTypeCode": "",
+                     "prefix": "",
+                     "sourceTable": "",
+                     "suffix": ""
+                  }
+               ],
+               "contractAmount": [
+                  ""
+               ],
+               "contractCode": [
+                  ""
+               ],
+               "contractEffectiveDate": [
+                  ""
+               ],
+               "contractPeriod": [
+                  ""
+               ],
+               "courtesyCode": "",
+               "creditRating": "",
+               "currentPatientBalance": "",
+               "deleteAccountDate": "",
+               "deleteAccountIndicator": "",
+               "dietType": "",
+               "dischargeDateTime": "",
+               "dischargeDisposition": "",
+               "dischargedtoLocation": {
+                  "dischargeLocation": "",
+                  "effectiveDate": ""
+               },
+               "financialClass": [
+                  {
+                     "effectiveDate": "",
+                     "financialClass": ""
+                  }
+               ],
+               "hospitalService": "",
+               "interestCode": "",
+               "otherHealthcareProvider": {
+                  "assigningAuthority": {
+                     "id": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "id": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "degree": "",
+                  "firstName": "",
+                  "id": "",
+                  "identifierCheckDigit": "",
+                  "identifierTypeCode": "",
+                  "lastName": "",
+                  "middleInitOrName": "",
+                  "nameTypeCode": "",
+                  "prefix": "",
+                  "sourceTable": "",
+                  "suffix": ""
+               },
+               "patientClass": "",
+               "patientType": "",
+               "pendingLocation": {
+                  "bed": "",
+                  "building": "",
+                  "facility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "floor": "",
+                  "locationDescription": "",
+                  "locationStatus": "",
+                  "personLocationType": "",
+                  "pointOfCare": "",
+                  "room": ""
+               },
+               "preadmitNumber": {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               },
+               "preadmitTestIndicator": "",
+               "priorPatientLocation": {
+                  "bed": "",
+                  "building": "",
+                  "facility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "floor": "",
+                  "locationDescription": "",
+                  "locationStatus": "",
+                  "personLocationType": "",
+                  "pointOfCare": "",
+                  "room": ""
+               },
+               "priorTemporaryLocation": {
+                  "bed": "",
+                  "building": "",
+                  "facility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "floor": "",
+                  "locationDescription": "",
+                  "locationStatus": "",
+                  "personLocationType": "",
+                  "pointOfCare": "",
+                  "room": ""
+               },
+               "readmissionIndicator": "",
+               "referringDoctor": [
+                  {
+                     "assigningAuthority": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "assigningFacility": {
+                        "id": "",
+                        "universalId": "",
+                        "universalIdType": ""
+                     },
+                     "codeIdentifyingCheckDigitScheme": "",
+                     "degree": "",
+                     "firstName": "",
+                     "id": "",
+                     "identifierCheckDigit": "",
+                     "identifierTypeCode": "",
+                     "lastName": "",
+                     "middleInitOrName": "",
+                     "nameTypeCode": "",
+                     "prefix": "",
+                     "sourceTable": "",
+                     "suffix": ""
+                  }
+               ],
+               "servicingFacility": "",
+               "setId": "",
+               "temporaryLocation": {
+                  "bed": "",
+                  "building": "",
+                  "facility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "floor": "",
+                  "locationDescription": "",
+                  "locationStatus": "",
+                  "personLocationType": "",
+                  "pointOfCare": "",
+                  "room": ""
+               },
+               "totalAdjustments": "",
+               "totalCharges": "",
+               "totalPayments": "",
+               "transferToBadDebtCode": "",
+               "transferToBadDebtDate": "",
+               "vipIndicator": "",
+               "visitIndicator": "",
+               "visitNumber": {
+                  "assigningAuthority": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "assigningFacility": {
+                     "namespaceId": "",
+                     "universalId": "",
+                     "universalIdType": ""
+                  },
+                  "codeIdentifyingCheckDigitScheme": "",
+                  "id": "",
+                  "idTypeCode": "",
+                  "identifierCheckDigit": ""
+               }
+            }
+         ],
+         "address": [
+            {
+               "addressType": "",
+               "censusTract": "",
+               "city": "",
+               "country": "",
+               "countyOrParishCode": "",
+               "otherDesignation": "",
+               "otherGeographicDesignation": "",
+               "stateOrProvince": "",
+               "streetAddress": "",
+               "zip": ""
+            }
+         ],
+         "alias": [
+            {
+               "degree": "",
+               "firstName": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "suffix": ""
+            }
+         ],
+         "alternateId": [
+            {
+               "assigningAuthority": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "id": "",
+               "idTypeCode": "",
+               "identifierCheckDigit": ""
+            }
+         ],
+         "birthOrder": "",
+         "birthPlace": "",
+         "businessPhone": [
+            {
+               "areaCityCode": "",
+               "countryCode": "",
+               "emailAddress": "",
+               "extension": "",
+               "number": "",
+               "phoneNumber": "",
+               "telecommunicationEquipmentType": "",
+               "telecommunicationUseCode": "",
+               "text": ""
+            }
+         ],
+         "citizenship": [
+            ""
+         ],
+         "countyCode": "",
+         "dateTimeBirth": "",
+         "deathDateTime": "",
+         "deathIndicator": "",
+         "driversLicenseNumber": {
+            "expirationDate": "",
+            "issuingStateProvinceCountry": "",
+            "licenseNumber": ""
+         },
+         "ethnicGroup": "",
+         "externalId": {
+            "assigningAuthority": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "assigningFacility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "codeIdentifyingCheckDigitScheme": "",
+            "id": "",
+            "idTypeCode": "",
+            "identifierCheckDigit": ""
+         },
+         "homePhone": [
+            {
+               "areaCityCode": "",
+               "countryCode": "",
+               "emailAddress": "",
+               "extension": "",
+               "number": "",
+               "phoneNumber": "",
+               "telecommunicationEquipmentType": "",
+               "telecommunicationUseCode": "",
+               "text": ""
+            }
+         ],
+         "internalId": [
+            {
+               "assigningAuthority": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "id": "",
+               "idTypeCode": "",
+               "identifierCheckDigit": ""
+            }
+         ],
+         "maritalStatus": "",
+         "mothersId": [
+            {
+               "assigningAuthority": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "assigningFacility": {
+                  "namespaceId": "",
+                  "universalId": "",
+                  "universalIdType": ""
+               },
+               "codeIdentifyingCheckDigitScheme": "",
+               "id": "",
+               "idTypeCode": "",
+               "identifierCheckDigit": ""
+            }
+         ],
+         "mothersMaidenName": {
+            "degree": "",
+            "firstName": "",
+            "lastName": "",
+            "middleInitOrName": "",
+            "nameTypeCode": "",
+            "prefix": "",
+            "suffix": ""
+         },
+         "multipleBirthIndicator": "",
+         "nationality": {
+            "altCodingSystem": "",
+            "altId": "",
+            "altText": "",
+            "codingSystem": "",
+            "id": "",
+            "text": ""
+         },
+         "patientAccountNumber": {
+            "assigningAuthority": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "assigningFacility": {
+               "namespaceId": "",
+               "universalId": "",
+               "universalIdType": ""
+            },
+            "codeIdentifyingCheckDigitScheme": "",
+            "id": "",
+            "idTypeCode": "",
+            "identifierCheckDigit": ""
+         },
+         "patientName": [
+            {
+               "degree": "",
+               "firstName": "",
+               "lastName": "",
+               "middleInitOrName": "",
+               "nameTypeCode": "",
+               "prefix": "",
+               "suffix": ""
+            }
+         ],
+         "primaryLanguage": {
+            "altCodingSystem": "",
+            "altId": "",
+            "altText": "",
+            "codingSystem": "",
+            "id": "",
+            "text": ""
+         },
+         "race": "",
+         "religion": "",
+         "setId": "",
+         "sex": "",
+         "ssn": "",
+         "veteranStatus": {
+            "altCodingSystem": "",
+            "altId": "",
+            "altText": "",
+            "codingSystem": "",
+            "id": "",
+            "text": ""
+         }
+      }
+   }
+}

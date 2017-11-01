@@ -1,0 +1,663 @@
+{
+  "message_type": "ORM",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA HOSPITAL",
+        "universalIdType": "12345"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "ORM",
+        "triggerEvent": "O01"
+      },
+      "messageControlID": "2052624",
+      "processingID": {
+        "processingID": "T"
+      },
+      "versionID": "2.3"
+    },
+    "NTE": [
+      {
+        "setId": "1",
+        "sourceOfComment": "TX",
+        "comment": [
+          "SOME NOTES ABOUT THE PATIENT GO HERE."
+        ]
+      }
+    ],
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "2063344"
+        },
+        "internalId": [
+          {
+            "id": "46935667"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "4515703"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "MELENDEZ",
+            "firstName": "JULIE"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "MORRIS"
+        },
+        "dateTimeBirth": "19531017",
+        "sex": "F",
+        "alias": [
+          {
+            "lastName": "BOOMER"
+          }
+        ],
+        "race": "U",
+        "address": [
+          {
+            "streetAddress": "2130 MAPLE WAY",
+            "otherDesignation": "MADISON",
+            "city": "MN",
+            "stateOrProvince": "91130"
+          }
+        ],
+        "countyCode": "91130",
+        "homePhone": [
+          {
+            "number": "8238532116"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8379569530"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "JA"
+        },
+        "maritalStatus": "Y",
+        "religion": "SAA",
+        "patientAccountNumber": {
+          "id": "465544"
+        },
+        "ssn": "978622241",
+        "driversLicenseNumber": {
+          "licenseNumber": "S452706482670939"
+        },
+        "ethnicGroup": "N",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "Y",
+        "birthOrder": "5",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N",
+        "PD1": [
+          {
+            "livingDependency": [
+              "W"
+            ],
+            "livingArrangement": "F",
+            "patientPrimaryFacility": [
+              {
+                "organizationName": "DATICA HOSPITAL",
+                "idNumber": "12345",
+                "assigningAuthority": {
+                  "namespaceId": "DATICA HEALTHCARE"
+                }
+              }
+            ],
+            "primaryCareProvider": [
+              {
+                "id": "84257520",
+                "lastName": "HOUSTON",
+                "firstName": "RANDY",
+                "middleInitOrName": "E",
+                "prefix": "CRNA"
+              }
+            ],
+            "studentIndicator": "F",
+            "livingWillCode": "N",
+            "organDonorCode": "Y",
+            "separateBill": "Y",
+            "universalServiceID": {
+              "id": "N"
+            },
+            "protectionIndicator": "Y"
+          }
+        ],
+        "NTE": [
+          {
+            "setId": "2",
+            "sourceOfComment": "TX",
+            "comment": [
+              "I LIKED THE OLD PAPER CHARTS BETTER"
+            ]
+          }
+        ],
+        "PV1": [
+          {
+            "setId": "1",
+            "patientClass": "R",
+            "assignedPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "926",
+              "bed": "0",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "admissionType": "E",
+            "preadmitNumber": {
+              "id": "207949"
+            },
+            "priorPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "52",
+              "bed": "3",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL B"
+              }
+            },
+            "attendingDoctor": [
+              {
+                "id": "99964434",
+                "lastName": "JENKINS",
+                "firstName": "JANET",
+                "middleInitOrName": "L",
+                "prefix": "CRNA"
+              }
+            ],
+            "referringDoctor": [
+              {
+                "id": "62466018",
+                "lastName": "LYNN",
+                "firstName": "THOMAS",
+                "middleInitOrName": "J",
+                "prefix": "NP"
+              }
+            ],
+            "consultingDoctor": [
+              {
+                "id": "22038729",
+                "lastName": "HANEY",
+                "firstName": "ALEXANDER",
+                "middleInitOrName": "Z",
+                "prefix": "RN"
+              }
+            ],
+            "hospitalService": "URO",
+            "temporaryLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "562",
+              "bed": "3",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "preadmitTestIndicator": "N",
+            "admitSource": "2",
+            "ambulatoryStatus": [
+              "B5"
+            ],
+            "admittingDoctor": [
+              {
+                "id": "47058943",
+                "lastName": "RUIZ",
+                "firstName": "BOBBY",
+                "middleInitOrName": "T",
+                "prefix": "PA"
+              }
+            ],
+            "patientType": "U",
+            "visitNumber": {
+              "id": "523681"
+            },
+            "financialClass": {
+              "financialClass": "A23"
+            },
+            "chargePriceIndicator": "R",
+            "courtesyCode": "N",
+            "creditRating": "G",
+            "contractCode": [
+              "44"
+            ],
+            "contractEffectiveDate": [
+              "20151213"
+            ],
+            "contractAmount": [
+              "857.22"
+            ],
+            "contractPeriod": [
+              "8"
+            ],
+            "interestCode": "C",
+            "transferToBadDebtCode": "B",
+            "PV2": [
+              {
+                "priorPendingLocation": {
+                  "pointOfCare": "XXPOC",
+                  "room": "416",
+                  "bed": "0",
+                  "facility": {
+                    "nameSpaceId": "DATICA HOSPITAL D"
+                  }
+                },
+                "accommodationCode": {
+                  "id": "ZD"
+                },
+                "admitReason": {
+                  "id": "S82.9",
+                  "text": "UNSPECIFIED FRACTURE OF LOWER LEG",
+                  "codingSystem": "ICD-10"
+                },
+                "patientValuables": [
+                  "WATCH"
+                ],
+                "patientValuablesLocation": "FRONTDESK A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "IN1": [
+      {
+        "setId": "1",
+        "planId": {
+          "id": "W78907609"
+        },
+        "companyId": [
+          {
+            "id": "1874718"
+          }
+        ],
+        "companyName": [
+          {
+            "organizationName": "DATICA INSURANCE CO"
+          }
+        ],
+        "companyAddress": [
+          {
+            "streetAddress": "1748 ASH TER",
+            "otherDesignation": "MADISON",
+            "city": "HI",
+            "stateOrProvince": "93493"
+          }
+        ],
+        "companyPhoneNumber": [
+          {
+            "number": "8777454652"
+          }
+        ],
+        "groupNumber": "264648",
+        "groupName": [
+          {
+            "organizationName": "INSURANCE GROUP Q"
+          }
+        ],
+        "groupEmpId": [
+          {
+            "id": "572435640"
+          }
+        ],
+        "groupEmpName": [
+          {
+            "organizationName": "THE HUMAN FUND"
+          }
+        ],
+        "planEffectiveDate": "20161025",
+        "planExpirationDate": "20191126",
+        "authorizationInformation": {
+          "authorizationNumber": "A80856480804"
+        },
+        "planType": "EPO",
+        "companyContactPerson": [
+          {
+            "lastName": "MELENDEZ",
+            "firstName": "JULIE",
+            "middleInitOrName": "P"
+          }
+        ],
+        "insuredRelationshipToPatient": "SELF",
+        "insuredDob": "19531017",
+        "insuredAddress": [
+          {
+            "streetAddress": "2130 MAPLE WAY",
+            "otherDesignation": "MADISON",
+            "city": "MN",
+            "stateOrProvince": "91130"
+          }
+        ],
+        "assignmentOfBenefits": "Y",
+        "coordinationOfBenefits": "IN",
+        "coordinationOfBenefitsPriority": "1",
+        "noticeOfAdmissionFlag": "N",
+        "reportOfEligibilityFlag": "N",
+        "releaseInformationCode": "N",
+        "verificationDateTime": "20160808",
+        "typeOfAgreementCode": "S",
+        "policyNumber": "I39174176",
+        "policyDeductible": {
+          "price": {
+            "quantity": "1000"
+          }
+        },
+        "insuredEmploymentStatus": {
+          "id": "O"
+        },
+        "insuredSex": "F",
+        "insuredEmployerAddress": [
+          {
+            "streetAddress": "6401 MAPLE DR",
+            "otherDesignation": "MADISON",
+            "city": "NM",
+            "stateOrProvince": "90206"
+          }
+        ],
+        "priorInsurancePlanId": "A79887607",
+        "coverageType": "B",
+        "insuredIdNumber": [
+          {
+            "id": "2063344"
+          }
+        ],
+        "IN2": [
+          {
+            "insuredEmployeeId": [
+              {
+                "id": "1558349"
+              }
+            ],
+            "insuredSSN": "978622241",
+            "insuredEmployerName": [
+              {
+                "id": "THE HUMAN FUND"
+              }
+            ],
+            "mailClaimParty": [
+              "P"
+            ],
+            "babyCoverage": "N",
+            "combineBabyBill": "N",
+            "payorId": [
+              {
+                "id": "1874718"
+              }
+            ],
+            "payorSubscriberId": [
+              {
+                "id": "I39174176"
+              }
+            ],
+            "eligibilitySource": "1",
+            "dailyDeductible": {
+              "delayDays": "3",
+              "amount": "1000",
+              "numberOfDays": "79"
+            },
+            "livingDependency": "U",
+            "ambulatoryStatus": "B5",
+            "citizenship": "US",
+            "primaryLanguage": {
+              "id": "JA"
+            },
+            "livingArrangement": "F",
+            "publicityIndicator": {
+              "id": "N"
+            },
+            "protectionIndicator": "Y",
+            "studentIndicator": "F",
+            "religion": "SAA",
+            "motherMaidenName": {
+              "lastName": "MORRIS"
+            },
+            "nationality": {
+              "id": "USA"
+            },
+            "ethnicGroup": "N",
+            "maritalStatus": [
+              "Y"
+            ],
+            "insuredEmploymentStartDate": "20150510",
+            "jobTitle": "PAINTER",
+            "jobStatus": "O",
+            "patientMemberNumber": [
+              {
+                "id": "I39174176"
+              }
+            ],
+            "guarantorRelationshipToInsured": "SEL",
+            "insuredHomePhone": [
+              {
+                "number": "8238532116"
+              }
+            ],
+            "insuredEmployerPhone": [
+              {
+                "number": "8379569530"
+              }
+            ],
+            "suspendFlag": "Y",
+            "copayLimitFlag": "N",
+            "stoplossLimitFlag": "N",
+            "race": "U",
+            "hcfaPatientRelationshipToInsured": {
+              "id": "SEL"
+            }
+          }
+        ]
+      }
+    ],
+    "GT1": [
+      {
+        "setId": "1",
+        "guarantorNumber": [
+          {
+            "id": "50431049"
+          }
+        ],
+        "guarantorName": [
+          {
+            "lastName": "MORTON",
+            "firstName": "TYLER",
+            "middleInitOrName": "J"
+          }
+        ],
+        "guarantorAddress": [
+          {
+            "streetAddress": "7812 ASH WAY",
+            "otherDesignation": "MADISON",
+            "city": "ND",
+            "stateOrProvince": "95404"
+          }
+        ],
+        "guarantorPhNumHome": [
+          {
+            "number": "8978535919"
+          }
+        ],
+        "guarantorPhNumBusiness": [
+          {
+            "number": "8795044212"
+          }
+        ],
+        "guarantorDatetimeOfBirth": "19390515",
+        "guarantorSex": "M",
+        "guarantorSSN": "943953741",
+        "guarantorDateBegin": "20120508",
+        "guarantorPriority": "1",
+        "guarantorEmployeeIDNumber": [
+          {
+            "id": "816966"
+          }
+        ],
+        "guarantorEmploymentStatus": "O",
+        "guarantorBillingHoldFlag": "N",
+        "guarantorDeathFlag": "N",
+        "guarantorEmployerIDNumber": [
+          {
+            "id": "3395885331"
+          }
+        ],
+        "guarantorMaritalStatusCode": "Y",
+        "primaryLanguage": {
+          "id": "FA"
+        },
+        "livingArrangement": "F",
+        "protectionIndicator": "N",
+        "studentIndicator": "F",
+        "religion": "MOT",
+        "mothersMaidenName": {
+          "lastName": "WILCOX"
+        },
+        "nationality": {
+          "id": "USA"
+        },
+        "ethnicGroup": "H",
+        "jobTitle": "CEO",
+        "jobStatus": "O",
+        "guarantorRace": "O"
+      }
+    ],
+    "AL1": [
+      {
+        "setId": "1",
+        "allergyType": "DA",
+        "allergyCodeMnemonicDescription": {
+          "id": "F827476967",
+          "text": "UMECLIDINIUM",
+          "altId": "FROM ANORO ELLIPTA"
+        },
+        "allergySeverity": "SV",
+        "allergyReaction": "RASH",
+        "identificationDate": "20140710"
+      }
+    ],
+    "ORC": [
+      {
+        "orderControl": "RE",
+        "placerOrderNumber": {
+          "id": "76648232"
+        },
+        "fillerOrderNumber": {
+          "id": "76648232"
+        },
+        "placerGroupNumber": {
+          "id": "76648232"
+        },
+        "orderStatus": "CM",
+        "NTE": [
+          {
+            "setId": "3",
+            "sourceOfComment": "TX",
+            "comment": [
+              "SOME NOTES ABOUT THE PATIENT GO HERE."
+            ]
+          }
+        ],
+        "OBR": [
+          {
+            "setId": "1",
+            "placerOrderNumber": {
+              "id": "379116261",
+              "namespaceId": "DATICAORD"
+            },
+            "fillerOrderNumber": {
+              "id": "700402958",
+              "namespaceId": "DATICAORD"
+            },
+            "universalServiceID": {
+              "id": "196583",
+              "text": "GEN SCREENING"
+            },
+            "observationDateTime": "20160307",
+            "observationEndDateTime": "20160307",
+            "collectorIdentifier": [
+              {
+                "id": "13940742",
+                "lastName": "NOBLE",
+                "firstName": "BILLY",
+                "middleInitOrName": "Q",
+                "prefix": "RN"
+              }
+            ],
+            "specimenActionCode": "L",
+            "orderingProvider": [
+              {
+                "id": "13940742",
+                "lastName": "NOBLE",
+                "firstName": "BILLY",
+                "middleInitOrName": "Q",
+                "prefix": "RN"
+              }
+            ],
+            "orderCallbackPhoneNumber": [
+              {
+                "number": "8142850490"
+              }
+            ],
+            "OBX": [
+              {
+                "setId": "1",
+                "valueType": "NM",
+                "identifier": {
+                  "id": "265768",
+                  "text": "NEUTROPHILS",
+                  "codingSystem": "L",
+                  "altId": "770-8",
+                  "altText": "NEUTROPHILS/100 LEUKOCYTES",
+                  "altCodingSystem": "LN"
+                },
+                "observationValue": [
+                  "61"
+                ],
+                "units": {
+                  "id": "%"
+                },
+                "natureOfAbnormal": [
+                  "N"
+                ],
+                "observeResultStatus": "F",
+                "effectiveDateLastNormalValue": "20160305",
+                "observationDateTime": "20160307",
+                "producersId": {
+                  "id": "CB",
+                  "text": "PATHOLOGY LAB X"
+                },
+                "NTE": [
+                  {
+                    "setId": "3",
+                    "sourceOfComment": "TX",
+                    "comment": [
+                      "THE PATIENT CAN'T SEE WHAT I TYPED IN THE CHART"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

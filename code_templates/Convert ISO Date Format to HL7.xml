@@ -1,0 +1,83 @@
+<codeTemplate version="3.4.1">
+  <id>95e528b7-1e7f-490e-86da-7c14b23ee4f3</id>
+  <name>Convert ISO Date Format to HL7</name>
+  <revision>2</revision>
+  <lastModified>
+    <time>1508796641299</time>
+    <timezone>America/New_York</timezone>
+  </lastModified>
+  <type>FUNCTION</type>
+  <contextSet>
+    <delegate>
+      <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+      <contextType>SOURCE_RECEIVER</contextType>
+      <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+      <contextType>DESTINATION_DISPATCHER</contextType>
+      <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+    </delegate>
+  </contextSet>
+  <code>/**
+	Converts ISO date format to HL7 v2 format
+*/
+
+/*
+	Author: Datica Inc.
+	toHL7Date: Returns an HL7-formatted date string with specified timezone offset
+
+	Arguments
+	---------
+		Required
+		--------
+			isoDateString:		An ISO-formatted date string (ex: &quot;yyyy-MM-ddTHH:mm:ssZ&quot;
+
+		Optional
+		--------
+			timezome:			A timezone identifier string corresponding to one of the java.util.TimeZone values (ex: &quot;US/Central&quot;)
+*/
+
+function toHL7Date( isoDateString, timezone ) 
+{
+	var hl7Date;
+	var dateString;
+	var isoFormatter;
+	var hl7Formatter;
+
+	// ISO Date Format: yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;
+	if ( isoDateString != null &amp;&amp; isoDateString.length &lt;= 25 &amp;&amp; isoDateString.length &gt;= 22) {
+		isoFormatter = new Packages.java.text.SimpleDateFormat(&quot;yyyy-MM-dd&apos;T&apos;HH:mm:ssZ&quot;);
+		hl7Formatter = new Packages.java.text.SimpleDateFormat(&quot;yyyyMMddHHmmssZ&quot;);
+		if (timezone) {
+			hl7Formatter.setTimeZone(Packages.java.util.TimeZone.getTimeZone(timezone));
+		}
+	}
+	// ISO Date Format: yyyy-MM-dd HH:mm:ss
+	else if ( isoDateString != null &amp;&amp; isoDateString.length == 19 ) {
+		isoFormatter = new Packages.java.text.SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);
+		hl7Formatter = new Packages.java.text.SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+	}
+	// ISO Date Format: yyyy-MM-dd HH:mm
+	else if ( isoDateString != null &amp;&amp; isoDateString.length == 16 ) {
+		isoFormatter = new Packages.java.text.SimpleDateFormat(&quot;yyyy-MM-dd HH:mm&quot;);
+		hl7Formatter = new Packages.java.text.SimpleDateFormat(&quot;yyyyMMddHHmm&quot;);	
+	} 
+	// ISO Date Format: yyyy-MM-dd
+	else if ( isoDateString != null &amp;&amp; isoDateString.length == 10 ) {
+		isoFormatter = new Packages.java.text.SimpleDateFormat(&quot;yyyy-MM-dd&quot;);
+		hl7Formatter = new Packages.java.text.SimpleDateFormat(&quot;yyyyMMdd&quot;);	
+	}
+	// None of the above, return original date string.
+	else dateString = isoDateString;
+
+	try {
+		if (isoFormatter) {
+			hl7Date = isoFormatter.parse(isoDateString);
+			hl7Date = hl7Formatter.format(hl7Date);
+			dateString = new String(hl7Date);
+		}
+	} catch (err) {
+		dateString = isoDateString;
+	} finally {
+		return dateString;
+	}
+}</code>
+</codeTemplate>

@@ -1,0 +1,294 @@
+{
+  "message_type": "MDM",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA HOSPITAL",
+        "universalIdType": "12345"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "MDM",
+        "triggerEvent": "T08"
+      },
+      "messageControlID": "371834",
+      "processingID": {
+        "processingID": "D"
+      },
+      "versionID": "2.3"
+    },
+    "EVN": [
+      {
+        "eventType": "MDM",
+        "recordedDateTime": "20171031",
+        "plannedEventDateTime": "20171031",
+        "eventReasonCode": "02",
+        "operatorId": {
+          "id": "PATTERSON",
+          "lastName": "JORDAN",
+          "firstName": "W"
+        },
+        "eventOccurred": "20171031"
+      }
+    ],
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "88718541"
+        },
+        "internalId": [
+          {
+            "id": "60265407"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "63579241"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "WELCH",
+            "firstName": "MATTHEW"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "PHELPS"
+        },
+        "dateTimeBirth": "19591203",
+        "sex": "M",
+        "alias": [
+          {
+            "lastName": "BUSTER"
+          }
+        ],
+        "race": "N",
+        "address": [
+          {
+            "streetAddress": "8713 WALNUT WAY",
+            "otherDesignation": "MADISON",
+            "city": "AK",
+            "stateOrProvince": "95936"
+          }
+        ],
+        "countyCode": "95936",
+        "homePhone": [
+          {
+            "number": "8763192546"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8566131854"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "ES"
+        },
+        "maritalStatus": "I",
+        "religion": "COP",
+        "patientAccountNumber": {
+          "id": "289213"
+        },
+        "ssn": "913319617",
+        "driversLicenseNumber": {
+          "licenseNumber": "S507685088262639"
+        },
+        "ethnicGroup": "N",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "N",
+        "birthOrder": "3",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N"
+      }
+    ],
+    "PV1": [
+      {
+        "setId": "1",
+        "patientClass": "E",
+        "assignedPatientLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "163",
+          "bed": "1",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL A"
+          }
+        },
+        "admissionType": "E",
+        "preadmitNumber": {
+          "id": "762812"
+        },
+        "priorPatientLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "314",
+          "bed": "0",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL B"
+          }
+        },
+        "attendingDoctor": [
+          {
+            "id": "35269970",
+            "lastName": "ORTEGA",
+            "firstName": "DONNA",
+            "middleInitOrName": "E",
+            "prefix": "CRNA"
+          }
+        ],
+        "referringDoctor": [
+          {
+            "id": "29920349",
+            "lastName": "MUELLER",
+            "firstName": "ADAM",
+            "middleInitOrName": "T",
+            "prefix": "RN"
+          }
+        ],
+        "consultingDoctor": [
+          {
+            "id": "36461967",
+            "lastName": "SMALL",
+            "firstName": "KELLY",
+            "middleInitOrName": "R",
+            "prefix": "NP"
+          }
+        ],
+        "hospitalService": "URO",
+        "temporaryLocation": {
+          "pointOfCare": "XXPOC",
+          "room": "958",
+          "bed": "0",
+          "facility": {
+            "nameSpaceId": "DATICA HOSPITAL A"
+          }
+        },
+        "preadmitTestIndicator": "N",
+        "admitSource": "9",
+        "ambulatoryStatus": [
+          "B4"
+        ],
+        "admittingDoctor": [
+          {
+            "id": "24246049",
+            "lastName": "LYNN",
+            "firstName": "OLIVIA",
+            "middleInitOrName": "Z",
+            "prefix": "MD"
+          }
+        ],
+        "patientType": "U",
+        "visitNumber": {
+          "id": "858348"
+        },
+        "financialClass": {
+          "financialClass": "A23"
+        },
+        "chargePriceIndicator": "R",
+        "courtesyCode": "N",
+        "creditRating": "G",
+        "contractCode": [
+          "44"
+        ],
+        "contractEffectiveDate": [
+          "20150816"
+        ],
+        "contractAmount": [
+          "444.37"
+        ],
+        "contractPeriod": [
+          "2"
+        ],
+        "interestCode": "C",
+        "transferToBadDebtCode": "B"
+      }
+    ],
+    "TXA": [
+      {
+        "setID": "1",
+        "documentType": "PN",
+        "documentContentPresentation": "FT",
+        "activityDateTime": "20161214",
+        "primaryActivityProviderCodeName": {
+          "id": "98024410",
+          "lastName": "MUELLER",
+          "firstName": "TERRY",
+          "middleInitOrName": "F",
+          "prefix": "MD"
+        },
+        "originationDateTime": "20161214",
+        "transcriptionDateTime": "20161214",
+        "originatorCodeName": {
+          "id": "98024410",
+          "lastName": "MUELLER",
+          "firstName": "TERRY",
+          "middleInitOrName": "F",
+          "prefix": "MD"
+        },
+        "assignedDocumentAuthenticator": [
+          {
+            "id": "98024410",
+            "lastName": "MUELLER",
+            "firstName": "TERRY",
+            "middleInitOrName": "F",
+            "prefix": "MD"
+          }
+        ],
+        "uniqueDocumentNumber": {
+          "id": "H6013007080"
+        },
+        "parentDocumentNumber": {
+          "id": "B3925558456"
+        },
+        "uniqueDocumentFileName": "PROGRESS NOTE 20161214",
+        "documentCompletionStatus": "LA",
+        "documentConfidentialityStatus": "U",
+        "documentAvailabilityStatus": "AV",
+        "documentStorageStatus": "AC",
+        "authenticationPersonTimeStamp": [
+          {
+            "id": "98024410",
+            "lastName": "MUELLER",
+            "firstName": "TERRY",
+            "middleInitOrName": "F",
+            "prefix": "MD"
+          }
+        ],
+        "distributedCopiesCodeAndNameOfRecipients": [
+          {
+            "id": "20161214"
+          }
+        ],
+        "OBX": [
+          {
+            "setId": "1",
+            "valueType": "ED",
+            "identifier": {
+              "id": "6451998138",
+              "text": "CLINICAL SUMMARY"
+            },
+            "subId": "1",
+            "observationValue": [
+              "Q2XPBMLJYWWGC3VTBWFYETOGQMFZZWQGB24GDGHLIGLUZM9YBWF0AW9UIHBYB3ZPZGVKLCB0AGUGCGF0AWVUDCBSAWTLBHKGAGFZIHZPCMFSIHNPBNVZAXRPCYBJB21TB25SESBJYWXSZWQGYSBOZWFKIGNVBGQUDQPEAWFNBM9ZAXM6IFZPCMFSIFNPBNVZAXRPCYANCKRPYWDUB3NPCYBJQ0Q6IEOWMS45MA0KUHJLC2NYAXB0AW9UOIBIZW56B25HDGF0ZSAOVGVZC2FSB24GUGVYBGVZKSAXMDBTZYBVCMFSIHRHYMXLDCAZMCB0YWJSZXRZLCA1IGRHEXMGC3VWCGX5LIBUYWTLIG9UZSB0BYB0D28GDGFIBGV0CYBIESBTB3V0ACB0AHJLZSB0AW1LCYBHIGRHESBHCYBUZWVKZWQUIGRPC3AUIDMWLIBSZWZPBGXZOIAWLCBSZWZPBGWGYXMGBMVLZGVKOIBUBYWGQWXSB3CGC3VIC3RPDHV0AW9UCZOGEWVZ"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "message_type": "SRM",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA CLINIC",
+        "universalIdType": "23456"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "SRM",
+        "triggerEvent": "S01"
+      },
+      "messageControlID": "6171869",
+      "processingID": {
+        "processingID": "D"
+      },
+      "versionID": "2.3"
+    },
+    "ARQ": {
+      "placerAppointmentID": {
+        "id": "4689208"
+      },
+      "occurrenceNumber": "1",
+      "placerGroupNumber": {
+        "id": "7735667"
+      },
+      "appointmentReason": {
+        "id": "FOLLOWUP"
+      },
+      "appointmentType": {
+        "id": "NORMAL"
+      },
+      "appointmentDuration": "15",
+      "appointmentDurationUnits": {
+        "id": "MIN"
+      },
+      "placerContactPerson": {
+        "id": "15956928",
+        "lastName": "BRYANT",
+        "firstName": "LAURA"
+      },
+      "placerContactPhoneNumber": [
+        {
+          "number": "8617506612"
+        }
+      ],
+      "placerContactAddress": {
+        "streetAddress": "6163 BIRCH CT",
+        "otherDesignation": "MADISON",
+        "city": "MA",
+        "stateOrProvince": "93160"
+      },
+      "personnelResourceId": {
+        "pointOfCare": "XXPOC",
+        "room": "997",
+        "bed": "1"
+      },
+      "enteredByPerson": {
+        "id": "15956928",
+        "lastName": "BRYANT",
+        "firstName": "LAURA"
+      },
+      "enteredByPhoneNumber": [
+        {
+          "number": "8617506612"
+        }
+      ],
+      "enteredByLocation": {
+        "pointOfCare": "XXPOC",
+        "room": "419",
+        "bed": "1"
+      },
+      "parentPlacerAppointmentID": {
+        "id": "288650"
+      },
+      "parentFillerAppointmentID": {
+        "id": "APR"
+      }
+    },
+    "NTE": [
+      {
+        "setId": "1",
+        "sourceOfComment": "TX",
+        "comment": [
+          "THE PATIENT CAN'T SEE WHAT I TYPED IN THE CHART"
+        ]
+      }
+    ],
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "93349961"
+        },
+        "internalId": [
+          {
+            "id": "24222232"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "92493396"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "HANEY",
+            "firstName": "SEAN"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "MORTON"
+        },
+        "dateTimeBirth": "19660109",
+        "sex": "M",
+        "alias": [
+          {
+            "lastName": "SKIPPY"
+          }
+        ],
+        "race": "O",
+        "address": [
+          {
+            "streetAddress": "8888 JUNIPER WAY",
+            "otherDesignation": "MADISON",
+            "city": "MT",
+            "stateOrProvince": "94595"
+          }
+        ],
+        "countyCode": "94595",
+        "homePhone": [
+          {
+            "number": "8484714643"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8895693355"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "CJD"
+        },
+        "maritalStatus": "M",
+        "religion": "ORT",
+        "patientAccountNumber": {
+          "id": "295544"
+        },
+        "ssn": "901268743",
+        "driversLicenseNumber": {
+          "licenseNumber": "S232344832298680"
+        },
+        "ethnicGroup": "U",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "N",
+        "birthOrder": "1",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N",
+        "PV1": [
+          {
+            "setId": "1",
+            "patientClass": "R",
+            "assignedPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "114",
+              "bed": "0",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "admissionType": "E",
+            "preadmitNumber": {
+              "id": "398702"
+            },
+            "priorPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "451",
+              "bed": "3",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL B"
+              }
+            },
+            "attendingDoctor": [
+              {
+                "id": "95233624",
+                "lastName": "MONTES",
+                "firstName": "JOE",
+                "middleInitOrName": "W",
+                "prefix": "PA"
+              }
+            ],
+            "referringDoctor": [
+              {
+                "id": "56846046",
+                "lastName": "FROST",
+                "firstName": "BENJAMIN",
+                "middleInitOrName": "A",
+                "prefix": "RN"
+              }
+            ],
+            "consultingDoctor": [
+              {
+                "id": "75995568",
+                "lastName": "BOYLE",
+                "firstName": "ROBERT",
+                "middleInitOrName": "P",
+                "prefix": "PA"
+              }
+            ],
+            "hospitalService": "CAR",
+            "temporaryLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "406",
+              "bed": "1",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "preadmitTestIndicator": "N",
+            "admitSource": "8",
+            "ambulatoryStatus": [
+              "A0"
+            ],
+            "admittingDoctor": [
+              {
+                "id": "62296673",
+                "lastName": "BRYANT",
+                "firstName": "DIANA",
+                "middleInitOrName": "E",
+                "prefix": "MD"
+              }
+            ],
+            "patientType": "U",
+            "visitNumber": {
+              "id": "97872"
+            },
+            "financialClass": {
+              "financialClass": "A23"
+            },
+            "chargePriceIndicator": "R",
+            "courtesyCode": "N",
+            "creditRating": "G",
+            "contractCode": [
+              "44"
+            ],
+            "contractEffectiveDate": [
+              "20151212"
+            ],
+            "contractAmount": [
+              "11.59"
+            ],
+            "contractPeriod": [
+              "3"
+            ],
+            "interestCode": "C",
+            "transferToBadDebtCode": "B",
+            "PV2": [
+              {
+                "priorPendingLocation": {
+                  "pointOfCare": "XXPOC",
+                  "room": "310",
+                  "bed": "0",
+                  "facility": {
+                    "nameSpaceId": "DATICA HOSPITAL D"
+                  }
+                },
+                "accommodationCode": {
+                  "id": "ZD"
+                },
+                "admitReason": {
+                  "id": "S06.0",
+                  "text": "CONCUSSION",
+                  "codingSystem": "ICD-10"
+                },
+                "patientValuables": [
+                  "WALLET"
+                ],
+                "patientValuablesLocation": "FRONTDESK A"
+              }
+            ]
+          }
+        ],
+        "OBX": [
+          {
+            "setId": "1",
+            "valueType": "NM",
+            "identifier": {
+              "id": "211980",
+              "text": "RBC",
+              "codingSystem": "L",
+              "altId": "789-8",
+              "altText": "ERYTHROCYTES",
+              "altCodingSystem": "LN"
+            },
+            "observationValue": [
+              "4.34"
+            ],
+            "units": {
+              "id": "X10E6/UL"
+            },
+            "referenceRange": "3.77-5.28",
+            "natureOfAbnormal": [
+              "N"
+            ],
+            "observeResultStatus": "F",
+            "effectiveDateLastNormalValue": "20160522",
+            "observationDateTime": "20160524",
+            "producersId": {
+              "id": "CB",
+              "text": "PATHOLOGY LAB X"
+            }
+          }
+        ],
+        "DG1": [
+          {
+            "setId": "1",
+            "diagnosisCode": {
+              "id": "S82.9",
+              "text": "UNSPECIFIED FRACTURE OF LOWER LEG",
+              "codingSystem": "ICD-10"
+            },
+            "diagnosisDateTime": "20161216",
+            "diagnosisType": "F"
+          }
+        ]
+      }
+    ],
+    "RGS": [
+      {
+        "setId": "1",
+        "resourceGroupId": {
+          "id": "192484884"
+        },
+        "AIS": [
+          {
+            "setId": "1",
+            "universalServiceId": {
+              "id": "792108"
+            },
+            "startDateTime": "20170516",
+            "duration": "15",
+            "durationUnits": {
+              "id": "MIN"
+            },
+            "allowSubstitutionCode": "NO",
+            "fillerStatusCode": {
+              "id": "DELETED"
+            },
+            "APR": {
+              "timeSelectionCriteria": [
+                {
+                  "parameterClass": "OK-SAT"
+                }
+              ]
+            }
+          }
+        ],
+        "AIG": [
+          {
+            "setId": "1",
+            "resourceId": {
+              "id": "A4259",
+              "text": "LANCETS, PER BOX OF 100",
+              "codingSystem": "HCPCS"
+            },
+            "startDateTime": "20170515",
+            "duration": "15",
+            "durationUnits": {
+              "id": "MIN"
+            },
+            "allowSubstitutionCode": "YES",
+            "fillerStatusCode": {
+              "id": "DELETED"
+            },
+            "APR": {
+              "timeSelectionCriteria": [
+                {
+                  "parameterClass": "OK-TUE"
+                }
+              ]
+            }
+          }
+        ],
+        "AIL": [
+          {
+            "setId": "1",
+            "locationResourceId": {
+              "pointOfCare": "59778"
+            },
+            "startDateTime": "20170515",
+            "duration": "15",
+            "durationUnits": {
+              "id": "MIN"
+            },
+            "allowSubstitutionCode": "NO",
+            "fillerStatusCode": {
+              "id": "DELETED"
+            },
+            "APR": {
+              "timeSelectionCriteria": [
+                {
+                  "parameterClass": "OK-TUE"
+                }
+              ]
+            }
+          }
+        ],
+        "AIP": [
+          {
+            "setId": "1",
+            "personnelResourceId": {
+              "pointOfCare": "98646230",
+              "room": "PHELPS",
+              "bed": "GLORIA",
+              "personLocationType": "RN"
+            },
+            "startDateTime": "20170516",
+            "allowSubstitutionCode": "YES",
+            "fillerStatusCode": {
+              "id": "DELETED"
+            },
+            "APR": {
+              "timeSelectionCriteria": [
+                {
+                  "parameterClass": "OK-THU"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

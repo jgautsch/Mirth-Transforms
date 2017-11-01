@@ -1,0 +1,471 @@
+{
+  "message_type": "SIU",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA HOSPITAL",
+        "universalIdType": "12345"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "SIU",
+        "triggerEvent": "S14"
+      },
+      "messageControlID": "2067495",
+      "processingID": {
+        "processingID": "T"
+      },
+      "versionID": "2.3"
+    },
+    "SCH": {
+      "placerAppointmentID": {
+        "id": "9705421"
+      },
+      "fillerAppointmentID": {
+        "id": "1238849"
+      },
+      "placerGroupNumber": {
+        "id": "3632971"
+      },
+      "eventReason": {
+        "id": "BOOKED"
+      },
+      "appointmentReason": {
+        "id": "CHECKUP"
+      },
+      "appointmentType": {
+        "id": "TENTATIVE"
+      },
+      "appointmentDuration": "0",
+      "appointmentDurationUnits": {
+        "id": "MIN"
+      },
+      "placerContactPerson": {
+        "id": "91919304",
+        "lastName": "PUGH",
+        "firstName": "MICHELLE"
+      },
+      "placerContactPhoneNumber": {
+        "number": "8520550655"
+      },
+      "placerContactAddress": {
+        "streetAddress": "4731 OAK AVE",
+        "otherDesignation": "MADISON",
+        "city": "VT",
+        "stateOrProvince": "93894"
+      },
+      "placerContactLocation": {
+        "pointOfCare": "XXPOC",
+        "room": "412",
+        "bed": "2",
+        "facility": {
+          "nameSpaceId": "DATICA HOSPITAL E"
+        }
+      },
+      "fillerContactPerson": {
+        "id": "59960560",
+        "lastName": "MELENDEZ",
+        "firstName": "ROGER"
+      },
+      "fillerContactPhoneNumber": {
+        "number": "8621222369"
+      },
+      "fillerContactAddress": {
+        "streetAddress": "7015 OAK AVE",
+        "otherDesignation": "MADISON",
+        "city": "NY",
+        "stateOrProvince": "90984"
+      },
+      "fillerContactLocation": {
+        "pointOfCare": "XXPOC",
+        "room": "694",
+        "bed": "0",
+        "facility": {
+          "nameSpaceId": "DATICA HOSPITAL F"
+        }
+      },
+      "enteredByPerson": {
+        "id": "91919304",
+        "lastName": "PUGH",
+        "firstName": "MICHELLE"
+      },
+      "number": "8520550655",
+      "enteredByLocation": {
+        "pointOfCare": "XXPOC",
+        "room": "771",
+        "bed": "0",
+        "facility": {
+          "nameSpaceId": "DATICA HOSPITAL E"
+        }
+      },
+      "parentPlacerAppointmentID": {
+        "id": "5947122"
+      },
+      "parentFillerAppointmentID": {
+        "id": "1371315"
+      },
+      "fillerStatusCode": {
+        "id": "BOOKED"
+      }
+    },
+    "NTE": [
+      {
+        "setId": "1",
+        "sourceOfComment": "TX",
+        "comment": [
+          "THIS ONE SEEMS KIND OF SICK. MAYBE WE SHOULD CHECK THEM OUT? "
+        ]
+      }
+    ],
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "57288275"
+        },
+        "internalId": [
+          {
+            "id": "36329211"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "36590341"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "MOORE",
+            "firstName": "JOAN"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "WRIGHT"
+        },
+        "dateTimeBirth": "19530520",
+        "sex": "F",
+        "alias": [
+          {
+            "lastName": "BUSTER"
+          }
+        ],
+        "race": "W",
+        "address": [
+          {
+            "streetAddress": "256 ASH CT",
+            "otherDesignation": "MADISON",
+            "city": "AZ",
+            "stateOrProvince": "92726"
+          }
+        ],
+        "countyCode": "92726",
+        "homePhone": [
+          {
+            "number": "8944016099"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8006539115"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "EL"
+        },
+        "maritalStatus": "U",
+        "religion": "COP",
+        "patientAccountNumber": {
+          "id": "309438"
+        },
+        "ssn": "926784925",
+        "driversLicenseNumber": {
+          "licenseNumber": "S128755979525651"
+        },
+        "ethnicGroup": "N",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "N",
+        "birthOrder": "5",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N",
+        "PV1": [
+          {
+            "setId": "1",
+            "patientClass": "P",
+            "assignedPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "142",
+              "bed": "0",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "admissionType": "R",
+            "preadmitNumber": {
+              "id": "615350"
+            },
+            "priorPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "374",
+              "bed": "1",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL B"
+              }
+            },
+            "attendingDoctor": [
+              {
+                "id": "93691939",
+                "lastName": "WOLFE",
+                "firstName": "ROBERT",
+                "middleInitOrName": "O",
+                "prefix": "PA"
+              }
+            ],
+            "referringDoctor": [
+              {
+                "id": "72334650",
+                "lastName": "MONTES",
+                "firstName": "WAYNE",
+                "middleInitOrName": "T",
+                "prefix": "NP"
+              }
+            ],
+            "consultingDoctor": [
+              {
+                "id": "56117974",
+                "lastName": "LYNN",
+                "firstName": "TERESA",
+                "middleInitOrName": "N",
+                "prefix": "PA"
+              }
+            ],
+            "hospitalService": "SUR",
+            "temporaryLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "898",
+              "bed": "3",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "preadmitTestIndicator": "N",
+            "admitSource": "7",
+            "ambulatoryStatus": [
+              "A6"
+            ],
+            "admittingDoctor": [
+              {
+                "id": "57886048",
+                "lastName": "MUELLER",
+                "firstName": "CHRISTINE",
+                "middleInitOrName": "T",
+                "prefix": "RN"
+              }
+            ],
+            "patientType": "U",
+            "visitNumber": {
+              "id": "405957"
+            },
+            "financialClass": {
+              "financialClass": "A23"
+            },
+            "chargePriceIndicator": "R",
+            "courtesyCode": "N",
+            "creditRating": "G",
+            "contractCode": [
+              "44"
+            ],
+            "contractEffectiveDate": [
+              "20150809"
+            ],
+            "contractAmount": [
+              "90.84"
+            ],
+            "contractPeriod": [
+              "4"
+            ],
+            "interestCode": "C",
+            "transferToBadDebtCode": "B",
+            "PV2": [
+              {
+                "priorPendingLocation": {
+                  "pointOfCare": "XXPOC",
+                  "room": "52",
+                  "bed": "0",
+                  "facility": {
+                    "nameSpaceId": "DATICA HOSPITAL D"
+                  }
+                },
+                "accommodationCode": {
+                  "id": "ZD"
+                },
+                "admitReason": {
+                  "id": "G43.11",
+                  "text": "MIGRANE WITH AURA,INTRACTABLE",
+                  "codingSystem": "ICD-10"
+                },
+                "patientValuables": [
+                  "RING"
+                ],
+                "patientValuablesLocation": "FRONTDESK A",
+                "visitUserCode": "TE"
+              }
+            ]
+          }
+        ],
+        "OBX": [
+          {
+            "setId": "1",
+            "valueType": "NM",
+            "identifier": {
+              "id": "650108",
+              "text": "HEMATOCRIT",
+              "codingSystem": "L",
+              "altId": "4544-3",
+              "altText": "HEMATOCRIT",
+              "altCodingSystem": "LN"
+            },
+            "observationValue": [
+              "37.6"
+            ],
+            "units": {
+              "id": "%"
+            },
+            "referenceRange": "34.0-46.6",
+            "natureOfAbnormal": [
+              "N"
+            ],
+            "observeResultStatus": "F",
+            "effectiveDateLastNormalValue": "20161007",
+            "observationDateTime": "20161009",
+            "producersId": {
+              "id": "CB",
+              "text": "PATHOLOGY LAB X"
+            }
+          }
+        ],
+        "DG1": [
+          {
+            "setId": "1",
+            "diagnosisCode": {
+              "id": "S82.9",
+              "text": "UNSPECIFIED FRACTURE OF LOWER LEG",
+              "codingSystem": "ICD-10"
+            },
+            "diagnosisDateTime": "20160305",
+            "diagnosisType": "F"
+          }
+        ]
+      }
+    ],
+    "RGS": [
+      {
+        "setId": "1",
+        "resourceGroupId": {
+          "id": "611930520"
+        },
+        "AIS": [
+          {
+            "setId": "1",
+            "universalServiceId": {
+              "id": "545525"
+            },
+            "startDateTime": "20170127",
+            "duration": "0",
+            "durationUnits": {
+              "id": "MIN"
+            },
+            "allowSubstitutionCode": "YES",
+            "fillerStatusCode": {
+              "id": "BOOKED"
+            },
+            "NTE": [
+              {
+                "setId": "2",
+                "sourceOfComment": "TX",
+                "comment": [
+                  "THE PATIENT CAN'T SEE WHAT I TYPED IN THE CHART"
+                ]
+              }
+            ]
+          }
+        ],
+        "AIG": [
+          {
+            "setId": "1",
+            "resourceId": {
+              "id": "A4217",
+              "text": "STERILE WATER/SALINE, 500 ML",
+              "codingSystem": "HCPCS"
+            },
+            "startDateTime": "20170126",
+            "duration": "0",
+            "durationUnits": {
+              "id": "MIN"
+            },
+            "allowSubstitutionCode": "YES",
+            "fillerStatusCode": {
+              "id": "BOOKED"
+            },
+            "NTE": [
+              {
+                "setId": "3",
+                "sourceOfComment": "TX",
+                "comment": [
+                  "I LIKED THE OLD PAPER CHARTS BETTER"
+                ]
+              }
+            ]
+          }
+        ],
+        "AIL": [
+          {
+            "setId": "1",
+            "locationResourceId": {
+              "pointOfCare": "22451"
+            },
+            "startDateTime": "20170127",
+            "duration": "0",
+            "durationUnits": {
+              "id": "MIN"
+            },
+            "allowSubstitutionCode": "YES",
+            "fillerStatusCode": {
+              "id": "BOOKED"
+            }
+          }
+        ],
+        "AIP": [
+          {
+            "setId": "1",
+            "personnelResourceId": {
+              "pointOfCare": "24822797",
+              "room": "WATTS",
+              "bed": "AUSTIN",
+              "personLocationType": "NP"
+            },
+            "startDateTime": "20170126",
+            "allowSubstitutionCode": "YES",
+            "fillerStatusCode": {
+              "id": "BOOKED"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

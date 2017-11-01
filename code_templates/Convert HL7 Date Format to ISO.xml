@@ -1,0 +1,74 @@
+<codeTemplate version="3.4.1">
+  <id>b9651842-7ccb-4761-aedf-a9a1461dd5f7</id>
+  <name>Convert HL7 Date Format to ISO</name>
+  <revision>2</revision>
+  <lastModified>
+    <time>1508796641140</time>
+    <timezone>America/New_York</timezone>
+  </lastModified>
+  <type>FUNCTION</type>
+  <contextSet>
+    <delegate>
+      <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+      <contextType>SOURCE_RECEIVER</contextType>
+      <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+      <contextType>DESTINATION_DISPATCHER</contextType>
+      <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+    </delegate>
+  </contextSet>
+  <code>/**
+	Converts standard HL7 v2.x date format to human-readable ISO date format
+*/
+
+/*
+	Author: Datica Inc.
+	toISODate: Returns an ISO-formatted date string with specified timezone offset
+
+	Arguments
+	---------
+		Required
+		--------
+			hl7DateString:		An HL7-formatted date string (ex: &quot;yyyyMMddHHmmss&quot;
+
+		Optional
+		--------
+			timezome:			A timezone identifier string corresponding to one of the java.util.TimeZone values (ex: &quot;US/Central&quot;)
+*/
+
+function toISODate( hl7DateString, timezone ) {
+	var isoDate;
+	var dateString;
+	var hl7Formatter;
+	var isoFormatter = new Packages.java.text.SimpleDateFormat(&quot;yyyy-MM-dd&apos;T&apos;HH:mm:ssZ&quot;);
+
+	if (timezone) {
+		isoFormatter.setTimeZone(Packages.java.util.TimeZone.getTimeZone(timezone));
+	}
+	
+	if ( hl7DateString != null &amp;&amp; !isNaN(hl7DateString.substring(0,13)) &amp;&amp; hl7DateString.length &gt; 14 ) {
+		hl7Formatter = new Packages.java.text.SimpleDateFormat(&quot;yyyyMMddHHmmssZ&quot;);
+	}
+	else if ( hl7DateString != null &amp;&amp; !isNaN(hl7DateString) &amp;&amp; hl7DateString &gt; 0 &amp;&amp; hl7DateString.length == 14 ) {
+		hl7Formatter = new Packages.java.text.SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+	} 
+	else if ( hl7DateString != null &amp;&amp; !isNaN(hl7DateString) &amp;&amp; hl7DateString &gt; 0 &amp;&amp; hl7DateString.length == 12 ) {
+		hl7Formatter = new Packages.java.text.SimpleDateFormat(&quot;yyyyMMddHHmm&quot;);
+	} 
+	else if ( hl7DateString != null &amp;&amp; !isNaN(hl7DateString) &amp;&amp; hl7DateString &gt; 0 &amp;&amp; hl7DateString.length == 8 ) {
+		hl7Formatter = new Packages.java.text.SimpleDateFormat(&quot;yyyyMMdd&quot;);
+	} 
+	else dateString = hl7DateString;
+	
+	try {
+		if (hl7Formatter) {
+			isoDate = hl7Formatter.parse(hl7DateString);
+			isoDate = isoFormatter.format(isoDate);
+			dateString = new String(isoDate);
+		}
+	} catch (err) {
+		dateString = hl7DateString;
+	} finally {
+		return dateString;
+	}
+}</code>
+</codeTemplate>

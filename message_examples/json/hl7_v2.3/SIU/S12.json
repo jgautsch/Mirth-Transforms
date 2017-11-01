@@ -1,0 +1,471 @@
+{
+  "message_type": "SIU",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA HOSPITAL",
+        "universalIdType": "12345"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "SIU",
+        "triggerEvent": "S12"
+      },
+      "messageControlID": "1334068",
+      "processingID": {
+        "processingID": "T"
+      },
+      "versionID": "2.3"
+    },
+    "SCH": {
+      "placerAppointmentID": {
+        "id": "4624613"
+      },
+      "fillerAppointmentID": {
+        "id": "860506"
+      },
+      "placerGroupNumber": {
+        "id": "5440109"
+      },
+      "eventReason": {
+        "id": "BOOKED"
+      },
+      "appointmentReason": {
+        "id": "CHECKUP"
+      },
+      "appointmentType": {
+        "id": "COMPLETE"
+      },
+      "appointmentDuration": "30",
+      "appointmentDurationUnits": {
+        "id": "MIN"
+      },
+      "placerContactPerson": {
+        "id": "73045493",
+        "lastName": "FROST",
+        "firstName": "BRUCE"
+      },
+      "placerContactPhoneNumber": {
+        "number": "8195377845"
+      },
+      "placerContactAddress": {
+        "streetAddress": "9767 ELM LN",
+        "otherDesignation": "MADISON",
+        "city": "NC",
+        "stateOrProvince": "99258"
+      },
+      "placerContactLocation": {
+        "pointOfCare": "XXPOC",
+        "room": "268",
+        "bed": "3",
+        "facility": {
+          "nameSpaceId": "DATICA HOSPITAL E"
+        }
+      },
+      "fillerContactPerson": {
+        "id": "44151427",
+        "lastName": "HAYS",
+        "firstName": "MARILYN"
+      },
+      "fillerContactPhoneNumber": {
+        "number": "8487719912"
+      },
+      "fillerContactAddress": {
+        "streetAddress": "2126 ELM TER",
+        "otherDesignation": "MADISON",
+        "city": "NH",
+        "stateOrProvince": "93493"
+      },
+      "fillerContactLocation": {
+        "pointOfCare": "XXPOC",
+        "room": "437",
+        "bed": "2",
+        "facility": {
+          "nameSpaceId": "DATICA HOSPITAL F"
+        }
+      },
+      "enteredByPerson": {
+        "id": "73045493",
+        "lastName": "FROST",
+        "firstName": "BRUCE"
+      },
+      "number": "8195377845",
+      "enteredByLocation": {
+        "pointOfCare": "XXPOC",
+        "room": "187",
+        "bed": "0",
+        "facility": {
+          "nameSpaceId": "DATICA HOSPITAL E"
+        }
+      },
+      "parentPlacerAppointmentID": {
+        "id": "2964510"
+      },
+      "parentFillerAppointmentID": {
+        "id": "4752831"
+      },
+      "fillerStatusCode": {
+        "id": "BOOKED"
+      }
+    },
+    "NTE": [
+      {
+        "setId": "1",
+        "sourceOfComment": "TX",
+        "comment": [
+          "SOME NOTES ABOUT THE PATIENT GO HERE."
+        ]
+      }
+    ],
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "93816095"
+        },
+        "internalId": [
+          {
+            "id": "38427039"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "81337786"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "NOBLE",
+            "firstName": "BENJAMIN"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "FROST"
+        },
+        "dateTimeBirth": "19410513",
+        "sex": "M",
+        "alias": [
+          {
+            "lastName": "SKIPPY"
+          }
+        ],
+        "race": "H",
+        "address": [
+          {
+            "streetAddress": "6188 HAWTHORN LN",
+            "otherDesignation": "MADISON",
+            "city": "UT",
+            "stateOrProvince": "99767"
+          }
+        ],
+        "countyCode": "99767",
+        "homePhone": [
+          {
+            "number": "8324546834"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8745990079"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "ID"
+        },
+        "maritalStatus": "UNK",
+        "religion": "JEW",
+        "patientAccountNumber": {
+          "id": "991143"
+        },
+        "ssn": "994736939",
+        "driversLicenseNumber": {
+          "licenseNumber": "S584096999984789"
+        },
+        "ethnicGroup": "H",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "Y",
+        "birthOrder": "3",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N",
+        "PV1": [
+          {
+            "setId": "1",
+            "patientClass": "P",
+            "assignedPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "901",
+              "bed": "0",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "admissionType": "A",
+            "preadmitNumber": {
+              "id": "234570"
+            },
+            "priorPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "852",
+              "bed": "1",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL B"
+              }
+            },
+            "attendingDoctor": [
+              {
+                "id": "29763487",
+                "lastName": "CANTRELL",
+                "firstName": "JESSICA",
+                "middleInitOrName": "F",
+                "prefix": "NP"
+              }
+            ],
+            "referringDoctor": [
+              {
+                "id": "35192786",
+                "lastName": "PHELPS",
+                "firstName": "MARIA",
+                "middleInitOrName": "G",
+                "prefix": "CRNA"
+              }
+            ],
+            "consultingDoctor": [
+              {
+                "id": "92980930",
+                "lastName": "LYNN",
+                "firstName": "MARIA",
+                "middleInitOrName": "N",
+                "prefix": "PA"
+              }
+            ],
+            "hospitalService": "CAR",
+            "temporaryLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "649",
+              "bed": "3",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "preadmitTestIndicator": "N",
+            "admitSource": "8",
+            "ambulatoryStatus": [
+              "B6"
+            ],
+            "admittingDoctor": [
+              {
+                "id": "64295772",
+                "lastName": "BELTRAN",
+                "firstName": "JASON",
+                "middleInitOrName": "X",
+                "prefix": "MD"
+              }
+            ],
+            "patientType": "U",
+            "visitNumber": {
+              "id": "211419"
+            },
+            "financialClass": {
+              "financialClass": "A23"
+            },
+            "chargePriceIndicator": "R",
+            "courtesyCode": "N",
+            "creditRating": "G",
+            "contractCode": [
+              "44"
+            ],
+            "contractEffectiveDate": [
+              "20151212"
+            ],
+            "contractAmount": [
+              "66.14"
+            ],
+            "contractPeriod": [
+              "1"
+            ],
+            "interestCode": "C",
+            "transferToBadDebtCode": "B",
+            "PV2": [
+              {
+                "priorPendingLocation": {
+                  "pointOfCare": "XXPOC",
+                  "room": "235",
+                  "bed": "1",
+                  "facility": {
+                    "nameSpaceId": "DATICA HOSPITAL D"
+                  }
+                },
+                "accommodationCode": {
+                  "id": "ZD"
+                },
+                "admitReason": {
+                  "id": "H54.2",
+                  "text": "LOW VISION, BOTH EYES",
+                  "codingSystem": "ICD-10"
+                },
+                "patientValuables": [
+                  "RING"
+                ],
+                "patientValuablesLocation": "FRONTDESK A",
+                "visitUserCode": "TE"
+              }
+            ]
+          }
+        ],
+        "OBX": [
+          {
+            "setId": "1",
+            "valueType": "NM",
+            "identifier": {
+              "id": "103939",
+              "text": "MCV",
+              "codingSystem": "L",
+              "altId": "787-2",
+              "altText": "ERYTHROCYTE MEAN CORPUSCULAR VOLUME",
+              "altCodingSystem": "LN"
+            },
+            "observationValue": [
+              "87"
+            ],
+            "units": {
+              "id": "FL"
+            },
+            "referenceRange": "79-97",
+            "natureOfAbnormal": [
+              "N"
+            ],
+            "observeResultStatus": "F",
+            "effectiveDateLastNormalValue": "20160316",
+            "observationDateTime": "20160318",
+            "producersId": {
+              "id": "CB",
+              "text": "PATHOLOGY LAB X"
+            }
+          }
+        ],
+        "DG1": [
+          {
+            "setId": "1",
+            "diagnosisCode": {
+              "id": "G43.11",
+              "text": "MIGRANE WITH AURA,INTRACTABLE",
+              "codingSystem": "ICD-10"
+            },
+            "diagnosisDateTime": "20160824",
+            "diagnosisType": "F"
+          }
+        ]
+      }
+    ],
+    "RGS": [
+      {
+        "setId": "1",
+        "resourceGroupId": {
+          "id": "69718723"
+        },
+        "AIS": [
+          {
+            "setId": "1",
+            "universalServiceId": {
+              "id": "960847"
+            },
+            "startDateTime": "20170710",
+            "duration": "30",
+            "durationUnits": {
+              "id": "MIN"
+            },
+            "allowSubstitutionCode": "CONFIRM",
+            "fillerStatusCode": {
+              "id": "BOOKED"
+            },
+            "NTE": [
+              {
+                "setId": "2",
+                "sourceOfComment": "TX",
+                "comment": [
+                  "THE PATIENT CAN'T SEE WHAT I TYPED IN THE CHART"
+                ]
+              }
+            ]
+          }
+        ],
+        "AIG": [
+          {
+            "setId": "1",
+            "resourceId": {
+              "id": "A4259",
+              "text": "LANCETS, PER BOX OF 100",
+              "codingSystem": "HCPCS"
+            },
+            "startDateTime": "20170710",
+            "duration": "30",
+            "durationUnits": {
+              "id": "MIN"
+            },
+            "allowSubstitutionCode": "CONFIRM",
+            "fillerStatusCode": {
+              "id": "BOOKED"
+            },
+            "NTE": [
+              {
+                "setId": "3",
+                "sourceOfComment": "TX",
+                "comment": [
+                  "I LIKED THE OLD PAPER CHARTS BETTER"
+                ]
+              }
+            ]
+          }
+        ],
+        "AIL": [
+          {
+            "setId": "1",
+            "locationResourceId": {
+              "pointOfCare": "5497"
+            },
+            "startDateTime": "20170710",
+            "duration": "30",
+            "durationUnits": {
+              "id": "MIN"
+            },
+            "allowSubstitutionCode": "YES",
+            "fillerStatusCode": {
+              "id": "BOOKED"
+            }
+          }
+        ],
+        "AIP": [
+          {
+            "setId": "1",
+            "personnelResourceId": {
+              "pointOfCare": "16955873",
+              "room": "WATTS",
+              "bed": "HAROLD",
+              "personLocationType": "PA"
+            },
+            "startDateTime": "20170711",
+            "allowSubstitutionCode": "NOTIFY",
+            "fillerStatusCode": {
+              "id": "BOOKED"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "message_type": "ORU",
+  "content": {
+    "MSH": {
+      "sendingApplication": {
+        "namespaceId": "DATICA"
+      },
+      "sendingFacility": {
+        "namespaceId": "DATICA CLINIC",
+        "universalIdType": "23456"
+      },
+      "receivingApplication": {
+        "namespaceId": "EXTERNAL EMR"
+      },
+      "receivingFacility": {
+        "namespaceId": "EXTERNAL CLINIC"
+      },
+      "dateTimeOfMessage": "20171031",
+      "messageType": {
+        "messageType": "ORU",
+        "triggerEvent": "R01"
+      },
+      "messageControlID": "1466053",
+      "processingID": {
+        "processingID": "D"
+      },
+      "versionID": "2.3"
+    },
+    "PID": [
+      {
+        "setId": "1",
+        "externalId": {
+          "id": "30896801"
+        },
+        "internalId": [
+          {
+            "id": "14625131"
+          }
+        ],
+        "alternateId": [
+          {
+            "id": "25621634"
+          }
+        ],
+        "patientName": [
+          {
+            "lastName": "HOWARD",
+            "firstName": "ROBERT"
+          }
+        ],
+        "mothersMaidenName": {
+          "lastName": "MCGUIRE"
+        },
+        "dateTimeBirth": "19210315",
+        "sex": "M",
+        "alias": [
+          {
+            "lastName": "BUSTER"
+          }
+        ],
+        "race": "B",
+        "address": [
+          {
+            "streetAddress": "1505 CEDAR TER",
+            "otherDesignation": "MADISON",
+            "city": "WY",
+            "stateOrProvince": "90992"
+          }
+        ],
+        "countyCode": "90992",
+        "homePhone": [
+          {
+            "number": "8898316263"
+          }
+        ],
+        "businessPhone": [
+          {
+            "number": "8022733053"
+          }
+        ],
+        "primaryLanguage": {
+          "id": "DE"
+        },
+        "maritalStatus": "U",
+        "religion": "JEW",
+        "patientAccountNumber": {
+          "id": "856659"
+        },
+        "ssn": "920041792",
+        "driversLicenseNumber": {
+          "licenseNumber": "S579773893059932"
+        },
+        "ethnicGroup": "U",
+        "birthPlace": "MADISON",
+        "multipleBirthIndicator": "N",
+        "birthOrder": "4",
+        "citizenship": [
+          "US"
+        ],
+        "nationality": {
+          "id": "US",
+          "text": "UNITED STATES OF AMERICA"
+        },
+        "deathIndicator": "N",
+        "PD1": [
+          {
+            "livingDependency": [
+              "O"
+            ],
+            "livingArrangement": "R",
+            "patientPrimaryFacility": [
+              {
+                "organizationName": "DATICA HOSPITAL",
+                "idNumber": "12345",
+                "assigningAuthority": {
+                  "namespaceId": "DATICA HEALTHCARE"
+                }
+              }
+            ],
+            "primaryCareProvider": [
+              {
+                "id": "75463706",
+                "lastName": "FLOWERS",
+                "firstName": "SAMANTHA",
+                "middleInitOrName": "S",
+                "prefix": "MD"
+              }
+            ],
+            "studentIndicator": "F",
+            "livingWillCode": "I",
+            "organDonorCode": "F",
+            "separateBill": "N",
+            "universalServiceID": {
+              "id": "U"
+            },
+            "protectionIndicator": "Y"
+          }
+        ],
+        "PV1": [
+          {
+            "setId": "1",
+            "patientClass": "R",
+            "assignedPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "891",
+              "bed": "0",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "admissionType": "R",
+            "preadmitNumber": {
+              "id": "187589"
+            },
+            "priorPatientLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "233",
+              "bed": "0",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL B"
+              }
+            },
+            "attendingDoctor": [
+              {
+                "id": "63734864",
+                "lastName": "LARSON",
+                "firstName": "JOHN",
+                "middleInitOrName": "R",
+                "prefix": "PA"
+              }
+            ],
+            "referringDoctor": [
+              {
+                "id": "68442631",
+                "lastName": "SCHAEFER",
+                "firstName": "EMILY",
+                "middleInitOrName": "A",
+                "prefix": "NP"
+              }
+            ],
+            "consultingDoctor": [
+              {
+                "id": "47170123",
+                "lastName": "PATTERSON",
+                "firstName": "MICHAEL",
+                "middleInitOrName": "Y",
+                "prefix": "PA"
+              }
+            ],
+            "hospitalService": "MED",
+            "temporaryLocation": {
+              "pointOfCare": "XXPOC",
+              "room": "95",
+              "bed": "0",
+              "facility": {
+                "nameSpaceId": "DATICA HOSPITAL A"
+              }
+            },
+            "preadmitTestIndicator": "N",
+            "admitSource": "1",
+            "ambulatoryStatus": [
+              "B4"
+            ],
+            "admittingDoctor": [
+              {
+                "id": "36283840",
+                "lastName": "WRIGHT",
+                "firstName": "BOBBY",
+                "middleInitOrName": "T",
+                "prefix": "CRNA"
+              }
+            ],
+            "patientType": "U",
+            "visitNumber": {
+              "id": "233590"
+            },
+            "financialClass": {
+              "financialClass": "A23"
+            },
+            "chargePriceIndicator": "R",
+            "courtesyCode": "N",
+            "creditRating": "G",
+            "contractCode": [
+              "44"
+            ],
+            "contractEffectiveDate": [
+              "20150709"
+            ],
+            "contractAmount": [
+              "815.98"
+            ],
+            "contractPeriod": [
+              "2"
+            ],
+            "interestCode": "C",
+            "transferToBadDebtCode": "B",
+            "PV2": [
+              {
+                "priorPendingLocation": {
+                  "pointOfCare": "XXPOC",
+                  "room": "199",
+                  "bed": "1",
+                  "facility": {
+                    "nameSpaceId": "DATICA HOSPITAL D"
+                  }
+                },
+                "accommodationCode": {
+                  "id": "ZD"
+                },
+                "admitReason": {
+                  "id": "M25.531",
+                  "text": "PAIN IN RIGHT WRIST",
+                  "codingSystem": "ICD-10"
+                },
+                "patientValuables": [
+                  "WATCH"
+                ],
+                "patientValuablesLocation": "FRONTDESK A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ORC": [
+      {
+        "orderControl": "RE",
+        "placerOrderNumber": {
+          "id": "790026856"
+        },
+        "fillerOrderNumber": {
+          "id": "790026856"
+        },
+        "placerGroupNumber": {
+          "id": "790026856"
+        },
+        "orderStatus": "CM",
+        "OBR": [
+          {
+            "setId": "1",
+            "placerOrderNumber": {
+              "id": "528034516",
+              "namespaceId": "DATICAORD"
+            },
+            "fillerOrderNumber": {
+              "id": "485865483",
+              "namespaceId": "DATICAORD"
+            },
+            "universalServiceID": {
+              "id": "369324",
+              "text": "GEN SCREENING"
+            },
+            "observationDateTime": "20160723",
+            "observationEndDateTime": "20160723",
+            "collectorIdentifier": [
+              {
+                "id": "7980956",
+                "lastName": "BAIRD",
+                "firstName": "HENRY",
+                "middleInitOrName": "N",
+                "prefix": "CRNA"
+              }
+            ],
+            "specimenActionCode": "L",
+            "orderingProvider": [
+              {
+                "id": "7980956",
+                "lastName": "BAIRD",
+                "firstName": "HENRY",
+                "middleInitOrName": "N",
+                "prefix": "CRNA"
+              }
+            ],
+            "orderCallbackPhoneNumber": [
+              {
+                "number": "8812323740"
+              }
+            ],
+            "NTE": [
+              {
+                "setId": "2",
+                "sourceOfComment": "TX",
+                "comment": [
+                  "THIS ONE SEEMS KIND OF SICK. MAYBE WE SHOULD CHECK THEM OUT? "
+                ]
+              }
+            ],
+            "OBX": [
+              {
+                "setId": "1",
+                "valueType": "NM",
+                "identifier": {
+                  "id": "536522",
+                  "text": "LYMPHS",
+                  "codingSystem": "L",
+                  "altId": "736-9",
+                  "altText": "LYMPHOCYTES/100 LEUKOCYTES",
+                  "altCodingSystem": "LN"
+                },
+                "observationValue": [
+                  "28"
+                ],
+                "units": {
+                  "id": "%"
+                },
+                "natureOfAbnormal": [
+                  "N"
+                ],
+                "observeResultStatus": "F",
+                "effectiveDateLastNormalValue": "20160720",
+                "observationDateTime": "20160723",
+                "producersId": {
+                  "id": "CB",
+                  "text": "PATHOLOGY LAB X"
+                },
+                "NTE": [
+                  {
+                    "setId": "3",
+                    "sourceOfComment": "TX",
+                    "comment": [
+                      "THE PATIENT CAN'T SEE WHAT I TYPED IN THE CHART"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
